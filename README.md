@@ -17,7 +17,7 @@ __使用小鹤双拼反查__
 ## 二、操作演示
 支持拼音反查
 
-<img width="330" src="https://raw.githubusercontent.com/owenyang0/tiger-iOS-iRime/main/%E5%85%B6%E4%BB%96/demo.gif">
+<img width="330" src="https://raw.githubusercontent.com/owenyang0/tiger-iOS-iRime/main/%E6%BC%94%E7%A4%BA%E8%AF%B4%E6%98%8E/demo.gif">
 
 ## 三、输入法外观
 
