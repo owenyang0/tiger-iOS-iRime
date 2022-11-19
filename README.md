@@ -17,13 +17,13 @@ __使用小鹤双拼反查__
 ## 二、操作演示
 支持拼音反查
 
-<img width="330" src="https://raw.githubusercontent.com/owenyang0/Wubi091-iOS-iRime/main/imgs/%E6%8B%BC%E9%9F%B3%E5%8F%8D%E6%9F%A5%E6%BC%94%E7%A4%BA.gif">
+<img width="330" src="https://raw.githubusercontent.com/owenyang0/tiger-iOS-iRime/main/%E5%85%B6%E4%BB%96/demo.gif">
 
 ## 三、输入法外观
 
 __easyboard__
 
-<img width="330" alt="091O1主题截图" src="https://raw.githubusercontent.com/owenyang0/Wubi091-iOS-iRime/main/imgs/091O1.jpeg">
+参考上述演示
 
 
 ## 四、安装
