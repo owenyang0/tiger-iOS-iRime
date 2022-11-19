@@ -1,0 +1,10 @@
+patch:
+  translator/dictionary: tigress.extended
+  #style/comment_font: TunmanPUA.ttf  #手机端，滤镜区显示字体，包括拆分，拼音等
+  #menu/page_size: 9  #自定义候选个数，主方案默认是9个，这里可覆盖
+  #style/font_point: 15  #字号大小
+  #style/font_face: LXGW WenKai GB Screen R  #字体设置
+  #style/horizontal: false  #默认true横排显示,改为false可竖排显示
+  #style/inline_preedit: true  #嵌入编码，改为false可关闭
+
+#上面的 #号 是注释符，删掉即可生效
