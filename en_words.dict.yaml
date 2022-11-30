@@ -1,0 +1,2102 @@
+name: en_words
+version: "2022.11.28"
+sort: by_weight
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZa"
+
+...
+ABC	abc	0
+ABCD	abcd	0
+abcd	abcd	0
+ABCDEFG	abcg	0
+abcdefg	abcg	0
+ABCDEFGHIJKLMNOPQRSTUVWXYZ	abcz	0
+abcdefghijklmnopqrstuvwxyz	abcz	0
+about:blank	abok	0
+ABS	abs	0
+AC	ac	0
+AC/DC	acd	0
+AC/DC	acdc	0
+AcFun	acf	0
+acfun	acf	0
+AcFun	acfn	0
+acfun	acfn	0
+AcFun	acfu	0
+acfun	acfu	0
+ACGN	acgn	0
+Alt+Ctrl+	acl	0
+AC	acl	0
+Acrobat	acr	0
+Acrobat Pro DC	acr	0
+Acrobat DC	acr	0
+Acrobat Pro DC	acrc	0
+Acrobat DC	acrc	0
+Acrobat Pro DC	acrd	0
+Acrobat DC	acrd	0
+Acrobat	acro	0
+Acrobat Pro DC	acro	0
+Acrobat DC	acro	0
+Acrobat Pro	acrp	0
+Acrobat Reader	acrr	0
+Acrobat Reader DC	acrr	0
+Acrobat	acrt	0
+Alt+Ctrl+Shift+	acs	0
+ActiveX	act	0
+ActiveX	actx	0
+adidas	adi	0
+adidas	adid	0
+adidas	adis	0
+admin	adm	0
+admurder	adm	0
+admin	admi	0
+Administrator	admi	0
+administrator	admi	0
+admurder	admr	0
+Adobe	ado	0
+AE	ae	0
+Ae	ael	0
+AE	ael	0
+After Effects	ael	0
+AE86	aemu	0
+a few moments later	afer	0
+a few moments later	afew	0
+Affinity Designer	affd	0
+Affinity Photo	affi	0
+Affinity	affi	0
+Affinity Photo	affo	0
+Affinity Photo	affp	0
+Affinity Publisher	affp	0
+Affinity	affy	0
+a few moments later	afml	0
+After Effects	aft	0
+After Effects	afte	0
+After Effects	afts	0
+Angelababy	aglb	0
+Ah	ah	0
+AHDH	ahdh	0
+Ah	ahl	0
+AI	ai	0
+AI	ail	0
+Air	air	0
+AirDrop	aird	0
+AirPod	aird	0
+AirTag	airg	0
+AirPods Max	airm	0
+AirPods Pro	airo	0
+AirPods	airp	0
+AirPods Pro	airp	0
+AirDrop	airp	0
+AirPower	airp	0
+AirPod	airp	0
+AirPower	airr	0
+AirPods	airs	0
+AirTag	airt	0
+AirPods Max	airx	0
+Ajax	aja	0
+Ajax	ajax	0
+AK47	akl	0
+AK47	akla	0
+alert	ale	0
+alert	aler	0
+alert	alet	0
+Alienware	alie	0
+Alpha	alp	0
+Alt	alt	0
+Alt+	alt	0
+Amazon	ama	0
+Amazon	aman	0
+AMD	amd	0
+AMOLED	amo	0
+Anaconda	anac	0
+Android	and	0
+Angelababy	ang	0
+Angelababy	ange	0
+Angelababy	angl	0
+Angelababy	angy	0
+Anki	anki	0
+ANSI	ansi	0
+AOD	aod	0
+Apache	apa	0
+Alpha	aph	0
+API	api	0
+APK	apk	0
+app	app	0
+App	app	0
+Apple	app	0
+apple.com.cn	app	0
+AppleCare+	appc	0
+AppleCare	appc	0
+Apple Music	appc	0
+Apple ID	appd	0
+App Store	appe	0
+Apple Store	appe	0
+Apple Watch SE	appe	0
+Apple One	appe	0
+Apple Watch	apph	0
+Apple ID	appi	0
+Apple Park	appk	0
+Apple Pencil	appl	0
+Apple Music	appm	0
+Apple Silicon	appn	0
+Apple One	appo	0
+Apple Pencil	appp	0
+Apple Pay	appp	0
+Apple Park	appp	0
+App Store	apps	0
+Apple Store	apps	0
+Apple Watch Series	apps	0
+Apple Silicon	apps	0
+Apple TV	appt	0
+Apple TV	appv	0
+Apple Watch	appw	0
+Apple Pay	appy	0
+Are you OK	arek	0
+Are you OK？	arek	0
+Arial	ari	0
+Arial	aria	0
+Arial	aril	0
+ARM	arm	0
+Array	arr	0
+array	arr	0
+Array	arra	0
+array	arra	0
+Array	arry	0
+array	arry	0
+Alt+Shift+Ctrl+	asc	0
+ASCII	asci	0
+asd2fque1	asd	0
+Alt+Shift+	asl	0
+ASMR	asm	0
+ASMR	asmr	0
+ASP	asp	0
+ASP.net	aspn	0
+ASP.net	aspt	0
+AT&T	atat	0
+ATM	atm	0
+Au	au	0
+Audition	aud	0
+AutoCAD	aut	0
+AutoCAD	autd	0
+AutoCAD	auto	0
+Av	av	0
+AV	av	0
+Av	avl	0
+AV	avl	0
+AVPlayer	avp	0
+AVPlayer	avpl	0
+AVPlayer	avpr	0
+awesome	awe	0
+awesome	awee	0
+Apple Watch Series	aws	0
+Apple Watch SE	awse	0
+awsl	awsl	0
+AZERTY	axe	0
+AZERTY	axer	0
+AZERTY	axey	0
+7-Zip	axip	0
+Are you OK	ayok	0
+Are you OK？	ayok	0
+baby	bab	0
+baby	baby	0
+BackSpace	bac	0
+baidu.com	bai	0
+balabala	bal	0
+balabala	bala	0
+ballance	ball	0
+banner	ban	0
+Bandicam	ban	0
+Bandizip	ban	0
+Bandicam	banm	0
+banner	bann	0
+Bandizip	banp	0
+banner	banr	0
+BAT	bat	0
+BBC	bbc	0
+bbs	bbs	0
+BDSM	bdsm	0
+The Beatles	bea	0
+The Beatles	beas	0
+The Beatles	beat	0
+Beta	bet	0
+Beyond	bey	0
+Beyond Compare	bey	0
+BGM	bgm	0
+biang	bia	0
+biang	biag	0
+biang	bian	0
+Bigbang	big	0
+Big Sur	bigr	0
+Big Sur	bigs	0
+BigTable	bigt	0
+bilibili	bil	0
+bilibili	bili	0
+bin	bin	0
+BIOS	bios	0
+bilibili	blbl	0
+blingbling	blbl	0
+bilibili	bli	0
+blingbling	bli	0
+blog	blog	0
+BMW	bmw	0
+Bob Dylan	bobd	0
+Bob Dylan	bobn	0
+BOM	bom	0
+Bonjour	bon	0
+Bonjour	bonj	0
+Bonjour	bonr	0
+Boolean	boo	0
+boolean	boo	0
+Bootstrap	boo	0
+Boot Camp	booc	0
+Bool	bool	0
+Boolean	bool	0
+boolean	bool	0
+Boot Camp	boop	0
+Bootstrap	boop	0
+Bootstrap	boot	0
+BOSS	boss	0
+Boss	boss	0
+bps	bps	0
+BRT	brt	0
+B/S	bsl	0
+BetterTouchTool	btt	0
+buff	buf	0
+buff	buff	0
+bug	bug	0
+B612	bugf	0
+CAD	cad	0
+Ctrl+Alt+	cal	0
+Camtasia Studio	cam	0
+Camera Connect	camc	0
+Camera Connect	camt	0
+CaO	cao	0
+CapsLock	cap	0
+care	car	0
+care	care	0
+CarPlay	carp	0
+carry	carr	0
+carry	cary	0
+CarPlay	cary	0
+Ctrl+Alt+Shift+	cas	0
+Casio	casi	0
+CASIO	casi	0
+Casio	caso	0
+CASIO	caso	0
+CBA	cba	0
+CBD	cbd	0
+CCAV	ccav	0
+cencencilonggelong	cccg	0
+C/C++	ccjj	0
+CCP	ccp	0
+C/C++	ccpp	0
+CCTV	cct	0
+tv.cctv.com/live/cctv1	cct	0
+CCTV-NEWS	cctn	0
+CCTV-NEWS	ccts	0
+CCTV	cctv	0
+C4D	cd	0
+CDMA	cdma	0
+CDMA2000	cdma	0
+CDMA2000	cdmf	0
+CentOS	cens	0
+CentOS	cent	0
+CEO	ceo	0
+CFO	cfo	0
+cfop	cfop	0
+CGTN	cgtn	0
+CHERRY	che	0
+Cherry	che	0
+China	chi	0
+China	chia	0
+China	chin	0
+Chrome	chr	0
+Chrome	chre	0
+Chrome	chro	0
+Chromecast	chro	0
+Chromecast	chrt	0
+CIA	cia	0
+Cinema 4D	cin	0
+Cinema 4D	cind	0
+Cinema 4D	cine	0
+CIO	cio	0
+C#	cj	0
+C++	cjj	0
+CJK	cjk	0
+CJK-A	cjka	0
+CJK-B	cjkb	0
+CJK-C	cjkc	0
+CJK-D	cjkd	0
+CJK-E	cjke	0
+CJK-F	cjkf	0
+CJK-G	cjkg	0
+ClearType	cle	0
+ClearType	clea	0
+ClearType	clee	0
+ClearType	clet	0
+Client	cli	0
+console.log()	cll	0
+CLTC	cltc	0
+Cmd	cmd	0
+Command	cmd	0
+Command+A	cmda	0
+Command+B	cmdb	0
+Command+C	cmdc	0
+Command+D	cmdd	0
+Command+E	cmde	0
+Command+F	cmdf	0
+Command+G	cmdg	0
+Command+H	cmdh	0
+Command+I	cmdi	0
+Command+J	cmdj	0
+Command+K	cmdk	0
+Command+L	cmdl	0
+Command+M	cmdm	0
+Command+N	cmdn	0
+Command+O	cmdo	0
+Command+P	cmdp	0
+Command+Q	cmdq	0
+Command+R	cmdr	0
+Command+S	cmds	0
+Command+T	cmdt	0
+Command+Tab	cmdt	0
+Command+U	cmdu	0
+Command+V	cmdv	0
+Command+W	cmdw	0
+Command+X	cmdx	0
+Command+Z	cmdx	0
+Command+Y	cmdy	0
+CMYK	cmk	0
+CMOS	cmos	0
+CMYK	cmyk	0
+CNKI	cnki	0
+http://www.cnki.net	cnki	0
+CNM	cnm	0
+cnm	cnm	0
+CNN	cnn	0
+CNY	cny	0
+Code	code	0
+Option+Command+	col	0
+ColorOS	colo	0
+ColorOS	cols	0
+Command	com	0
+Command+	com	0
+Command+A	coma	0
+Command+B	comb	0
+Command+C	comc	0
+Command+D	comd	0
+Command+E	come	0
+Command+F	comf	0
+Command+G	comg	0
+Command+H	comh	0
+Command+I	comi	0
+Command+J	comj	0
+Command+K	comk	0
+Command+L	coml	0
+Command+M	comm	0
+Command+N	comn	0
+Command+O	como	0
+Command+P	comp	0
+Compressor	comp	0
+Command+Q	comq	0
+Command+R	comr	0
+Compressor	comr	0
+Command+S	coms	0
+Command+T	comt	0
+Command+Tab	comt	0
+Command+U	comu	0
+Command+V	comv	0
+Command+W	comw	0
+Command+X	comx	0
+Command+Z	comx	0
+Command+Y	comy	0
+Continue	con	0
+Continue	cone	0
+Control	conl	0
+COO	coo	0
+Cookie	cooe	0
+Cookie	cook	0
+Cookies	cook	0
+Cookies	coos	0
+Cortana	cora	0
+CorelDraw	core	0
+Cortana	cort	0
+CorelDraw	corw	0
+Option+Shift+Command+	cosl	0
+Cover	cov	0
+Cover：	cov	0
+COVID-19	cov	0
+Cover	cove	0
+Cover：	cove	0
+Cover	covr	0
+Cover：	covr	0
+CPA	cpa	0
+cpdd	cpdd	0
+CPI	cpi	0
+C++	cpp	0
+CPU	cpu	0
+Creative Cloud	cre	0
+Creative Cloud	crea	0
+Creative Cloud	crec	0
+Creative Cloud	cred	0
+CR+LF	crlf	0
+CR/LF	crlf	0
+CRT	crt	0
+Ctrl+Shift+Alt+	csa	0
+CSDN	csdn	0
+CSGO	csgo	0
+CS:GO	csgo	0
+C/S	csl	0
+Ctrl+Shift+	csl	0
+Shift+Command+	csl	0
+Shift+Command+	csll	0
+Option+Shift+Command+	cso	0
+Option+Shift+Command+	csol	0
+CSS	css	0
+CSS3	css	0
+csv	csv	0
+CT	ct	0
+Ctrl+A	cta	0
+Ctrl+B	ctb	0
+Ctrl+C	ctc	0
+Ctrl+D	ctd	0
+Ctrl+E	cte	0
+Ctrl+Enter	cte	0
+Ctrl+F	ctf	0
+Ctrl+G	ctg	0
+Ctrl+H	cth	0
+Ctrl+I	cti	0
+Ctrl+J	ctj	0
+Ctrl+K	ctk	0
+Ctrl+L	ctl	0
+Ctrl+M	ctm	0
+Ctrl+N	ctn	0
+Ctrl+O	cto	0
+CTO	cto	0
+Ctrl+P	ctp	0
+Ctrl	ctr	0
+Ctrl+	ctr	0
+Ctrl+R	ctr	0
+Ctrl+A	ctra	0
+Ctrl+Z	ctra	0
+Ctrl+B	ctrb	0
+Ctrl+C	ctrc	0
+Ctrl+D	ctrd	0
+Ctrl+E	ctre	0
+Ctrl+Enter	ctre	0
+Ctrl+F	ctrf	0
+Ctrl+G	ctrg	0
+Ctrl+H	ctrh	0
+Ctrl+I	ctri	0
+Ctrl+J	ctrj	0
+Ctrl+K	ctrk	0
+Ctrl+L	ctrl	0
+Ctrl+M	ctrm	0
+Ctrl+N	ctrn	0
+Ctrl+O	ctro	0
+Ctrl+P	ctrp	0
+Ctrl+Q	ctrq	0
+Ctrl+R	ctrr	0
+Ctrl+S	ctrs	0
+Ctrl+T	ctrt	0
+Ctrl+U	ctru	0
+Ctrl+V	ctrv	0
+Ctrl+W	ctrw	0
+Ctrl+X	ctrx	0
+Ctrl+Y	ctry	0
+Ctrl+S	cts	0
+Ctrl+T	ctt	0
+Ctrl+U	ctu	0
+Ctrl+V	ctv	0
+Ctrl+W	ctw	0
+Ctrl+X	ctx	0
+Ctrl+Z	ctx	0
+Ctrl+Y	cty	0
+cue	cue	0
+Cydia	cyd	0
+Cydia	cyda	0
+Cydia	cydi	0
+DAEMON Tools	dae	0
+Daemon Tools	dae	0
+DAEMON Tools	daes	0
+Daemon Tools	daes	0
+DAEMON Tools	daet	0
+Daemon Tools	daet	0
+D&G	dag	0
+Happy Chinese New Year	danq	0
+Database	data	0
+DataNode	data	0
+Data	data	0
+dBm	dbm	0
+DC	dc	0
+3C	dc	0
+DC	dcl	0
+3C	dcl	0
+3D	ddl	0
+3d Max	ddmx	0
+DDoS	ddos	0
+3ds Max	ddsx	0
+3D Touch	ddt	0
+3D Touch	ddth	0
+debug	deb	0
+Debug	debg	0
+debug	debg	0
+Debian	debi	0
+Debian	debn	0
+Debug	debu	0
+debug	debu	0
+default	def	0
+default	defa	0
+default	deft	0
+Delete	del	0
+Demo	demo	0
+demo	demo	0
+Desktop	des	0
+Desktop	desk	0
+Desktop	desp	0
+3G	dg	0
+V587	dgfe	0
+3G	dgg	0
+3G	dgl	0
+3gpp	dgpp	0
+DHCP	dhcp	0
+DIP	dip	0
+diss	dis	0
+DiskGenius	disg	0
+DiskGenius	diss	0
+diss	diss	0
+DIV	div	0
+DJ	dj	0
+DJI	dji	0
+DJ	djl	0
+100%	dmd	0
+DNA	dna	0
+DNF	dnf	0
+DNS	dns	0
+doc	doc	0
+docx	doc	0
+DOC	doc	0
+Dock	dock	0
+Docker	dock	0
+Docker	docr	0
+docx	docx	0
+DOM	dom	0
+DOS	dos	0
+dota	dota	0
+Download	dow	0
+Download	dowd	0
+Download	down	0
+DP	dp	0
+DPI	dpi	0
+DP	dpl	0
+Dreamweaver	dre	0
+Dribbble	dri	0
+dribbble	dri	0
+Dribbble	drib	0
+dribbble	drib	0
+Dribbble	drie	0
+dribbble	drie	0
+Dropbox	drop	0
+dropbox	drox	0
+duang	dua	0
+duang	duan	0
+duck	duck	0
+DVD	dvd	0
+DVI	dvi	0
+Dvorak	dvo	0
+Dvorak	dvok	0
+document.write()	dwl	0
+DxOMark	dxo	0
+DxOMark	dxok	0
+DxOMark	dxom	0
+Dyson	dys	0
+Dyson	dysn	0
+Dyson	dyso	0
+EarPods	earp	0
+eBay	eba	0
+eBay	ebay	0
+eclipse	ecl	0
+eclipse	ecli	0
+ECS	ecs	0
+ed2k	edfk	0
+Edge	edg	0
+Edge	edge	0
+Elements	ele	0
+Ella	ella	0
+Email	ema	0
+Emacs	emac	0
+Email	emai	0
+Email	emal	0
+Emacs	emas	0
+EmEditor	eme	0
+EMI	emi	0
+emmmm	emm	0
+Emmmm	emm	0
+eMMC	emmc	0
+Emoji	emo	0
+emoji	emo	0
+emo	emo	0
+EMS	ems	0
+EMUI	emui	0
+End	end	0
+Engine	eng	0
+Engine	enge	0
+Engine	engi	0
+ENIAC	eni	0
+ENIAC	enia	0
+ENIAC	enic	0
+eNodeB	enob	0
+eNSP	ensp	0
+Enter	ent	0
+en-us	enus	0
+eps	eps	0
+epub	epub	0
+ePub	epub	0
+EPUB	epub	0
+ERP	erp	0
+Error	err	0
+Error	erro	0
+Error	errr	0
+Esc	esc	0
+Escape	esca	0
+Escape	esce	0
+eSIM	esim	0
+ESXi	esxi	0
+ETC	etc	0
+Everything	eve	0
+EverNote	eve	0
+EverNote	evee	0
+Everything	eveg	0
+Ever Play	evep	0
+Everything	ever	0
+EverNote	ever	0
+Ever Play	evey	0
+Excel	ex	0
+Excel	exc	0
+exFAT	exf	0
+exFAT	exfa	0
+exFAT	exft	0
+EXIF	exif	0
+Explorer	exp	0
+Exposé	expe	0
+Exposé	expo	0
+Facebook	fac	0
+Face ID	fac	0
+Face ID	facd	0
+Facebook	face	0
+Face ID	face	0
+FaceTime	face	0
+Facebook	fack	0
+FaceTime	fact	0
+Faceu	facu	0
+false	fal	0
+False	fal	0
+false	fale	0
+False	fale	0
+false	fals	0
+False	fals	0
+FAQ	faq	0
+FAT32	fat	0
+FBI	fbi	0
+FBI WARNING	fbi	0
+FBI WARNING	fbig	0
+FBI WARNING	fbiw	0
+Final Cut Pro	fcp	0
+Final Cut Pro X	fcpx	0
+FCPX	fcpx	0
+FDD-LTE	fdde	0
+FDD-LTE	fddl	0
+FDMA	fdma	0
+foreach	feh	0
+2G	fg	0
+2G	fgg	0
+2G	fgl	0
+2.5D	fhgd	0
+2.5G	fhgg	0
+Face ID	fid	0
+FIIL	fiil	0
+Fiil	fiil	0
+Filco	fil	0
+filco	fil	0
+Filter	fil	0
+Finder	fin	0
+Find	fin	0
+Finder	find	0
+Finder	finr	0
+Firefox	fir	0
+Fireworks	fir	0
+Fireworks	firs	0
+Firefox	firx	0
+Flash	fla	0
+FLAC	flac	0
+flag	flag	0
+Flash Player	flap	0
+float	floa	0
+Flume	flu	0
+Flyme	flym	0
+FM	fm	0
+FM	fml	0
+Fn	fn	0
+Fn+	fn	0
+Fn	fnl	0
+Fn+	fnl	0
+foobar2000	foob	0
+for Android	fora	0
+for Mac	forc	0
+for Android	ford	0
+foreach	fore	0
+foreach	forh	0
+for iOS	fori	0
+for Mac	form	0
+form	form	0
+for Windows	fors	0
+for iOS	fors	0
+for Windows	forw	0
+foxmail	fox	0
+foxmail	foxl	0
+foxmail	foxm	0
+FPGA	fpga	0
+FPS	fps	0
+freeime	free	0
+freestyle	free	0
+ftp	ftp	0
+fuck	fuc	0
+Fuck	fuc	0
+fuck	fuck	0
+Fuck	fuck	0
+Fuck you	fucu	0
+Fuck you	fucy	0
+Galaxy	gala	0
+Galaxy Fold	gald	0
+Galaxy Fold	galf	0
+Galaxy Z Flip	galp	0
+Galaxy	galy	0
+Game Over	gamo	0
+Game Over	gamr	0
+GaN	gan	0
+Gateron	gate	0
+GB2312	gbfd	0
+GB2312	gbff	0
+GBK	gbk	0
+Gbps	gbp	0
+Gbps	gbps	0
+GDP	gdp	0
+Geekbench	geek	0
+Genius Bar	genb	0
+Genius Bar	genr	0
+12306	gfdu	0
+GFW	gfwl	0
+5G	gg	0
+5G	ggg	0
+5G	ggl	0
+Ghost	gho	0
+Ghost	ghos	0
+ghost	ghos	0
+Ghost	ghot	0
+ghost	ghot	0
+GHz	ghx	0
+giao	giao	0
+GIF	gif	0
+GitHub	git	0
+1+X	gjx	0
+GKD	gkd	0
+Gmail	gma	0
+Gmail	gmai	0
+Gmail	gmal	0
+give me five	gmf	0
+Google	goo	0
+Google Chrome	gooc	0
+GoodNotes	good	0
+GoodReader	good	0
+Google	gooe	0
+Google Voice	gooe	0
+Google	goog	0
+GoodReader	goor	0
+GoodNotes	goos	0
+Google Voice	goov	0
+GoPro	gop	0
+GPRS	gprs	0
+GPS	gps	0
+gram	gram	0
+GRE	gre	0
+Groove	groe	0
+Groove	groo	0
+GSM	gsm	0
+Gucci	guc	0
+Gucci	gucc	0
+Gucci	guci	0
+GUI	gui	0
+Hadoop	had	0
+hadoop	had	0
+Hadoop	hado	0
+hadoop	hado	0
+Hadoop	hadp	0
+hadoop	hadp	0
+Happy birthday	hapb	0
+Happy New Year	hapr	0
+Happy birthday	hapy	0
+Happy Valentine's Day	hapy	0
+HBase	hba	0
+HBase	hbae	0
+HBase	hbas	0
+HBO	hbo	0
+HBuilder	hbu	0
+HBuilder	hbui	0
+HBuilder	hbur	0
+HTML+CSS+JavaScript	hcj	0
+HTML+CSS	hcl	0
+Happy Chinese New Year	hcny	0
+H.264	hd	0
+H.265	hd	0
+HDFS	hdfs	0
+HDMI	hdmi	0
+HDR	hdr	0
+Headers	hea	0
+Hebe	heb	0
+Hebe	hebe	0
+height	hei	0
+Hello	hel	0
+Hello World	held	0
+Hello Kitty	helk	0
+Hello	helo	0
+Hello Kitty	hely	0
+Heroku	hero	0
+Heroku	heru	0
+HHKB	hhkb	0
+Hi-Fi	hifi	0
+HIIT	hiit	0
+HIV	hiv	0
+Hive	hive	0
+Microsoft YaHei	hlah	0
+Hello World	hlwd	0
+Happy New Year	hny	0
+hold	hold	0
+Holyshit	holt	0
+Holyshit	holy	0
+Home	hom	0
+HomePod	homd	0
+Home	home	0
+HomePod mini	homi	0
+HomePod mini	homm	0
+HomePod	homp	0
+HoneyView	hon	0
+HoneyView	hone	0
+HoneyView	honw	0
+HP	hp	0
+href	hre	0
+href	href	0
+HSL	hsl	0
+HTC	htc	0
+html5	htm	0
+HTML+CSS	htmc	0
+HTML5+CSS3	htmd	0
+html5	htmg	0
+HTML+CSS+JavaScript	htmj	0
+html	html	0
+HTML	html	0
+HTML5	html	0
+HTML+CSS	htms	0
+HTML+CSS+JavaScript	htmt	0
+http://	http	0
+https://	http	0
+https://www.	http	0
+https://	htts	0
+http://www.	httw	0
+https://www.	httw	0
+Hub	hub	0
+Happy Valentine's Day	hvd	0
+Hz	hx	0
+Hz	hxl	0
+IaaS	iaas	0
+IBM	ibm	0
+iBooks	ibo	0
+iBooks	ibos	0
+iCloud	icl	0
+iCloud	icld	0
+iCloud Drive	icld	0
+iCloud Drive	icle	0
+iCloud	iclo	0
+ICT	ict	0
+ICU	icu	0
+ID	id	0
+IDC	idc	0
+IDE	ide	0
+ID	idl	0
+IDLE	idle	0
+IE	ie	0
+IEEE	ieee	0
+Internet Explorer	iel	0
+IGMP	igmp	0
+ikbc	ikbc	0
+Illustrator	ill	0
+iMac	ima	0
+iMac	imac	0
+iMac Pro	imao	0
+iMac Pro	imap	0
+IMAX	imax	0
+IMDb	imdb	0
+iMessage	ime	0
+iMessage	imee	0
+IMEI	imei	0
+iMessage	imes	0
+iMovie	imo	0
+iMovie	imoe	0
+iMovie	imov	0
+InDesign	ind	0
+Infinity	infi	0
+info	info	0
+Infinity	infy	0
+ing	ing	0
+Insert	ins	0
+Instagram	insm	0
+instagram	insm	0
+Instagram	inst	0
+Internet	int	0
+Internet Explorer	int	0
+IntelliJ IDEA	inta	0
+intel	inte	0
+IntelliJ	inte	0
+IntelliJ IDEA	inti	0
+IntelliJ	intj	0
+intel	intl	0
+iOS	ios	0
+iOS 14	iosl	0
+iPad	ipa	0
+iPad Air	ipaa	0
+iPad	ipad	0
+iPad mini	ipai	0
+iPadOS 14	ipal	0
+iPad mini	ipam	0
+iPadOS	ipao	0
+iPad Pro	ipao	0
+iPad OS	ipao	0
+iPad Pro	ipap	0
+iPad Air	ipar	0
+iPadOS	ipas	0
+iPad OS	ipas	0
+iPad	ipd	0
+192.168.	ipf	0
+iPhone	iph	0
+iPhone 13	iphd	0
+iPhone	iphe	0
+iPhone SE	iphe	0
+iPhone 12	iphf	0
+iPhone 11	iphg	0
+iPhone 11 Pro	iphg	0
+iPhone 11 Pro Max	iphg	0
+iPhone 13 mini	iphi	0
+iPhone 12 mini	iphi	0
+iPhone 14	iphl	0
+iPhone 12 mini	iphm	0
+iPhone 12 Pro Max	iphm	0
+iPhone 11 Pro Max	iphm	0
+iPhone XS Max	iphm	0
+iPhone 14 Pro	ipho	0
+iPhone 13 Pro	ipho	0
+iPhone 12 Pro	ipho	0
+iPhone 14 Pro	iphp	0
+iPhone 13 Pro	iphp	0
+iPhone 12 Pro	iphp	0
+iPhone XR	iphr	0
+iPhone 14 Plus	iphs	0
+iPhone XS	iphs	0
+iPhone XS MAX	iphs	0
+iPhone 14 Pro Max	iphx	0
+iPhone 13 Pro Max	iphx	0
+iPhone 12 Pro Max	iphx	0
+iPhone X	iphx	0
+iPod	ipo	0
+iPod	ipod	0
+iPod Touch	ipod	0
+iPod Touch	ipoh	0
+iPod Touch	ipot	0
+IPS	ips	0
+IPTV	iptv	0
+IPv4	ipv	0
+IPv6	ipv	0
+IPv4	ipvl	0
+IPv6	ipvu	0
+iPhone X	ipx	0
+iQOO	iqoo	0
+iRime	iri	0
+i-rocks	iroc	0
+ISO	iso	0
+IT	it	0
+IT	itl	0
+iTools	itoo	0
+iTools	itos	0
+iTunes	itu	0
+iTunes	itun	0
+iTunes Store	itus	0
+iTunes	itus	0
+iwatch	iwah	0
+Java	jav	0
+JavaScript	jav	0
+Java	java	0
+JDK	jdk	0
+Jesus	jess	0
+Jesus	jesu	0
+JetBrains	jetb	0
+jiojio	jio	0
+jio	jio	0
+jiojio	jioj	0
+jiojio	jioo	0
+JPEG	jpeg	0
+jpeg	jpeg	0
+jpg	jpg	0
+jQuery	jqu	0
+jQuery	jquy	0
+JRE	jre	0
+JRS	jrs	0
+JS	js	0
+JavaScript	jsl	0
+JSON	json	0
+json	json	0
+Jupyter Notebook	jupk	0
+just so so	juso	0
+JVM	jvm	0
+Kailh	kai	0
+kbps	kbp	0
+kbps	kbps	0
+KeyboardTest	kbt	0
+Keynote	key	0
+KeyboardTest	key	0
+keyboard	keyb	0
+Keyboard	keyb	0
+keyboard	keyd	0
+Keyboard	keyd	0
+Keynote	keye	0
+Keylight	keyl	0
+Keynote	keyn	0
+Keyshot	keyt	0
+Keylight	keyt	0
+kHz	khx	0
+kindle	kin	0
+Kindle	kind	0
+kindle	kind	0
+icourse163.org	kldc	0
+KMPlayer	kmp	0
+KMSpico	kms	0
+kotlin	kot	0
+kotlin	kotl	0
+KPI	kpi	0
+KTV	ktv	0
+Lab	lab	0
+Lady Gaga	lada	0
+Lady Gaga	ladg	0
+lambda	lam	0
+lambda	lama	0
+lambda	lamb	0
+LAMY	lamy	0
+LaTeX	lat	0
+LaTeX	late	0
+LaTeX	latx	0
+LCD	lcd	0
+LED	led	0
+Lenovo	len	0
+Lenovo	leno	0
+Leopold	leo	0
+Leopold	leod	0
+Leopold	leop	0
+404 Not Found	lfld	0
+m³	lfm	0
+4G	lg	0
+LG	lg	0
+LGBT	lgbt	0
+LG gram	lggm	0
+4G	lgl	0
+LG	lgll	0
+4G	lhg	0
+LiDAR	lida	0
+LiDAR	lidr	0
+Lightning	lig	0
+Lightroom	lig	0
+Lightning	ligg	0
+Lightning	ligh	0
+Lightroom	ligh	0
+Lightroom	ligm	0
+Linux	lin	0
+Listary	lis	0
+Listary	list	0
+Listary	lisy	0
+Live Photo	livo	0
+Live Photo	livp	0
+404 Not Found	lnf	0
+localhost	loc	0
+localhost	loca	0
+localhost	loct	0
+Logic	log	0
+Logic	logc	0
+Logitech	logi	0
+Logo	logo	0
+LOGO	logo	0
+Logic Pro	logp	0
+Logic Pro X	logp	0
+Logic Pro X	logx	0
+LOL	lol	0
+long time no see	lone	0
+LPL	lpl	0
+Logic Pro X	lpx	0
+lsp	lsp	0
+LTE	lte	0
+long time no see	ltns	0
+LTPS	ltps	0
+mA	ma	0
+Mac	mac	0
+MacBook	mac	0
+mac	mac	0
+MacBook Air	maca	0
+MacBook	macb	0
+Macintosh	mach	0
+macintosh	mach	0
+Mac mini	maci	0
+Macintosh	maci	0
+macintosh	maci	0
+Mac mini	macm	0
+macOS	maco	0
+MacOS	maco	0
+MacBook Pro	macp	0
+macOS	macs	0
+MacOS	macs	0
+Magic	magc	0
+Magic Keyboard	magd	0
+MagSafe	mage	0
+Magic	magi	0
+Magic Keyboard	magk	0
+MagSafe	mags	0
+mAh	mah	0
+mail	mai	0
+mail.qq.com	mail	0
+mail	mail	0
+mA	mal	0
+MapReduce	mapr	0
+margin	mar	0
+Mark	mar	0
+Markdown	mark	0
+Mark	mark	0
+Markdown	marn	0
+margin	marn	0
+Master	mas	0
+Master	masr	0
+Master	mast	0
+MathType	mat	0
+Matlab	mat	0
+Matlab	matb	0
+Matebook	mate	0
+MathType	mate	0
+MathType	math	0
+Max	max	0
+Maya	maya	0
+MBA	mba	0
+MacBook Air	mba	0
+mBack	mbac	0
+mBack	mbak	0
+MacBook Pro	mbp	0
+Mbps	mbp	0
+Mbps	mbps	0
+m.2	mdf	0
+M.2	mdf	0
+m3u8	mdum	0
+MemStore	mem	0
+Memoji	memi	0
+Memoji	memo	0
+MemStore	mems	0
+Menu	men	0
+menu	men	0
+Menu	menu	0
+menu	menu	0
+mesh	mesh	0
+metro	met	0
+metro	meto	0
+metro	metr	0
+MHz	mhx	0
+micro	mic	0
+Micro	mic	0
+Microsoft	mic	0
+microUSB	micb	0
+MicroUSB	micb	0
+MicroSD	micd	0
+Microsoft 365	micd	0
+Microsoft Edge	mice	0
+Microsoft 365	micg	0
+Microsoft Office	mico	0
+MicroUSB	micr	0
+Micro-SIM	mics	0
+MicroSD	mics	0
+microUSB	micu	0
+MicroUSB	micu	0
+MIMO	mimo	0
+mini	min	0
+miniUSB	min	0
+miniUSB	minb	0
+miniDP	mind	0
+mini	mini	0
+miniUSB	mini	0
+miniDP	minp	0
+MIUI	miui	0
+Emoji	mj	0
+mkv	mkv	0
+m4a	mla	0
+MLGB	mlgb	0
+mlgb	mlgb	0
+MMP	mmp	0
+MOBA	mob	0
+mobi	mob	0
+MOBA	moba	0
+mobi	mobi	0
+MOOC	moc	0
+Model	mod	0
+Model 3	modd	0
+Model	mode	0
+Model	modl	0
+Model S	mods	0
+Model X	modx	0
+Model Y	mody	0
+MongoDB	monb	0
+MOOC	moo	0
+MOOC	mooc	0
+icourse163.org	mooc	0
+macOS	mos	0
+MacOS	mos	0
+Motion	mot	0
+Motion	moti	0
+Motion	motn	0
+MOV	mov	0
+Mozilla	mox	0
+Mozilla	moxa	0
+Mozilla Firefox	moxf	0
+Mozilla	moxi	0
+mp3	mp	0
+mp4	mp	0
+mp4	mpl	0
+MPV	mpv	0
+MSDN	msdn	0
+Google Chrome	msik	0
+MSN	msn	0
+Music	mus	0
+Music	musc	0
+Music	musi	0
+MX Master	mxm	0
+MyEclipse	mye	0
+MyEclipse	myec	0
+MyEclipse	myee	0
+MySQL	mys	0
+Mysql	mys	0
+MySQL	mysl	0
+Mysql	mysl	0
+MySQL	mysq	0
+Mysql	mysq	0
+N/A	na	0
+N/A	nal	0
+NameNode	name	0
+Name	name	0
+NaN	nan	0
+nano	nano	0
+Nano-SIM	nans	0
+NAS	nas	0
+NASA	nasa	0
+NAT	nat	0
+NBA	nba	0
+NEDC	nedc	0
+Network	netk	0
+new	new	0
+NFC	nfc	0
+NGP	ngp	0
+Nike	nik	0
+Nike	nike	0
+NiZ	nix	0
+NM$L	nmsl	0
+NMSL	nmsl	0
+nmsl	nmsl	0
+nobody	nob	0
+nobody	nobo	0
+nobody	noby	0
+Node.js	nod	0
+NodeB	nodb	0
+Node	node	0
+Node.js	node	0
+Node.js	nods	0
+Node.js	nojs	0
+Nokia	nok	0
+NOKIA	nok	0
+No problem	nop	0
+Noppoo	nopp	0
+No problem	nopr	0
+NoSQL	nos	0
+NoSQL	nosl	0
+NoSQL	nosq	0
+Note	not	0
+Notability	not	0
+Notability	nota	0
+Note	note	0
+Notepad++	note	0
+Notepad++	notp	0
+Notability	noty	0
+Novanewstar	nova	0
+Novanewstar	novr	0
+No way	nowa	0
+NPC	npc	0
+nPlayer	npl	0
+nPlayer	npla	0
+nPlayer	nplr	0
+Notepad++	npp	0
+NSFW	nsfw	0
+NTFS	ntf	0
+NTFS	ntfs	0
+NTSC	ntsc	0
+Null	nul	0
+null	nul	0
+Null	null	0
+null	null	0
+NumLock	num	0
+Numbers	num	0
+Number	num	0
+Numbers	numb	0
+Number	numb	0
+number	numb	0
+Numpad	numd	0
+Numpad	nump	0
+Number	numr	0
+number	numr	0
+Numbers	nums	0
+NVIDIA	nvi	0
+NVMe	nvm	0
+NVMe	nvme	0
+Happy Valentine's Day	nwaq	0
+no zuo no die	nxnd	0
+no zuo no die why you try	nxnt	0
+OA	oa	0
+OA	oal	0
+Object	obj	0
+object	obj	0
+Objective-C	obj	0
+Objective-C	objc	0
+Object	obje	0
+object	obje	0
+Object	objt	0
+object	objt	0
+oCam	ocam	0
+Option+Command+C	occ	0
+Option+Command+Esc	oce	0
+Option+Command+	ocl	0
+OCR	ocr	0
+Option+Shift+Command+	ocs	0
+Option+Shift+Command+	ocsl	0
+Option+Command+V	ocv	0
+OEM	oem	0
+OFDM	ofdm	0
+Office	off	0
+offer	off	0
+Office 365	off	0
+Office	offe	0
+Office 365	offg	0
+offer	offr	0
+ofo	ofo	0
+ohhhhhhhhhhhhhhhhhh	ohh	0
+ohhhhhhhhhhhhhhhhhh	ohhh	0
+OJBK	ojbk	0
+OK	ok	0
+OLED	ole	0
+OLED	oled	0
+OMG	omg	0
+OneNote	one	0
+OneDrive	one	0
+OneDrive	oned	0
+OneNote	onee	0
+OneDrive	onee	0
+OneNote	onen	0
+OOXX	ooxx	0
+Opera	ope	0
+Opera	opea	0
+OpenStack	opek	0
+OpenSSL	opel	0
+OpenStack	open	0
+OpenSSL	open	0
+Opera	oper	0
+OpenStack	opes	0
+OpenSSL	opes	0
+OPPO	opp	0
+OPPO	oppo	0
+OPPO Find X	oppx	0
+Option	opt	0
+Option+	opt	0
+Oral-B	orab	0
+Oracle	orac	0
+Option+Shift+Command+	osc	0
+Option+Shift+Command+	oscl	0
+Option+Shift+	osl	0
+OSPF	ospf	0
+OS X	osx	0
+OTA	ota	0
+OTG	otg	0
+out	out	0
+Outlook	out	0
+Outlook	outk	0
+Outlook	outl	0
+PaaS	paas	0
+padding	pad	0
+padding	padg	0
+Pages	pag	0
+PageDown	pagd	0
+PageUp	page	0
+PageDown	page	0
+PageDown	pagn	0
+PageUp	pagp	0
+Pages	pags	0
+PageUp	pagu	0
+pan.baidu.com	pan	0
+Panasonic	pana	0
+Panasonic	panc	0
+Pandownload	pand	0
+pandownload	pand	0
+Panecal	pane	0
+Panecal	panl	0
+Parallels Desktop	par	0
+Parallels	para	0
+Parallels Desktop	pard	0
+Parallels Desktop	parp	0
+Parallels	pars	0
+Pause	pau	0
+Pause Break	paub	0
+Pause Break	pauk	0
+PayPal	pay	0
+PayPal	payl	0
+PayPal	payp	0
+PBT	pbt	0
+PC	pc	0
+PCB	pcb	0
+PCIe	pcie	0
+PCI-E	pcie	0
+PC	pcl	0
+PCM	pcm	0
+PDF	pdf	0
+PageDown	pdl	0
+PE	pe	0
+PE	pel	0
+PgDn	pgdn	0
+PgUp	pgup	0
+PHILIPS	phi	0
+PhotoShop	pho	0
+PHP	php	0
+phpMyAdmin	phpm	0
+phpMyAdmin	phpn	0
+phpStudy	phps	0
+phpStudy	phpy	0
+Picsew	pic	0
+Picasa	pic	0
+Picasa	pica	0
+Picsew	pics	0
+Picsew	picw	0
+PIN	pin	0
+ping	ping	0
+Player	pla	0
+planB	plab	0
+planB	plan	0
+Player	plar	0
+Play	play	0
+Player	play	0
+PLUM	plu	0
+plum	plu	0
+PLUS	plus	0
+PM2.5	pmf	0
+PM2.5	pmfg	0
+PNG	png	0
+Polo	pol	0
+Polo	polo	0
+POM	pom	0
+Pornhub	porb	0
+porn	porn	0
+Pornhub	porn	0
+Pornstar	porn	0
+Pornstar	porr	0
+PotPlayer	pot	0
+PowerPoint	pow	0
+PowerShell	pow	0
+PowerPoint	powe	0
+PowerShell	powe	0
+PowerShell	powl	0
+PowerPoint	powt	0
+PPI	ppi	0
+ppi	ppi	0
+PPPoE	pppe	0
+PPPoE	pppo	0
+PPT	ppt	0
+ppt	ppt	0
+pptx	pptx	0
+Pr	pr	0
+Premiere	pre	0
+Preview	pre	0
+Premiere Pro	preo	0
+Premiere Pro	prep	0
+printf	pri	0
+PrintScreen	pri	0
+printf	prif	0
+PrintScreen	prin	0
+Pr	prl	0
+PR	prl	0
+Pro	pro	0
+Pro Max	pro	0
+prototype	pro	0
+prototype	proe	0
+Pro Max	prom	0
+__proto__	proo	0
+prototype	prot	0
+Pro Max	prox	0
+PS	ps	0
+PSD	psd	0
+PS/2	psf	0
+PS	psl	0
+P.S. 	psll	0
+PSP	psp	0
+PTSD	ptsd	0
+PUA	pua	0
+PageUp	pul	0
+PVC	pvc	0
+PWM	pwm	0
+PyCharm	pyc	0
+Python	pyt	0
+python	pyt	0
+Python	pyth	0
+python	pyth	0
+python	pytn	0
+Python	pytn	0
+Q&A	qaa	0
+QAQ	qaq	0
+QID	qid	0
+QQ	qq	0
+QuickTime	qui	0
+QuickTime	quie	0
+QuickTime Player	quip	0
+QuickTime Player	quir	0
+QuickTime	quit	0
+QWERTY	qwer	0
+QWERTZ	qwer	0
+QWERTY	qwey	0
+R&B	rab	0
+RAM	ram	0
+rar	rar	0
+react	rea	0
+realme	rea	0
+ReadMe	rea	0
+RealForce	rea	0
+ReadMe	read	0
+ReadMe	reae	0
+RealForce	reae	0
+realme	reae	0
+realme	real	0
+RealForce	real	0
+Red Hat	redh	0
+Redmi	redi	0
+Redmi	redm	0
+Red Hat	redt	0
+registry	reg	0
+registry	regi	0
+registry	regy	0
+Remix	remi	0
+Remix	remx	0
+Request	req	0
+Response	res	0
+Return	ret	0
+Retina	ret	0
+Retina	reti	0
+Return	retn	0
+Retina MacBook Pro	reto	0
+Retina MacBook Pro	retp	0
+Return	retu	0
+RFID	rfid	0
+RGBA	rgba	0
+RGB	rgbl	0
+RHEL	rhel	0
+Red Hat Enterprise Linux	rhel	0
+Rime	rim	0
+Rime	rime	0
+R.I.P.	rip	0
+RMB	rmb	0
+rmbp	rmbp	0
+Retina MacBook Pro	rmbp	0
+rmvb	rmvb	0
+RØDE	rode	0
+RODE	rode	0
+ROM	rom	0
+root	root	0
+TOEFL	rtog	0
+Ruby	ruby	0
+SaaS	saas	0
+Shift+Alt+Ctrl+	sac	0
+Safari	saf	0
+Safari	safa	0
+Safari	safi	0
+Shift+Alt+	sal	0
+SAMSUNG	sam	0
+SΛMSUNG	sam	0
+SAMSUNG	samg	0
+SΛMSUNG	samg	0
+SAMSUNG	sams	0
+SARS	sars	0
+SATA	sat	0
+SATA	sata	0
+SB	sb	0
+SB	sbl	0
+Shift+Ctrl+Alt+	sca	0
+Schema	scha	0
+Schema	sche	0
+Shift+Ctrl+	scl	0
+Shift+Command+	scl	0
+Shift+Command+	scll	0
+Option+Shift+Command+	sco	0
+Option+Shift+Command+	scol	0
+script	scr	0
+Scrapy	scra	0
+script	scri	0
+ScrollLock	scrk	0
+ScrollLock	scro	0
+Scrapy	scry	0
+SecureCRT	sec	0
+SecureCRT	sect	0
+SecureCRT	secu	0
+select	sel	0
+Selina	sel	0
+select	sele	0
+Selina	seli	0
+select	selt	0
+SEO	seo	0
+Server	ser	0
+setup	set	0
+setup	setp	0
+setup	setu	0
+Shadowsocks	sha	0
+Shadowsocks	shad	0
+Shadowsocks	shas	0
+S.H.E.	she	0
+Shell	she	0
+shell	she	0
+Shell	shel	0
+shell	shel	0
+Shift	shi	0
+Shift+	shi	0
+Shift+	shif	0
+Shift+	shit	0
+SIM	sim	0
+Siri	siri	0
+six six six	sixx	0
+Happy birthday	sjnq	0
+Sketch	ske	0
+Sketch	skeh	0
+Sketch	sket	0
+skr	skr	0
+Skype	sky	0
+Skype	skye	0
+Skype	skyp	0
+Smartisan	sman	0
+Smartisan	smar	0
+SMTP	smtp	0
+SOC	soc	0
+Option+Shift+Command+	soc	0
+Option+Shift+Command+	socl	0
+SOD	sod	0
+Option+Shift+	sol	0
+solo	solo	0
+SOS	sos	0
+Space	spa	0
+Space	spac	0
+Space	spae	0
+Spark	spar	0
+SpaceX	spax	0
+S Pen	spe	0
+S Pen	spen	0
+Spotlight	spo	0
+Spotlight	spot	0
+Spotify	spot	0
+Spotify	spoy	0
+SQL	sql	0
+Sqoop	sqoo	0
+srds	srds	0
+sRGB	srgb	0
+SSD	ssd	0
+SSH	ssh	0
+SSID	ssid	0
+static	sta	0
+Static	sta	0
+static	stac	0
+Static	stac	0
+static	stat	0
+Static	stat	0
+Steam	ste	0
+Steam	stea	0
+Steam	stem	0
+STL	stl	0
+Store	sto	0
+Store	stoe	0
+Store	stor	0
+string	str	0
+String	str	0
+Studio	stud	0
+Studio	stuo	0
+Sublime	subl	0
+Sublime Text	subt	0
+sudo	sudo	0
+Supreme	supe	0
+Supreme	supr	0
+Surface	sur	0
+Surface Book	surb	0
+Surface Go	surg	0
+Surface Laptop	surl	0
+Surface Pro	surp	0
+Surface Studio	surs	0
+SUSE	suse	0
+SUV	suv	0
+SVG	svg	0
+SVIP	svip	0
+Switch	swi	0
+Swift	swi	0
+Swift	swif	0
+Switch	swih	0
+Switch	swit	0
+Swift	swit	0
+Ta	ta	0
+TA	ta	0
+Tab	tab	0
+Tahoma	taha	0
+Tahoma	taho	0
+Ta	tal	0
+TA	tal	0
+tallwide	tall	0
+tan90°	tan	0
+taobao.com	tao	0
+Taptic Engine	tap	0
+Taptic	tapc	0
+Taptic Engine	tape	0
+Taptic	tapt	0
+tar.gz	tar	0
+tar.gz	targ	0
+TAT	tat	0
+TCP	tcp	0
+TCP/IP	tcpp	0
+TD-LTE	tdle	0
+TD-LTE	tdlt	0
+TDMA	tdma	0
+TD-SCDMA	tdsa	0
+TD-SCDMA	tdsc	0
+Telegram	tel	0
+Telegram	tele	0
+Telegram	telm	0
+Tencent	ten	0
+Tencent	tenc	0
+Tencent	tent	0
+TESTV	tes	0
+Tesla	tesa	0
+Tesla	tesl	0
+test	test	0
+TestFlight	test	0
+TESTV	tesv	0
+TFBOYS	tfb	0
+The Beatles	theb	0
+The Beatles	thes	0
+ThinkPad	thi	0
+ThinkBook	thi	0
+ThinkPHP	thip	0
+this	this	0
+Thunderbolt	thu	0
+Thunderbolt	thun	0
+Touch ID	tid	0
+tif	tif	0
+tiff	tiff	0
+TikTok	tik	0
+TikTok	tikk	0
+TikTok	tikt	0
+TIM	tim	0
+TiMi	timi	0
+Times New Roman	timn	0
+Times New Roman	timr	0
+tion	tion	0
+tip	tip	0
+tips	tips	0
+TM	tm	0
+TMD	tmd	0
+TM	tml	0
+T-Mobile	tmo	0
+T-Mobile	tmob	0
+T-Mobile	tmoe	0
+Times New Roman	tnr	0
+To-Do List	todl	0
+To-Do	todo	0
+TOEFL	toef	0
+TOEFL	toel	0
+too young too simple	tooe	0
+Topre	topr	0
+torrent	tor	0
+torrent	torr	0
+torrent	tort	0
+toString	tos	0
+Touch ID	tou	0
+Touch	tou	0
+Touch Bar	toub	0
+Touch ID	touc	0
+Touch	touc	0
+Touch ID	toud	0
+Touch	touh	0
+Touch Bar	tour	0
+ThinkPad	tp	0
+ThinkPad X1 Carbon	tpx	0
+ThinkPad X1 Carbon	tpxc	0
+tql	tql	0
+tql8	tqlb	0
+tql8	tqlm	0
+true	tru	0
+True	tru	0
+true	true	0
+True	true	0
+Tumblr	tum	0
+Tumblr	tumb	0
+Tumblr	tumr	0
+Tv	tvl	0
+TV	tvl	0
+Twitter	twi	0
+Twitter	twit	0
+Type-C	typ	0
+typeof	typ	0
+Type-C	typc	0
+Type-C	type	0
+typeof	type	0
+typeof	typf	0
+too young too simple	tyts	0
+Ubuntu	ubu	0
+Ubuntu	ubun	0
+UDP	udp	0
+UEFI	uefi	0
+UFS	ufs	0
+618	ugm	0
+u1s1	ugsg	0
+Undefined	und	0
+undefined	und	0
+Undefined	undd	0
+undefined	undd	0
+Undefined	unde	0
+undefined	unde	0
+Unicode	uni	0
+uninst	uni	0
+uninst	unin	0
+Unit	unit	0
+uninst	unit	0
+UNIX	unix	0
+Unix	unix	0
+Upload	upl	0
+Upload	upld	0
+Upload	uplo	0
+m³	upo	0
+m³	upoy	0
+URL	url	0
+Happy New Year	urnq	0
+USB	usb	0
+USB-A	usba	0
+USB Hub	usbb	0
+USB-C	usbc	0
+USB3.0	usbd	0
+USB3.1	usbd	0
+USB2.0	usbf	0
+USB Hub	usbh	0
+UTF	utf	0
+UTF-16	utff	0
+UTF-16	utfg	0
+UTF-8	utfm	0
+UTF-16	utfu	0
+UWP	uwp	0
+Valentine's Day	vald	0
+Valentine's Day	valy	0
+vCenter	vce	0
+Valentine's Day	vdl	0
+V2EX	vfe	0
+V2EX	vfex	0
+VGA	vga	0
+91porn	vgpn	0
+91porn	vgpo	0
+VIP	vip	0
+VirtualBox	vir	0
+VirtualBox	virt	0
+VirtualBox	virx	0
+Visio	vis	0
+Vista	visa	0
+VISA	visa	0
+Visio	visi	0
+Visio	viso	0
+Visual Studio	viso	0
+Vista	vist	0
+Visual Studio	visu	0
+vivo	viv	0
+vivo	vivo	0
+vivo NEX	vivx	0
+VLAN	vlan	0
+vlog	vlo	0
+VLOOKUP	vlo	0
+vlog	vlog	0
+VMware	vm	0
+VMnet	vmn	0
+VMnet	vmne	0
+VMnet	vmnt	0
+VMware	vmw	0
+VMware Workstation	vmwn	0
+VMware Workstation	vmww	0
+VOL	vol	0
+VoLTE	vol	0
+VoLTE	vole	0
+VoLTE	volt	0
+VPN	vpn	0
+VS Code	vsc	0
+Video Speed Controller	vsc	0
+Visual Studio Code	vsc	0
+VsCode	vsco	0
+Visual Studio	vsl	0
+vSphere	vsp	0
+Vue	vue	0
+Vue.js	vue	0
+996	vvu	0
+WampServer	wam	0
+wampserver	wamp	0
+Watch	wat	0
+Watch	watc	0
+Watch	wath	0
+watchOS	wato	0
+watchOS	wats	0
+WCBA	wcba	0
+WCDMA	wcda	0
+WCDMA	wcdm	0
+W3C	wdc	0
+wdnmd	wdnd	0
+wdnmd	wdnm	0
+Web	web	0
+WebStorm	webm	0
+webp	webp	0
+WebStorm	webs	0
+WeChat	wec	0
+WeChat	wech	0
+WeChat	wect	0
+weibo.com	wei	0
+Wh	wh	0
+What	wha	0
+What	what	0
+while	whi	0
+while	whie	0
+while	whil	0
+Wh	whl	0
+Why	why	0
+width	wid	0
+wifi	wifi	0
+WiFi	wifi	0
+Wi-Fi	wifi	0
+wifi6	wifu	0
+Wikipedia	wiki	0
+Win	win	0
+Windows	win	0
+Win 7	wina	0
+Windows 7	wina	0
+Windows Defender	wind	0
+Win 10	winf	0
+Windows 10	winf	0
+Win 11	wing	0
+Windows 11	wing	0
+Win To Go	wing	0
+Windows To Go	wing	0
+Win 8	winm	0
+Windows 8	winm	0
+Win To Go	wino	0
+Windows To Go	wino	0
+Windows XP	winp	0
+WindowsPhone	winp	0
+WinRAR	winr	0
+Windows Vista	winv	0
+Windows XP	winx	0
+WLAN	wla	0
+WLAN	wlan	0
+WLTP	wltp	0
+Windows Media Player	wmp	0
+WNBA	wnba	0
+Word	wor	0
+WordPress	word	0
+WordPress	worp	0
+WordPress	wors	0
+wow	wow	0
+wow awesome	wowe	0
+WPS	wps	0
+WPS Office	wpse	0
+WPS Office	wpso	0
+WTF	wtfl	0
+What The Fuck	wtfl	0
+WTG	wtgl	0
+WTO	wto	0
+WWDC	wwdc	0
+Xbox	xbo	0
+Xbox	xbox	0
+Xcode	xco	0
+Xcode	xcod	0
+Xcode	xcoe	0
+XDR	xdr	0
+xls	xls	0
+xlsx	xls	0
+XLS	xls	0
+xlsx	xlsx	0
+XML	xml	0
+x86	xmu	0
+XP	xp	0
+XPath	xpa	0
+Xposed	xpo	0
+Xposed	xpod	0
+Xposed	xpos	0
+XPS	xps	0
+Xshell	xsh	0
+xswl	xswl	0
+x64	xul	0
+XXOO	xxoo	0
+Yahoo	yah	0
+Yahoo	yaho	0
+YARN	yarn	0
+yeelight	yee	0
+yeelight	yeel	0
+yeelight	yeet	0
+YouTube	you	0
+you can you up, no can no bb	youb	0
+YSL	ysl	0
+YY	yy	0
+yyds	yyds	0
+YYDS	yyds	0
+yygq	yygq	0
+A.\nB.\nC.\nD.	zab	0
+After Effects	zae	0
+Ctrl+Alt+Delete	zca	0
+Ctrl+Alt+Delete	zcl	0
+dB	zdb	0
+DJ	zdj	0
+Zealer	zea	0
+ZendStudio	zend	0
+Z Flip	zfl	0
+Z Flip	zfli	0
+Z Flip	zflp	0
+-_-||	zhan	0
+zh-cn	zhcn	0
+O(∩_∩)O~	zhe	0
+zh-tw	zhtw	0
+Internet Explorer	zie	0
+ZigBee	zig	0
+zip	zip	0
+Zippo	zip	0
+o(╯□╰)o	zji	0
+kHz	zkh	0
+N/A	zna	0
+__________	zo	0
+Zookeeper	zoo	0
+pH	zph	0
+PhotoShop	zps	0
+Visual Studio	zvs	0
+wampserver	zwa	0
+Windows Phone	zwi	0
+O(∩_∩)O~	zxi	0

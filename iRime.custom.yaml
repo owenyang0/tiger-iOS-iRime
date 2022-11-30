@@ -1,18 +1,6 @@
 patch:
-  style:
-    numberboard_font_size: 24
-    candidate_height_font_color: '0x1181FC'
-    font_name: "default" #字体
-    candidate_font_size: 22.0 #修改栏字体大小
-    candidate_font_color: "0x000000" #候选字体颜色
-    candidate_height_font_color: "0x0080f8" #候选栏高亮字体颜色
-    numberboard_font_size: 26.0 #数字键盘字体大小
-    common_preedited_text_font_size: 14.0 #上下结构，上屏符字体大小
-    inline_preedited_text_font_size: 40
   app_setting:
     is_text_replacement_on: false
-    keyboard_type: 0
-    is_custom_key_font: true
     portrait_keyboard_height_offset: 0
     swipe_upper_to_rime: true
     is_hide_mode_change: true
@@ -43,3 +31,14 @@ patch:
     backspace_swipe_left_to_clear: true #左划退格键清屏
     sync_iCloud: false #iCloud同步
     mark_text: false #内嵌输入符号
+    theme_name: easyboard
+  style:
+    numberboard_font_size: 24
+    candidate_height_font_color: '0x1181FC'
+    font_name: "default" #字体
+    candidate_font_size: 22.0 #修改栏字体大小
+    candidate_font_color: "0x000000" #候选字体颜色
+    candidate_height_font_color: "0x0080f8" #候选栏高亮字体颜色
+    numberboard_font_size: 26.0 #数字键盘字体大小
+    common_preedited_text_font_size: 14.0 #上下结构，上屏符字体大小
+    inline_preedited_text_font_size: 40

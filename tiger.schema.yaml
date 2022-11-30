@@ -51,6 +51,7 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
+    - history_translator@historySJ # 历史上屏 手机  
   filters:
 #    - simplifier
     - uniquifier
@@ -86,6 +87,11 @@ reverse_lookup:
   prefix: "`"
   suffix: "'"
   tips: "〔拼音〕"
+
+historySJ:
+  input: z
+  size: 1
+  initial_quality: 0
 
 punctuator:
   import_preset: symbols
