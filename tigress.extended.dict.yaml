@@ -9,7 +9,7 @@ import_tables:
   - tigress
   - tigress_ci
   - tigress_simp_ci
-  - en_words
+  # - en_words # 常用英文单词，需要可加上
   - user
 columns:
   - text
