@@ -1,4 +1,0 @@
-将 pinyin_simp.custom.yaml 移置 外层文件夹，方能生效
-	即：与 pinyin_simp.schema.yaml 位于同级文件夹内
-
-然后就可以用  ` 键 引导，使用小鹤双拼反查了

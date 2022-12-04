@@ -1,0 +1,125 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: PY_c
+  name: 拼音++
+  version: "0.18"
+
+switches: # 0 默认关，1 默认开
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
+
+engine:
+  processors:
+  # 1.2版本加入的- fluid_editor # 将字符按键记入输入上下文，将输入法连缀成一串
+    - ascii_composer # 处理英文模式及中英文切换
+    - recognizer # 与 matcher 搭配，处理符合特定规则的输入码，如网址、反查等
+    - key_binder # 在特定条件下将按键绑定到其他按键，如重定义逗号、句号为候选翻页键
+    - speller # 把字母追加到编码串
+    - punctuator # 处理符号按键
+    - selector # 选字和换页功能
+    - navigator # 移动插入点
+    - express_editor # 空格确认当前输入，其他字符直接上屏
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@easy_english #英文相关
+    - abc_segmentor # 标记输入码的类型
+    - punct_segmentor # 割界，与前后方的其他编码区分开
+    - fallback_segmentor
+  translators:
+    - echo_translator # 没有其他结果时，创建一个与编码串一样的候选项
+    - punct_translator # 转换标点符号
+    - script_translator # 脚本表转换
+    - reverse_lookup_translator # 反查翻译器
+    - table_translator@easy_english #临时英文
+    - table_translator
+    - history_translator@historySJ # 历史上屏 手机  
+    - lua_translator@number_translator # 数字转大写
+    - lua_translator@calculator_translator # 简易计算器
+    - lua_translator@shijian2_translator # 高级时间
+
+
+  filters:
+    - uniquifier  # 过滤重复的候选字，可能来自简繁转换
+
+speller:
+  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]" # 输入范围 码元
+  delimiter: " '" 
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+  auto_select_pattern: ^;\w+ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏
+
+
+
+translator:
+  dictionary: PY_c #字典文件
+  prism: PY_c
+  initial_quality: 0.5    #该翻译器出字优先级别
+  enable_user_dict: true # 开启用户词典〔用户词典记录动态字词频、用户词〕
+  enable_encoder: true # 开启自动造词
+  # strict_spelling: true
+  enable_sentence: false # 是否开启自动造句
+  enable_completion: false # 编码提示 true 开启  false 关闭
+  encode_commit_history: true # 是否对已上屏的词自动造词
+  max_phrase_length: 99  #自动造词的最长字数
+  user_dict: PY_c    #在本地生成的用户词典名称
+  db_class: tabledb  #用户词典格式，tabledb（文本） 或 userdb （二进制）
+  comment_format:  #提示码自定义
+    - "xform/~/ /" #去掉编码提示前的~号
+  preedit_format: # 上屏码自定义
+    - xform/([nl])v/$1ü/ # 拼音状态下输入nv实际显示nü
+    - xform/([nl])ue/$1üe/ # n或者l后面紧跟着输入ue显示üe
+    - xform/([jqxy])v/$1u/ # j q x y 后面紧跟着输入v 实际显示u
+  #contextual_suggestions: true
+  #max_homophones: 7
+  #max_homographs: 7
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  #  import_preset: default
+  bindings:
+    - {accept: period, send: 2, when: has_menu} #分号次选
+    - {accept: comma, send: 3, when: has_menu} #逗号三选
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    easy_english: "^'[A-Z|a-z]*'?$"
+    expression: "^=.*$"
+    reverse_lookup: "`[a-z]*'?$"
+
+# 笔画反查
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶ㄥ/
+  comment_format:
+    - xform/([nl])v/$1ü/
+    - "xform/^/ /"
+# 临时英文
+easy_english:
+  dictionary: easy_english
+  tag: easy_english
+  prefix: "'"
+  tips: 〔En〕
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: -1
+  preedit_format:
+    - "xlit|_| |"
+  comment_format: #去掉编码提示前的~号
+    - "xform/~//"

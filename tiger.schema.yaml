@@ -2,15 +2,17 @@ schema:
   author:
     - {}
   dependencies:
-    - pinyin_simp
+    - PY_c  # 拼音方案
+    - easy_english # 英文
   description: |
     虎码官方单字
-    敲 ` 鍵進入拼音反查    
+    敲 ` 鍵進入拼音反查
   name: "虎码官方单字"
   schema_id: tiger
   version: 0.9
 
-switches:
+
+switches: # 0 默认关，1 默认开
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
@@ -30,7 +32,7 @@ switches:
 
   - options: [ _keyboard_default, _keyboard_defaultzj]
     states: [ "助记关", "助记开"]
-    
+
 engine:
   processors:
     - ascii_composer
@@ -40,52 +42,62 @@ engine:
     - punctuator
     - selector
     - navigator
-    - express_editor
-  segmentors:
+    - express_editor #计算
+  segmentors:  # 分段
     - ascii_segmentor
     - matcher
+    - affix_segmentor@easy_english #英文相关
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
+    - reverse_lookup_translator #拼音反查
+    - table_translator@easy_english #临时英文
     - table_translator
-    - history_translator@historySJ # 历史上屏 手机  
+    - history_translator@historySJ # 历史上屏 手机
+    - lua_translator@number_translator # 数字转大写
+    - lua_translator@calculator_translator # 简易计算器
+    - lua_translator@shijian2_translator # 高级时间
+
   filters:
-#    - simplifier
-    - uniquifier
-    - charset_filter@gbk
-    - charset_filter@utf8
-    - charset_filter@gb2312
-#    - charset_filter@big5
-#    - reverse_lookup_filter@reverse_lookup
+    - lua_filter@charset_comment_filter #Unicode分区提示滤镜
+    - lua_filter@lua_unicode_display_filter #Unicode编码显示
+    - uniquifier #过滤重复
 
 speller:
   auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true
   max_code_length: 4
   alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
-  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏 + 4码自动上屏
+  # initials: "abcdefghijklmnopqrstuvwxyz;'"
+  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则  对 [;] 开头的编码实行候选唯一自动上屏 + 四码候选唯一自动上屏
+  # 若要关闭四码自动上屏功能，删除  |^\w{4}$  即可
 
 translator:
   dictionary: tiger
   enable_charset_filter: false
-  enable_encoder: true
+  enable_encoder: false
   enable_sentence: false
-  encode_commit_history: true
+  encode_commit_history: false
   max_phrase_length: 4
   enable_user_dict: false
-  enable_completion: false               # 是否显示编码未输入完整的词条
+  enable_completion: false	# 编码提示 true 开启  false 关闭
+  comment_format:  #提示码自定义
+    - "xform/~/ /" #去掉编码提示前的~号
+    # - "xform/^/ /" #提示前面 +间距
+
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: PY_c
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
+  comment_format:
+    - "xform/^/ /"
   prefix: "`"
-  suffix: "'"
+  # suffix: "'"
   tips: "〔拼音〕"
 
 historySJ:
@@ -97,7 +109,7 @@ punctuator:
   import_preset: symbols
 
 key_binder:
-#  import_preset: default
+  #  import_preset: default
   bindings:
     - {accept: period, send: 2, when: has_menu} #分号次选
     - {accept: comma, send: 3, when: has_menu} #逗号三选
@@ -105,22 +117,22 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
     reverse_lookup: "^`[a-z]*'?$"
+    easy_english: "^'[A-Z|a-z]*'?$"
+    expression: "^=.*$"
 
-ascii_composer:
-  switch_key:
-    Caps_Lock: clear
-    Control_L: noop
-    Control_R: noop
-    Eisu_toggle: clear
-    Shift_L: commit_code
-    Shift_R: commit_text
-
-
-#menu:
-#  page_size: 3
-
-
-
+# 临时英文
+easy_english:
+  dictionary: easy_english
+  tag: easy_english
+  prefix: "'"
+  tips: 〔En〕
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: -1
+  preedit_format:
+    - "xlit|_| |"
+  comment_format: #去掉编码提示前的~号
+    - "xform/~//"
 

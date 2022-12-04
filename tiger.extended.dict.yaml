@@ -8,7 +8,7 @@ sort: by_weight
 import_tables:
   - tiger
 # - en_words # 常用英文单词，需要可加上
-  - user
+  - user_custom
 columns:
   - text
   - code

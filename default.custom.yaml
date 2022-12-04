@@ -1,5 +1,6 @@
 patch:
-    schema_list:
+  schema_list:
         - schema: tiger
         - schema: tigress
-        - schema: pinyin_simp
+        - schema: PY_c
+        - schema: easy_english
