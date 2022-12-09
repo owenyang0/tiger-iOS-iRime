@@ -35,6 +35,8 @@ style:
   round_corner: *FJY #符号键盘圆角
   vertical_gap: *FJH #符号键盘行距
   horizontal_gap: *FJL #符号键盘列距
+  # sound: "cherry.caf"
+  sound: "yuanyang.aiff"
 
 #键盘布局
 preset_keyboards:
