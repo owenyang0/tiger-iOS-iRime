@@ -1866,7 +1866,7 @@ local function translator(input, seg)
     candidate = Candidate("date", seg.start, seg._end, date, "")
     yield(candidate)
 
-  elseif (input == "cdate" or input == "/fnl") then
+  elseif (input == "/cdate" or input == "/fnl") then
     date = Date2LunarDate(os.date("%Y%m%d")) .. JQtest(os.date("%Y%m%d"))
     candidate = Candidate("date", seg.start, seg._end, date, "")
     yield(candidate)
