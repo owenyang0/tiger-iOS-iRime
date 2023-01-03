@@ -36,7 +36,8 @@ style:
   vertical_gap: *FJH #符号键盘行距
   horizontal_gap: *FJL #符号键盘列距
   # sound: "cherry.caf"
-  sound: "yuanyang.aiff"
+  # sound: "yuanyang.aiff"
+  sound: "m.aiff"
 
 #键盘布局
 preset_keyboards:
@@ -69,7 +70,7 @@ preset_keyboards:
       - { click: k, label: K, swipe_up: '"' }
       - { click: l, label: L, swipe_up: ';' }
       - { width: 5 }
-      - { click: Shift, width: 12 }
+      - {click: Shift, width: 15}
       # - {width: 1}
       - { click: z, label: Z, swipe_up: '`' }
       - { click: x, label: X, swipe_up: '?' }
@@ -77,17 +78,15 @@ preset_keyboards:
       - { click: v, label: V, swipe_up: piaoFull }
       - { click: b, label: B, swipe_up: '@' }
       - { click: n, label: N, swipe_up: dunFull }
-      - { click: m, label: M, swipe_up: ':', width: 12 }
+      - { click: m, label: M, swipe_up: ':' }
       # - {width: 1}
-      # - {click: ",", label: "三", width: 10}
-      - { click: BackSpace, width: 16 }
-      - { click: number, width: 12 }
-      - { click: english, width: 10 }
-      - { click: ',', label: '③', swipe_up: '，', width: 14 }
-      - { click: space, width: 34 }
-      # - {click: ",", label: " ，", width: 14}
-      - { click: '.', label: '②', swipe_up: '。', width: 14 }
-      - { click: Return, width: 16 }
+      - { click: BackSpace, width: 15}
+      - { click: number, width: 10 }
+      - { click: english, width: 11 }
+      - { click: ',', label: '➂', swipe_up: '，', width: 14 }
+      - { click: space, width: 30 }
+      - { click: '.', label: '➁', swipe_up: '。', width: 14 }
+      - { click: Return, width: 21 }
     name: '默认键盘'
     width: 10
 
