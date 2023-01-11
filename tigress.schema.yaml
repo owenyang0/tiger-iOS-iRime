@@ -7,7 +7,7 @@ schema:
   description: |
     虎码官方小词库
     敲 ` 鍵進入拼音反查
-  name: "虎码官方小词库"
+  name: "虎码官方词库"
   schema_id: tigress
   version: 0.9
 

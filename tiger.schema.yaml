@@ -61,8 +61,6 @@ engine:
     - lua_translator@shijian2_translator # 高级时间
 
   filters:
-    - lua_filter@charset_comment_filter #Unicode分区提示滤镜
-    - lua_filter@lua_unicode_display_filter #Unicode编码显示
     - uniquifier #过滤重复
 
 speller:
