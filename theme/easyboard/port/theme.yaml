@@ -9,8 +9,8 @@ author: 木易 #作者资讯
 height:
   A: &BMG 18 #编码区高度
   B: &HXG 28 #候选区高度
-  C: &VJG 46 #主键盘行高
-  D: &FJG 46 #符号键盘行高
+  C: &VJG 43 #主键盘行高
+  D: &FJG 43 #符号键盘行高
 other:
   E: &VJH 11 #主键盘行间距
   F: &VJL 4 #主键盘列间距
@@ -83,10 +83,10 @@ preset_keyboards:
       - { click: BackSpace, width: 15}
       - { click: number, width: 10 }
       - { click: english, width: 11 }
-      - { click: ',', label: '➂', swipe_up: '，', width: 14 }
-      - { click: space, width: 30 }
-      - { click: '.', label: '➁', swipe_up: '。', width: 14 }
-      - { click: Return, width: 21 }
+      - { click: ',', label: '➂', swipe_up: '，', width: 12 }
+      - { click: space, width: 36 }
+      - { click: '.', label: '➁', swipe_up: '。', width: 12 }
+      - { click: Return, width: 19 }
     name: '默认键盘'
     width: 10
 
