@@ -60,6 +60,7 @@ engine:
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
 
+
   filters:
     - uniquifier #过滤重复
 
@@ -69,8 +70,8 @@ speller:
   max_code_length: 4
   alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
   # initials: "abcdefghijklmnopqrstuvwxyz;'"
-  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则  对 [;] 开头的编码实行候选唯一自动上屏 + 四码候选唯一自动上屏
-  # 若要关闭四码自动上屏功能，删除  |^\w{4}$  即可
+  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
+  # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
   dictionary: tiger
@@ -86,25 +87,24 @@ translator:
     # - "xform/^/ /" #提示前面 +间距
 
 
+# 拼音反查
 reverse_lookup:
   dictionary: PY_c
+  prefix: "`"
+  tips: "〔拼音〕"
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   comment_format:
     - "xform/^/ /"
-  prefix: "`"
   # suffix: "'"
-  tips: "〔拼音〕"
 
 historySJ:
   input: z
   size: 1
   initial_quality: 0
 
-punctuator:
-  import_preset: symbols
 
 key_binder:
   #  import_preset: default
@@ -132,5 +132,7 @@ easy_english:
   preedit_format:
     - "xlit|_| |"
   comment_format: #去掉编码提示前的~号
-    - "xform/~//"
+    - "xform/~/ /"
 
+punctuator:
+  import_preset: symbols

@@ -70,10 +70,10 @@ translator:
   encode_commit_history: false
   enable_completion: true
   enable_user_dict: true
-  preedit_format:
-    - xlit|_| |
-  comment_format:
-    - xlit|_| |
+  # preedit_format:
+  #   - xlit|_| |
+  # comment_format:
+  #   - xlit|_| |
 
 
 punctuator:

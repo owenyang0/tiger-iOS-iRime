@@ -5,7 +5,7 @@ schema:
     - PY_c  # 拼音方案
     - easy_english # 英文
   description: |
-    虎码官方小词库
+    虎码官方词库
     敲 ` 鍵進入拼音反查
   name: "虎码官方词库"
   schema_id: tigress
@@ -74,7 +74,8 @@ speller:
   max_code_length: 4
   alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
   # initials: "abcdefghijklmnopqrstuvwxyz;'"
-  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏 + 4码自动上屏
+  auto_select_pattern: ^;\w+|^\w{4}$ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
+  # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
   dictionary: tigress
@@ -92,23 +93,21 @@ translator:
 
 reverse_lookup:
   dictionary: PY_c
+  prefix: "`"
+  tips: "〔拼音〕"
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   comment_format:
     - "xform/^/ /"
-  prefix: "`"
   # suffix: "'"
-  tips: "〔拼音〕"
 
 historySJ:
   input: z
   size: 1
   initial_quality: 0
 
-punctuator:
-  import_preset: symbols
 
 key_binder:
   #  import_preset: default
@@ -122,15 +121,8 @@ recognizer:
     punct: "^/([0-9]0?|[A-Za-z]+)$"
     reverse_lookup: "^`[a-z]*'?$"
     easy_english: "^'[A-Z|a-z]*'?$"
+    expression: "^=.*$"
 
-ascii_composer:
-  switch_key:
-    Caps_Lock: clear
-    Control_L: noop
-    Control_R: noop
-    Eisu_toggle: clear
-    Shift_L: commit_code
-    Shift_R: commit_text
 
 # 临时英文
 easy_english:
@@ -144,4 +136,7 @@ easy_english:
   preedit_format:
     - "xlit|_| |"
   comment_format: #去掉编码提示前的~号
-    - "xform/~//"
+    - "xform/~/ /"
+
+punctuator:
+  import_preset: symbols

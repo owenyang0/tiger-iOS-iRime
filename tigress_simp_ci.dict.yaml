@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.01.02"
+version: "2023.01.26"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -219,7 +219,7 @@ encoder:
 不管	1400	cr
 不算	1300	cr
 不让	1400	cs
-爆发	1300	cs
+不论	1300	cs
 不用	1400	ct
 不被	1300	ct
 支持	1400	cu
@@ -273,7 +273,7 @@ encoder:
 中国	1400	dr
 吃了	1300	dr
 无论	1400	ds
-听说	1300	ds
+无语	1300	ds
 无限	1400	dt
 只需	1300	dt
 别的	1400	du
@@ -357,7 +357,7 @@ encoder:
 一声	1400	fg
 望着	1300	fg
 事情	1400	fh
-一条	1300	fh
+开心	1300	fh
 一般	1400	fi
 更新	1300	fi
 一丝	1200	fi
@@ -371,7 +371,7 @@ encoder:
 正确	1400	fm
 一遍	1300	fm
 下班	1400	fn
-一直	1300	fn
+下载	1300	fn
 于是	1400	fo
 顿时	1300	fo
 一起	1400	fp
@@ -395,7 +395,7 @@ encoder:
 神色	1300	fx
 政府	1200	fx
 一致	1400	fy
-天上	1300	fy
+一点	1300	fy
 与其	1400	fz
 一身	1300	fz
 恶魔	1200	fz
@@ -814,8 +814,8 @@ encoder:
 理解	1400	nx
 在意	1300	nx
 有点	1400	ny
-感到	1300	ny
-直到	1200	ny
+马上	1300	ny
+感到	1200	ny
 有钱	1400	nz
 黄金	1300	nz
 时间	1400	oa
@@ -1026,8 +1026,8 @@ encoder:
 皮肤	1300	rv
 国家	1400	rw
 回家	1300	rw
-之后	1400	rx
-了解	1300	rx
+了解	1400	rx
+之后	1300	rx
 回到	1400	ry
 等到	1300	ry
 对错	1400	rz
@@ -1123,8 +1123,8 @@ encoder:
 除非	1300	tr
 用力	1400	ts
 露出	1300	ts
-费用	1400	tt
-附近	1300	tt
+附近	1400	tt
+费用	1300	tt
 阶段	1400	tu
 震撼	1300	tu
 需要	1400	tv
@@ -1239,8 +1239,8 @@ encoder:
 脾气	1300	vv
 这次	1400	vw
 比赛	1300	vw
-然后	1400	vx
-以后	1300	vx
+以后	1400	vx
+然后	1300	vx
 比较	1400	vy
 导致	1300	vy
 改变	1400	vz
@@ -1371,7 +1371,7 @@ encoder:
 连续	1400	yi
 当即	1300	yi
 爱你	1400	yj
-战斗	1300	yj
+到位	1300	yj
 上海	1400	yk
 上学	1300	yk
 上方	1400	yl
@@ -1462,6 +1462,7 @@ encoder:
 哥哥	1400	zz
 某某	1300	zz
 布洛芬	400	nkl
+自然码	400	ovm
 一个人	1359	fjj
 在一起	906	nfp
 是不是	882	oco
@@ -1479,7 +1480,6 @@ encoder:
 这件事	609	vjf
 我觉得	603	tkw
 一辈子	591	frh
-一句话	591	fgs
 有没有	588	nkn
 世界上	588	lqy
 过程中	579	kxd
@@ -1636,7 +1636,6 @@ encoder:
 表现出	312	ans
 想办法	312	esk
 再一次	309	ffw
-心理学	306	hnk
 拿出来	306	jsa
 第三人	303	rtj
 不至于	303	cyf
@@ -1747,6 +1746,7 @@ encoder:
 不适合	258	caj
 不动产	255	cbi
 所在地	255	mng
+投资者	255	uwq
 朱元璋	255	tmn
 算什么	255	rjt
 很开心	255	wfh
@@ -1762,6 +1762,7 @@ encoder:
 影响力	252	ods
 不希望	249	cbf
 这一年	249	vfe
+蛋白质	249	tux
 首先要	249	hqv
 看清楚	249	uke
 就不是	246	gco
@@ -1892,7 +1893,6 @@ encoder:
 出问题	204	sao
 分不清	204	hck
 上一次	204	yfw
-玩意儿	204	nxp
 一回事	204	frf
 几年前	204	oeh
 一阵阵	204	ftt
@@ -1933,7 +1933,6 @@ encoder:
 赵子龙	195	pht
 会议室	195	jsw
 常委会	195	sxj
-西班牙	195	vnl
 嗓子眼	195	dhq
 不能不	192	ckc
 须菩提	192	elu
@@ -1962,6 +1961,9 @@ encoder:
 怕什么	189	hjt
 不乐意	189	cbx
 看热闹	189	uua
+虞书欣	189	zat
+光刻机	189	mke
+观景台	189	rok
 第一眼	186	rfq
 一丝丝	186	fii
 我们的	186	tju
@@ -2002,7 +2004,6 @@ encoder:
 财产权	180	oie
 张爱玲	180	byn
 是一个	180	ofj
-吸血鬼	180	dta
 受害者	180	ywq
 新技术	180	iue
 创始人	180	jbj
@@ -2195,6 +2196,7 @@ encoder:
 徐志摩	156	wgz
 一年前	156	feh
 有一个	156	nfj
+蒲公英	153	lhl
 原则上	153	xoy
 一肚子	153	fvh
 流动性	153	kbh
@@ -2214,7 +2216,6 @@ encoder:
 矿泉水	153	muk
 阶段性	153	tuh
 老东西	153	qrv
-婚姻法	153	bbk
 掉眼泪	153	uqk
 武汉市	153	fkz
 试试看	153	ssu
@@ -2359,6 +2360,7 @@ encoder:
 快一点	141	hfy
 好男人	138	bqj
 聊聊天	138	qqf
+好端端	138	bii
 话语权	138	sse
 社会性	138	fjh
 大少爷	138	myh
@@ -2383,7 +2385,6 @@ encoder:
 用得着	138	twg
 真心话	138	nhs
 不怕死	138	chg
-赤裸裸	138	gtt
 高素质	138	gax
 一个月	138	fjv
 打麻将	138	uza
@@ -2414,6 +2415,7 @@ encoder:
 背地里	138	agd
 落脚点	138	lvy
 丧门星	138	gao
+孤儿院	135	hpt
 黄鼠狼	135	npm
 县级市	135	fiz
 守护者	135	wuq
@@ -2425,7 +2427,6 @@ encoder:
 财务部	135	ohi
 后半夜	135	xhz
 不能再	135	ckf
-全家人	135	jwj
 云南省	135	bny
 小白兔	135	yuw
 弟兄们	135	hdj
@@ -2433,6 +2434,7 @@ encoder:
 指不定	135	ucw
 不亚于	135	cff
 小说家	135	ysw
+孤零零	135	htt
 马拉松	135	nue
 微生物	135	wlq
 并发症	135	hsa
@@ -2440,7 +2442,6 @@ encoder:
 小女生	135	ybl
 国家级	135	rwi
 社会上	135	fjy
-持续性	135	uih
 攻击性	135	uuh
 有本事	135	nef
 武当山	135	fyv
@@ -2498,7 +2499,6 @@ encoder:
 里程碑	132	dxm
 程序员	132	xxd
 惹不起	132	lcp
-手术室	132	uew
 穆斯林	132	xze
 性教育	132	hqb
 小提琴	132	yun
@@ -2710,6 +2710,7 @@ encoder:
 建立起	120	bip
 试探性	120	suh
 不同的	120	cmu
+麦克风	120	aco
 这说明	120	vso
 好几年	120	boe
 明白人	120	ouj
@@ -2744,6 +2745,7 @@ encoder:
 建筑师	120	brp
 充其量	120	bzo
 建设性	120	bsh
+多渠道	120	lkh
 大都市	120	mqz
 又怎样	120	rwe
 都应该	120	qxs
@@ -2829,6 +2831,8 @@ encoder:
 菲尔德	117	lxw
 杀人罪	117	bjy
 亚文化	117	fvj
+座头鲸	117	xww
+罗宾汉	117	ywk
 碧绿色	117	nix
 流传于	117	kjf
 不会的	117	cju
@@ -2837,8 +2841,6 @@ encoder:
 正中间	117	fda
 呆婆鸭	117	dks
 另一段	117	dfu
-中概股	117	dev
-铁了心	117	zrh
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -2882,7 +2884,6 @@ encoder:
 菩提树	114	lue
 总决赛	114	hww
 主心骨	114	ihf
-相对于	114	erf
 有句话	114	ngs
 戏剧性	114	rch
 老前辈	114	qhr
@@ -2964,7 +2965,6 @@ encoder:
 包围圈	111	nrr
 鉴定书	111	pwa
 灰蒙蒙	111	nll
-书呆子	111	adh
 昏沉沉	111	bkk
 用户名	111	tml
 豁出去	111	wsg
@@ -3085,10 +3085,10 @@ encoder:
 碎片化	108	maj
 同一天	108	mff
 选拔赛	108	quw
-所谓的	108	msu
 了下来	108	rfa
 四合院	108	yjt
 游乐场	108	kbg
+重量级	108	loi
 高新区	108	gin
 家长会	108	wpj
 播放器	108	uld
@@ -3136,7 +3136,6 @@ encoder:
 海淀区	108	kkn
 永久性	108	ixh
 录音机	108	bxe
-花果山	108	lqv
 不敢当	108	cay
 备忘录	108	hfb
 刘禹锡	108	vtz
@@ -3311,6 +3310,7 @@ encoder:
 简单的	102	rhu
 注册表	102	kia
 电焊机	102	oce
+红蜻蜓	102	icc
 小狼毫	102	ymg
 双飞燕	102	rcl
 化粪池	102	jpk
@@ -3318,6 +3318,7 @@ encoder:
 打草稿	102	ulx
 不搭调	102	cus
 达尔优	102	mxj
+陀螺仪	102	tcj
 次密接	102	wwu
 客制化	102	wqj
 算术题	102	reo
@@ -3333,6 +3334,7 @@ encoder:
 静电容	102	aow
 腐殖质	102	xgx
 三次元	102	twm
+耙耳朵	102	aqo
 云同步	102	bms
 云网盘	102	bmi
 哈希表	102	dba
@@ -3370,7 +3372,6 @@ encoder:
 即日起	102	iop
 那一日	102	afo
 交换膜	102	auv
-巴旦木	102	moe
 乌眼青	102	xqa
 高大上	102	gmy
 舒适区	102	jan
@@ -3380,7 +3381,6 @@ encoder:
 杀疯了	102	bar
 逆行者	102	hpq
 爷青回	102	har
-短视频	102	ofs
 广色域	102	xxg
 菟丝花	102	lil
 分辨率	102	hnz
@@ -3445,7 +3445,6 @@ encoder:
 中国话	102	drs
 年夜饭	102	ezq
 私生活	102	xlk
-初中生	102	tdl
 月收入	102	vij
 废弃物	102	xbq
 设计者	102	ssq
@@ -3461,7 +3460,6 @@ encoder:
 垫脚石	102	uvm
 鸡尾酒	102	rck
 不好惹	102	cbl
-尿毒症	102	caa
 起重机	102	ple
 大会堂	102	mjs
 小宝宝	102	yww
@@ -3626,7 +3624,6 @@ encoder:
 导火索	96	vcn
 记事本	96	sfe
 高材生	96	gel
-大字报	96	mwu
 注射器	96	kzd
 性激素	96	hka
 生物体	96	lqj
@@ -3661,8 +3658,10 @@ encoder:
 彼此间	96	wsa
 一切都	96	frq
 继承者	96	iaq
+连云港	96	ybk
 祖师爷	96	fph
 记者会	96	sqj
+不愧为	96	chi
 荷包蛋	96	lnt
 郭德纲	96	gwi
 包装盒	96	naj
@@ -3718,7 +3717,6 @@ encoder:
 高速路	96	gxp
 管委会	96	rxj
 紧迫性	96	puh
-广寒宫	96	xww
 电子化	96	ohj
 好玩儿	96	bnp
 聚光灯	96	qmc
@@ -3749,6 +3747,7 @@ encoder:
 提意见	96	uxe
 脚趾头	96	vpw
 不低于	96	cjf
+防晒霜	96	tot
 购买力	96	oas
 严肃性	96	fbh
 大无畏	96	mdq
@@ -3775,6 +3774,7 @@ encoder:
 活到老	93	kyq
 肯定是	93	swo
 的过程	93	ukx
+装甲车	93	asy
 金戒指	93	zpu
 复活节	93	ekl
 保温杯	93	jke
@@ -3833,7 +3833,6 @@ encoder:
 水晶宫	93	kow
 包装纸	93	nai
 小拇指	93	yuu
-手提箱	93	uur
 厚脸皮	93	xvr
 黑吃黑	93	pdp
 大小便	93	myj
@@ -3858,7 +3857,6 @@ encoder:
 障眼法	93	tqk
 替死鬼	93	hga
 直流电	93	nko
-运动场	93	bbg
 大法官	93	mkw
 菟丝子	93	lih
 小儿科	93	ypx
@@ -3866,7 +3864,6 @@ encoder:
 回形针	93	rfz
 连锅端	93	yzi
 联交所	93	qam
-逻辑性	93	yyh
 原生态	93	xlm
 敌占区	93	ayn
 死对头	93	grw
@@ -3923,7 +3920,6 @@ encoder:
 忽必烈	93	nhg
 葛洲坝	93	lkg
 不包括	93	cnu
-原发性	93	xsh
 安乃近	93	wvt
 迦太基	93	smz
 啥玩意	93	dnx
@@ -3946,13 +3942,13 @@ encoder:
 注射液	90	kzk
 怀俄明	90	hjo
 卯是卯	90	bob
-夹肢窝	90	hve
 方向性	90	lth
 瓜子脸	90	yhv
 不对头	90	crw
 斯宾塞	90	zww
 复合物	90	ejq
 相当大	90	eym
+羞答答	90	grr
 走捷径	90	puw
 低血压	90	jtx
 密特朗	90	wqi
@@ -4020,12 +4016,10 @@ encoder:
 司线员	90	aid
 刮雨器	90	atd
 利改税	90	xvx
-碘钨灯	90	mzc
 紫穗槐	90	sxe
 载畜量	90	nzo
 拿摩温	90	jzk
 苛性钠	90	lhz
-有蹄类	90	npp
 灭音器	90	fxd
 商籁体	90	irj
 派力司	90	ksa
@@ -4077,6 +4071,7 @@ encoder:
 宫颈癌	90	wra
 交通警	90	akl
 电子书	90	oha
+上档次	90	yew
 够得着	90	gwg
 我不想	90	tce
 我怎么	90	twt
@@ -4161,6 +4156,7 @@ encoder:
 老规矩	90	qho
 领导层	90	jvc
 唐人街	90	xjp
+钟南山	90	znv
 练习生	90	izl
 教导员	90	qvd
 衣帽间	90	tra
@@ -4170,6 +4166,7 @@ encoder:
 百叶窗	90	fde
 圆明园	90	ror
 监视器	90	pfd
+超声波	90	pgk
 爵士乐	90	ygb
 文工团	90	vur
 易拉罐	90	oua
@@ -4187,7 +4184,6 @@ encoder:
 金创药	87	zjl
 巨无霸	87	ndt
 排泄物	87	ukq
-伊甸园	87	jnr
 陆战队	87	tyt
 杀无赦	87	bdg
 消费税	87	ktx
@@ -4331,6 +4327,7 @@ encoder:
 波罗蜜	87	kyw
 再加上	87	fsy
 竟然是	87	xvo
+我们也	87	tje
 不出来	87	csa
 产生的	87	ilu
 强大的	87	bmu
@@ -4338,7 +4335,6 @@ encoder:
 赤卫队	87	gzt
 禁卫军	87	ezw
 服务台	87	vhk
-柏油路	87	ekp
 摩洛哥	87	zkz
 大中小	87	mdy
 尼古拉	87	ccu
@@ -4366,6 +4362,7 @@ encoder:
 我现在	87	tnn
 印花税	87	blx
 老掉牙	87	qul
+肥皂剧	87	vuc
 连锁店	87	yzx
 老城区	87	qgn
 张学友	87	bkn
@@ -4384,6 +4381,7 @@ encoder:
 忧郁症	87	hna
 吸尘器	87	dyd
 急转弯	87	xyz
+飞机场	87	ceg
 小意思	87	yxq
 散文诗	87	lvs
 消炎药	87	kcl
@@ -4412,7 +4410,6 @@ encoder:
 若干年	87	lee
 低年级	87	jei
 我可以	87	tzv
-你是我	87	jot
 示意图	84	fxr
 托儿所	84	upm
 计划性	84	sph
@@ -4524,6 +4521,7 @@ encoder:
 哈士奇	84	dgm
 不着调	84	cgs
 正经事	84	fif
+连日来	84	yoa
 考察队	84	qwt
 服兵役	84	vtw
 蒙古包	84	lcn
@@ -4568,7 +4566,6 @@ encoder:
 实力派	84	wsk
 爱琴海	84	ynk
 阿房宫	84	tmw
-篮球赛	84	rnw
 无不可	84	dcz
 金手指	84	zuu
 据了解	84	urx
@@ -4684,17 +4681,21 @@ encoder:
 戴高乐	81	ngb
 绕口令	81	idj
 表达式	81	amp
+随身听	81	tzd
 核电站	81	eoi
 卢沟桥	81	yke
+四环素	81	yna
 办不成	81	scn
 代理费	81	jnt
 材料费	81	ept
 交不起	81	acp
 上海话	81	yks
+超短裙	81	pot
 颈椎病	81	rea
 电脑城	81	ovg
 档案馆	81	ewq
 太原市	81	mxz
+男人味	81	qjd
 适应症	81	axa
 广域网	81	xgm
 一口价	81	fdj

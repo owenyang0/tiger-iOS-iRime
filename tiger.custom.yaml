@@ -1,11 +1,33 @@
+#下面的 #号 是注释符，注释了就无效了，删掉即可生效
+
 patch:
-  translator/dictionary: tiger.extended
-  #style/comment_font: TunmanPUA.ttf  #手机端，滤镜区显示字体，包括拆分，拼音等
-  #menu/page_size: 9  #自定义候选个数，主方案默认是9个，这里可覆盖
-  #style/font_point: 15  #字号大小
-  #style/font_face: LXGW WenKai GB Screen R  #字体设置
-  #style/horizontal: false  #默认true横排显示,改为false可竖排显示
-  #style/inline_preedit: true  #嵌入编码，改为false可关闭
-
-
-#上面的 #号 是注释符，删掉即可生效
+  translator/dictionary: tiger.extended #引入增补自定词典，这个不要改动
+  style/horizontal: false # 默认false竖排显示,改为true横排可显示
+  menu/page_size: 9 # 自定义候选个数，主方案默认是9个，这里可修改
+  style/mark_text: "" # 编号前自定标志，可在引号内加其他emoji 如：🐯 或 🐮 或 😅
+  menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 自定义候选序号显示符，可自定修改，如要显示阿拉伯数字，直接注释掉这行（在前面加#号）
+  #translator/enable_completion: true # 编码提示true开启，false关闭。默认关闭，删掉行首的#号，即可开启
+  # 以下是备选样式（自行删除#号即可生效，只能生效一种）
+  #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
+  #menu/alternative_select_labels: [ ❶,❷,❸,❹,❺,❻,❼,❽,❾,❿ ]
+  #menu/alternative_select_labels: [ ⓵,⓶,⓷,⓸,⓹,⓺,⓻,⓼,⓽,⓾ ]
+  #menu/alternative_select_labels: [ ㊀,㊁,㊂,㊃,㊄,㊅,㊆,㊇,㊈,㊉ ]
+  #menu/alternative_select_labels: [ ㈠,㈡,㈢,㈣,㈤,㈥,㈦,㈧,㈨,㈩ ]
+  #menu/alternative_select_labels: [ 🀇,🀈,🀉,🀊,🀋,🀌,🀍,🀎,🀏,🀄 ]
+  #menu/alternative_select_labels: [ Ⅰ,Ⅱ,Ⅲ,Ⅳ,Ⅴ,Ⅵ,Ⅶ,Ⅷ,Ⅸ,Ⅹ ]
+  #menu/alternative_select_labels: [ ⅰ,ⅱ,ⅲ,ⅳ,ⅴ,ⅵ,ⅶ,ⅷ,ⅸ,ⅹ ]
+  #menu/alternative_select_labels: [ Ⓐ,Ⓑ,Ⓒ,Ⓓ,Ⓔ,Ⓕ,Ⓖ,Ⓗ,Ⓘ,Ⓙ ]
+  #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
+  #style/preedit_type: preview # 嵌入首选项内容，而非编码。有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
+  #style/layout/margin_y : -300 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
+  #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
+  #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 开启四码上屏功能
+  # 滤镜内容字体
+  #style/comment_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/comment_font_point: 15 # 滤镜内容字号
+  # 候选字体
+  #style/font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/font_point: 15 #主字体字号
+  # 候选前编号标志字体
+  #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/label_font_point: 15 #候选前编号标志字号

@@ -5,6 +5,9 @@ schema:
   schema_id: PY_c
   name: 拼音++
   version: "0.18"
+  dependencies:
+    - stroke
+    - easy_english
 
 switches: # 0 默认关，1 默认开
   - name: ascii_mode
@@ -49,22 +52,39 @@ engine:
     - uniquifier  # 过滤重复的候选字，可能来自简繁转换
 
 speller:
-  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]" # 输入范围 码元
+  alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 输入范围 码元
   delimiter: " '" 
+  # auto_select: true
+  # auto_select_pattern: ^;\w+ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏
   algebra:
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
-  auto_select_pattern: ^;\w+ #自动上屏规则 对 [;] 开头的编码实行候选唯一自动上屏
+    # - derive/^([nl])ue$/$1ve/
+    # - derive/^([jqxy])u/$1v/
+    # - derive/un$/uen/
+    # - derive/ui$/uei/
+    # - derive/iu$/iou/
+    # - derive/([aeiou])ng$/$1gn/
+    # - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    # - derive/ong$/on/
+    # - derive/ao$/oa/
+    # - derive/([iu])a(o|ng?)$/a$1$2/
 
-
+# 说明
+# xform --改寫〔不保留原形〕
+# derive --衍生〔保留原形〕
+# abbrev --簡拼〔出字優先級較上兩組更低〕
+# fuzz --畧拼〔此種簡拼僅組詞，不出單字〕
+# xlit --變換〔適合大量一對一變換〕
+# erase --刪除
 
 translator:
   dictionary: PY_c #字典文件
   prism: PY_c
-  initial_quality: 0.5    #该翻译器出字优先级别
+  initial_quality: 1    #该翻译器出字优先级别
   enable_user_dict: true # 开启用户词典〔用户词典记录动态字词频、用户词〕
   enable_encoder: true # 开启自动造词
-  # strict_spelling: true
+  strict_spelling: false
   enable_sentence: false # 是否开启自动造句
   enable_completion: false # 编码提示 true 开启  false 关闭
   encode_commit_history: true # 是否对已上屏的词自动造词
@@ -73,6 +93,9 @@ translator:
   db_class: tabledb  #用户词典格式，tabledb（文本） 或 userdb （二进制）
   comment_format:  #提示码自定义
     - "xform/~/ /" #去掉编码提示前的~号
+  # disable_user_dict_for_patterns:
+  # #  - "^z.*$"  #这是原始默认设置
+  #   - "^[a-y]{1,2}$"  #2码及以下不使用自动调频、不自动造词
   preedit_format: # 上屏码自定义
     - xform/([nl])v/$1ü/ # 拼音状态下输入nv实际显示nü
     - xform/([nl])ue/$1üe/ # n或者l后面紧跟着输入ue显示üe
@@ -81,8 +104,6 @@ translator:
   #max_homophones: 7
   #max_homographs: 7
 
-punctuator:
-  import_preset: symbols
 
 key_binder:
   #  import_preset: default
@@ -98,6 +119,17 @@ recognizer:
     expression: "^=.*$"
     reverse_lookup: "`[a-z]*'?$"
 
+
+historyDM:
+  input: "["
+  size: 1
+  initial_quality: 999
+
+historyDM3:
+  input: "]"
+  size: 1
+  initial_quality: 999
+
 # 笔画反查
 reverse_lookup:
   dictionary: stroke
@@ -108,7 +140,7 @@ reverse_lookup:
   preedit_format:
     - xlit/hspnz/一丨丿丶ㄥ/
   comment_format:
-    - xform/([nl])v/$1ü/
+    # - xform/([nl])v/$1ü/
     - "xform/^/ /"
 # 临时英文
 easy_english:
@@ -122,4 +154,7 @@ easy_english:
   preedit_format:
     - "xlit|_| |"
   comment_format: #去掉编码提示前的~号
-    - "xform/~//"
+    - "xform/~/ /"
+
+punctuator: # 设定符号表，这里直接导入外部的symbols文件夹
+  import_preset: symbols

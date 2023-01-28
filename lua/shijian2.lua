@@ -1831,7 +1831,11 @@ end
 -- 农历倒计时结束
 
 local function translator(input, seg)
-  if (input == "/date" or input == "/frq") then
+  if (input == "/date" or input == "/frq" or input == "/orzh") then
+    date = os.date("%Y-%m-%d")
+    num_year = os.date("%j/") .. IsLeap(os.date("%Y"))
+    candidate = Candidate("date", seg.start, seg._end, date, num_year)
+    yield(candidate)
     date = os.date("%Y.%m.%d")
     num_year = os.date("%j/") .. IsLeap(os.date("%Y"))
     candidate = Candidate("date", seg.start, seg._end, date, num_year)
@@ -1866,7 +1870,7 @@ local function translator(input, seg)
     candidate = Candidate("date", seg.start, seg._end, date, "")
     yield(candidate)
 
-  elseif (input == "/cdate" or input == "/fnl") then
+  elseif (input == "/cdate" or input == "/fnl" or input == "/wtxs") then
     date = Date2LunarDate(os.date("%Y%m%d")) .. JQtest(os.date("%Y%m%d"))
     candidate = Candidate("date", seg.start, seg._end, date, "")
     yield(candidate)
@@ -1879,7 +1883,7 @@ local function translator(input, seg)
     candidate = Candidate("date", seg.start, seg._end, date, "")
     yield(candidate)
     -- 时间
-  elseif (input == "/time" or input == "/fsj" or input == "/fuj") then
+  elseif (input == "/time" or input == "/fsj" or input == "/fuj" or input == "/okao") then
     time = string.gsub(os.date("%H:%M"), "", "")
     time_discrpt = GetLunarSichen(os.date("%H"), 1)
     candidate = Candidate("time", seg.start, seg._end, time, time_discrpt)
@@ -1897,7 +1901,7 @@ local function translator(input, seg)
     candidate = Candidate("time", seg.start, seg._end, time, time_discrpt)
     yield(candidate)
     -- 星期几 周几
-  elseif (input == "/week" or input == "/fxq") then
+  elseif (input == "/week" or input == "/fxq" or input == "/olzh") then
     weekday = chinese_weekday(os.date("%w"))
     num_weekday = os.date("第%W周")
     candidate = Candidate("xq", seg.start, seg._end, weekday, num_weekday)
@@ -1915,7 +1919,7 @@ local function translator(input, seg)
     candidate = Candidate("xq", seg.start, seg._end, weekday, num_weekday)
     yield(candidate)
     -- 节气 已修复崩溃问题
-  elseif (input == "/fjq") then
+  elseif (input == "/fjq" or input == "/lzvq") then
     local keyword, jqs
     jqs = GetNowTimeJq(os.date("%Y%m%d", os.time() - 3600 * 24 * 15))
     for i, jq in ipairs(jqs) do
@@ -1936,25 +1940,25 @@ local function translator(input, seg)
     end -- if tonumber
   elseif (input == "/djs") then
     -- 公历倒计时
---     sth_y = "1998" -- 公历生日——年
---     sth_m = "08" -- 公历生日——月
---     sth_d = "14" -- 公历生日——日
---     --[[    --农历倒计时
---     bb_y="1997" --农历生日——年
---     bb_m="03"  --农历生日——月
---     bb_d="16"   --农历生日——日
--- ]]
---     --    sxjsr="距离下次生日还有"..nl_shengri2(sth_y,sth_m,sth_d).."天"
---     sxjsr = "距离下次生日还有" .. diffDate2(os.date("%Y%m%d"), sth_y .. sth_m .. sth_d) .. "天"
---     candidate = Candidate("/djs", seg.start, seg._end, sxjsr, "")
---     yield(candidate)
---     -- 公历倒计时
---     sth_y = "2021" -- 公历日期——年
---     sth_m = "03" -- 公历日期——月
---     sth_d = "14" -- 公历日期——日
---     djs = "距离下次情人节还有" .. diffDate2(os.date("%Y%m%d"), sth_y .. sth_m .. sth_d) .. "天"
---     candidate = Candidate("/djs", seg.start, seg._end, djs, "")
---     yield(candidate)
+    sth_y = "1998" -- 公历生日——年
+    sth_m = "08" -- 公历生日——月
+    sth_d = "14" -- 公历生日——日
+    --[[    --农历倒计时
+    bb_y="1997" --农历生日——年
+    bb_m="03"  --农历生日——月
+    bb_d="16"   --农历生日——日
+]]
+    --    sxjsr="距离下次生日还有"..nl_shengri2(sth_y,sth_m,sth_d).."天"
+    sxjsr = "距离下次生日还有" .. diffDate2(os.date("%Y%m%d"), sth_y .. sth_m .. sth_d) .. "天"
+    candidate = Candidate("/djs", seg.start, seg._end, sxjsr, "")
+    yield(candidate)
+    -- 公历倒计时
+    sth_y = "2021" -- 公历日期——年
+    sth_m = "03" -- 公历日期——月
+    sth_d = "14" -- 公历日期——日
+    djs = "距离下次情人节还有" .. diffDate2(os.date("%Y%m%d"), sth_y .. sth_m .. sth_d) .. "天"
+    candidate = Candidate("/djs", seg.start, seg._end, djs, "")
+    yield(candidate)
   end -- if
 end -- function
 
