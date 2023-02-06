@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.01.26"
+version: "2023.02.01"
 sort: by_weight
 columns:
   - text
@@ -5015,6 +5015,7 @@ import_tables:
 婶	395	bwog
 踱	2986	pxl
 踱	395	pxlr
+啫	2984	dqor
 嗜	2983	dqo
 嗜	395	dqor
 啤	2981	dut
@@ -5064,7 +5065,8 @@ import_tables:
 迂	2890	fnu
 迂	395	fnuc
 梨	2889	xpem
-拣	2888	uryx
+拣	2888	ury
+拣	395	uryx
 葫	2874	lcv
 葫	395	lcvy
 浏	2869	kvp
@@ -7697,7 +7699,6 @@ import_tables:
 龊	618	lpu
 媾	617	bqf
 媾	395	bqfg
-邛	617	ute
 馄	617	qov
 馄	395	qovv
 啕	616	dna
@@ -9632,7 +9633,6 @@ import_tables:
 糗	339	pomq
 蝣	339	cle
 蝣	339	cleh
-隻	339	ury
 鳚	339	wcf
 鳚	339	wcfk
 麇	339	xxh
@@ -9968,6 +9968,7 @@ import_tables:
 疋	290	ts
 豐	290	vaaz
 撐	289	usly
+殼	289	gwfr
 蟲	289	cccc
 柰	288	efs
 殂	288	gfq
@@ -10338,7 +10339,6 @@ import_tables:
 贶	265	odpe
 跬	265	pggt
 郇	265	note
-鏇	265	zlet
 镩	265	zed
 镩	265	zedg
 髹	265	pej
@@ -10692,6 +10692,7 @@ import_tables:
 鲭	260	wavy
 黹	260	cfb
 鼢	260	phpd
+㞎	259	cmb
 佧	259	jyfy
 傺	259	jhfs
 冱	259	wfbj
@@ -10816,11 +10817,12 @@ import_tables:
 嫜	258	bxn
 嫜	258	bxns
 宀	258	wg
-岊	258	mvs
 岍	258	vfl
 岍	258	vflc
 巯	258	rubo
 戤	258	vrap
+扌	258	uss
+扌	256	us
 掭	258	ufm
 掭	258	ufmh
 揞	258	uxy
@@ -10829,6 +10831,7 @@ import_tables:
 槠	258	esqo
 沲	258	keey
 洚	258	khvk
+炘	258	ctj
 烀	258	cth
 烀	258	cthn
 牿	258	qqd
@@ -10844,6 +10847,7 @@ import_tables:
 痖	258	afcy
 瘃	258	aji
 瘃	258	ajid
+瘖	258	axy
 眾	258	yjj
 眾	258	yjjj
 砟	258	mwa
@@ -10968,6 +10972,8 @@ import_tables:
 黪	258	pkme
 鼯	258	pwdk
 齄	258	oqlf
+𤆵	258	cmb
+𫟷	258	zil
 𲍿	258	zjvx
 々	257	xid
 〇	257	dkk
@@ -11027,7 +11033,6 @@ import_tables:
 㝹	257	ytw
 㝹	257	ytwt
 㝿	257	orp
-㞎	257	cmb
 㞗	257	cfki
 㞘	257	cji
 㞘	257	cjid
@@ -11505,7 +11510,6 @@ import_tables:
 啙	257	svdd
 啛	257	dfb
 啛	257	dfbb
-啫	257	dqor
 啯	257	drn
 啯	257	drni
 啰	257	dyl
@@ -11863,6 +11867,7 @@ import_tables:
 屼	257	vfpe
 屾	257	vvs
 岃	257	vpid
+岊	257	mvs
 岕	257	vjp
 岕	257	vjpd
 岞	257	vwa
@@ -12098,8 +12103,6 @@ import_tables:
 扆	257	mti
 扊	257	mcc
 扊	257	mcch
-扌	257	uss
-扌	256	us
 扞	257	ueg
 扠	257	urid
 扤	257	ufp
@@ -12692,7 +12695,6 @@ import_tables:
 炁	257	dch
 炆	257	cvw
 炌	257	cjpd
-炘	257	ctj
 炟	257	cof
 炟	257	cofi
 炣	257	czk
@@ -12927,6 +12929,8 @@ import_tables:
 琯	257	nwki
 琱	257	nmgd
 琲	257	nrf
+琹	257	nne
+琹	257	nnem
 瑀	257	ntdv
 瑂	257	ncq
 瑂	257	ncqm
@@ -12999,6 +13003,7 @@ import_tables:
 畯	257	qkhh
 疁	257	qzj
 疁	257	qzje
+疌	257	fbsi
 疍	257	tofi
 疐	257	nwq
 疐	257	nwqt
@@ -13271,6 +13276,7 @@ import_tables:
 粃	257	pvvb
 粄	257	pxr
 粄	257	pxry
+粔	257	pnnk
 粿	257	pqem
 糄	257	pmic
 糒	257	plt
@@ -13820,6 +13826,7 @@ import_tables:
 鋬	257	uxrz
 鍳	257	qrz
 鍳	257	qrzj
+鏇	257	zlet
 鑒	257	qryz
 钆	257	zae
 钖	257	zaes
@@ -14129,6 +14136,7 @@ import_tables:
 龁	257	lea
 龁	257	leai
 龂	257	ltj
+龵	257	us
 鿃	257	qmj
 鿃	257	qmjj
 鿍	257	ghv
@@ -14222,7 +14230,6 @@ import_tables:
 𣸤	257	kyl
 𣸤	257	kylf
 𤆬	257	vch
-𤆵	257	cmb
 𤌙	257	coz
 𤌙	257	cozv
 𤘧	257	qqn
@@ -14469,7 +14476,6 @@ import_tables:
 𫟅	257	igyx
 𫟦	257	yhj
 𫟦	257	yhju
-𫟷	257	zil
 𫟹	257	zlh
 𫟹	257	zlhb
 𫟼	257	zmu
@@ -14898,6 +14904,7 @@ import_tables:
 誰	227	sui
 當	226	sqt
 問	225	adk
+邛	225	ute
 該	224	skh
 卻	221	hzj
 內	220	mju
@@ -15147,6 +15154,7 @@ import_tables:
 壓	83	xovg
 員	82	dob
 賽	82	wqho
+隻	82	ury
 齊	82	qq
 戰	81	ddqp
 碼	81	mnm
@@ -15432,7 +15440,6 @@ import_tables:
 鮮	33	wgy
 擋	32	usq
 擋	32	usqt
-殼	32	gwfr
 盃	32	cam
 蝦	32	ccmr
 誠	32	snae
@@ -15962,6 +15969,7 @@ import_tables:
 蹻	1	ptmd
 躗	1	pgpu
 釀	1	ytdf
+釭	1	zug
 鈒	1	zcj
 鈚	1	zvvb
 錍	1	zut
@@ -16686,7 +16694,6 @@ import_tables:
 匞	0	nug
 匟	0	nzo
 匟	0	nzoj
-匢	0	nne
 匢	0	nnes
 匤	0	nnid
 匥	0	nkl
@@ -21922,7 +21929,6 @@ import_tables:
 琷	0	nga
 琷	0	ngae
 琸	0	nyon
-琹	0	nnem
 琺	0	nkg
 琺	0	nkgk
 琻	0	nzj
@@ -22147,7 +22153,6 @@ import_tables:
 疇	0	qgak
 疈	0	fdqq
 疉	0	qqqb
-疌	0	fbsi
 疎	0	txs
 疓	0	avn
 疕	0	avb
@@ -22213,7 +22218,6 @@ import_tables:
 瘓	0	axmm
 瘔	0	alc
 瘔	0	alcg
-瘖	0	axy
 瘚	0	ahse
 瘜	0	aohx
 瘞	0	amj
@@ -23432,7 +23436,6 @@ import_tables:
 粏	0	pmid
 粐	0	pmh
 粓	0	pzg
-粔	0	pnnk
 粖	0	pfe
 粖	0	pfem
 粙	0	pdy
@@ -27063,7 +27066,6 @@ import_tables:
 釫	0	zma
 釫	0	zmae
 釬	0	zeg
-釭	0	zug
 釮	0	znt
 釮	0	zntp
 釯	0	zfw
@@ -29721,7 +29723,6 @@ import_tables:
 龲	0	zxyc
 龳	0	ghgg
 龴	0	ks
-龵	0	us
 龶	0	af
 龷	0	ln
 龸	0	ss
@@ -112047,8 +112048,18 @@ import_tables:
 嬴	100	fdvb
 羸	100	fdvg
 蠃	100	fdvc
+臝	100	fdvq
+彀	100	gwfb
 觳	100	gwfx
+殼	100	gwfo
+榖	100	gwfe
+穀	100	gwfx
+縠	100	gwfi
+𬆮	50	gwfx
+汩	100	korg
+汨	100	korm
 隶	500	bksj
+彔	400	bksj
 帷	500	ruij
 羔	500	gchy
 邑	500	dmbk
@@ -112073,8 +112084,6 @@ import_tables:
 匝	100	nrjk
 汆	100	jksu
 氽	100	jksr
-汩	100	korg
-汨	100	korm
 旮	50	korj
 珖	100	nmgw
 町	100	qadt
@@ -112089,9 +112098,61 @@ import_tables:
 趄	100	pfqz
 硌	100	msgs
 邙	100	ftew
-颏	10	kwyh
+颏	50	kwyh
 珞	100	nsgw
-汜	100	kvss
+汜	300	kvss
 舫	100	ilfo
-徉	100	wgyc
+徉	300	wgyc
 東	100	eorm
+雒	200	suig
+胲	200	vkhy
+胛	300	vsjy
+羖	100	grsy
+蛭	200	cyic
+饤	50	qads
+祉	100	fsis
+犽	200	mlyq
+鲱	200	wrfv
+祜	100	fcgs
+辻	100	nucs
+鲂	100	wlfv
+牦	100	qvmn
+眊	100	qvmm
+帏	500	rgwj
+怫	300	htfx
+岣	50	vgjs
+渑	50	kdms
+蛄	50	ccgc
+碓	50	muis
+刖	100	vpdy
+苴	100	lfqc
+疖	50	azjb
+雱	10	tlfv
+蛘	50	cgyc
+扦	10	ulqs
+迓	50	lucy
+畋	50	qhpt
+罟	50	ycgs
+裉	10	tige
+蚰	50	cdyc
+辂	10	ysgc
+柰	50	efsm
+酤	100	ycgy
+砟	50	mwas
+𤆵	50	cmbh
+蚆	50	cmbc
+㶲	50	ctyh
+䀦	50	qcgm
+呴	50	dgjk
+広	50	xksg
+拃	50	uwas
+砢	50	mzks
+窅	50	eqmx
+敉	50	phpm
+饹	100	qsgs
+魆	50	anug
+鲉	100	wdyv
+鲏	100	wrpv
+鲝	100	gwvy
+𬯀	100	tqqe
+𮯙	100	lzkc

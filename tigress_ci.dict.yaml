@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.01.26"
+version: "2023.02.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2892,6 +2892,7 @@ encoder:
 险要	3148	tjvb
 祝福	3145	fdff
 八十	3145	hbns
+看下	3144	uqfy
 挫折	3141	ujut
 和谐	3141	xdsv
 展开	3141	clfl
@@ -28112,6 +28113,9 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+躺赢	450	zsfd
+躺输	450	zsyj
+疣猪	450	aomq
 座头鲸	450	xwwg
 罗宾汉	450	ywkr
 使魔	450	jfza
@@ -31567,6 +31571,7 @@ encoder:
 害群之马	407	wbrn
 到你	407	ypjx
 喜欢的	407	hrun
+幸免于难	406	gwfr
 能不	406	kvcb
 也不会	406	ecjb
 看完	405	uqwm
@@ -31747,6 +31752,7 @@ encoder:
 社会主义现代化建设	405	fjis
 首演	405	hokw
 你怎么	405	jwtk
+就完事了	405	gwfr
 更多的	405	flun
 亲爱的	404	iyun
 小小的	404	yyun
@@ -63601,7 +63607,6 @@ encoder:
 败局	266	ohca
 铺位	266	znji
 朝日	266	noor
-幸免于难	266	gwfr
 双击	266	rrum
 铜陵	266	zmtg
 旷日持久	266	ooux
@@ -94213,7 +94218,6 @@ encoder:
 前段时间	144	huoa
 于世	144	fnla
 不经意间	144	cixa
-看下	144	uqfy
 以及其他	144	vczj
 内心深处	144	mhkh
 记忆中	144	shdg
@@ -121290,7 +121294,6 @@ encoder:
 蓝魅	53	lpaa
 刘利	53	vpxp
 金鸣	53	zjdx
-车就	53	ycgy
 入去	53	jugk
 站短	53	iyoz
 这章	53	vuxn
@@ -143232,7 +143235,6 @@ encoder:
 差若毫釐，谬以千里	48	glgd
 宁为鸡口，毋为牛后	48	wirx
 愚者千虑，或有一得	48	qqlw
-兵藏武库，马入华山	48	tlfv
 祸从口出，病从口入	48	fjdj
 失之千里，差若毫釐	48	trla
 卧榻之侧，岂容酣睡	48	qerq
@@ -150397,7 +150399,6 @@ encoder:
 好人有好报	45	bjnu
 宏观调控体系	45	wrst
 家里有事	45	wdnf
-就完事了	45	gwfr
 年代后期	45	ejxz
 广泛传播	45	xkju
 广泛共识	45	xkls

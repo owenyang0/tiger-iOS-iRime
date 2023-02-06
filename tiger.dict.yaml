@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.01.26"
+version: "2023.02.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3099,6 +3099,7 @@ columns:
 喔	dcy	2991
 婶	bwo	2991
 踱	pxl	2986
+啫	dqor	2984
 嗜	dqo	2983
 啤	dut	2981
 哺	dnf	2978
@@ -3128,7 +3129,7 @@ columns:
 渺	kqy	2896
 迂	fnu	2890
 梨	xpem	2889
-拣	uryx	2888
+拣	ury	2888
 葫	lcv	2874
 浏	kvp	2869
 橡	ewx	2867
@@ -4787,7 +4788,6 @@ columns:
 赳	pij	618
 龊	lpu	618
 媾	bqf	617
-邛	ute	617
 馄	qov	617
 啕	dna	616
 嗵	dkt	616
@@ -5140,6 +5140,7 @@ columns:
 𠕇	nvys	500
 玊	nidw	500
 沓	kors	500
+帏	rgwj	500
 嗪	daix	499
 殚	ghqn	499
 潸	keev	499
@@ -5885,6 +5886,7 @@ columns:
 饴	qkdk	400
 鸱	bix	400
 鸱	bixn	400
+彔	bksj	400
 冼	wqpe	399
 嘏	ccm	399
 嘏	ccmr	399
@@ -7343,6 +7345,7 @@ columns:
 庶	xlch	395
 渺	kqyt	395
 迂	fnuc	395
+拣	uryx	395
 葫	lcvy	395
 浏	kvpd	395
 扳	uxry	395
@@ -9111,7 +9114,6 @@ columns:
 糗	pomq	339
 蝣	cle	339
 蝣	cleh	339
-隻	ury	339
 鳚	wcf	339
 鳚	wcfk	339
 麇	xxh	339
@@ -9410,6 +9412,10 @@ columns:
 檑	etq	301
 檑	etqt	301
 襦	ttle	300
+汜	kvss	300
+徉	wgyc	300
+胛	vsjy	300
+怫	htfx	300
 歃	lpe	299
 歃	lpeq	299
 瘌	axpd	298
@@ -9444,6 +9450,7 @@ columns:
 疋	ts	290
 豐	vaaz	290
 撐	usly	289
+殼	gwfr	289
 蟲	cccc	289
 柰	efs	288
 殂	gfq	288
@@ -9813,7 +9820,6 @@ columns:
 贶	odpe	265
 跬	pggt	265
 郇	note	265
-鏇	zlet	265
 镩	zed	265
 镩	zedg	265
 髹	pej	265
@@ -10167,6 +10173,7 @@ columns:
 鲭	wavy	260
 黹	cfb	260
 鼢	phpd	260
+㞎	cmb	259
 佧	jyfy	259
 傺	jhfs	259
 冱	wfbj	259
@@ -10290,11 +10297,11 @@ columns:
 嫜	bxn	258
 嫜	bxns	258
 宀	wg	258
-岊	mvs	258
 岍	vfl	258
 岍	vflc	258
 巯	rubo	258
 戤	vrap	258
+扌	uss	258
 掭	ufm	258
 掭	ufmh	258
 揞	uxy	258
@@ -10303,6 +10310,7 @@ columns:
 槠	esqo	258
 沲	keey	258
 洚	khvk	258
+炘	ctj	258
 烀	cth	258
 烀	cthn	258
 牿	qqd	258
@@ -10318,6 +10326,7 @@ columns:
 痖	afcy	258
 瘃	aji	258
 瘃	ajid	258
+瘖	axy	258
 眾	yjj	258
 眾	yjjj	258
 砟	mwa	258
@@ -10442,6 +10451,8 @@ columns:
 黪	pkme	258
 鼯	pwdk	258
 齄	oqlf	258
+𤆵	cmb	258
+𫟷	zil	258
 𲍿	zjvx	258
 々	xid	257
 〇	dkk	257
@@ -10499,7 +10510,6 @@ columns:
 㝹	ytw	257
 㝹	ytwt	257
 㝿	orp	257
-㞎	cmb	257
 㞗	cfki	257
 㞘	cji	257
 㞘	cjid	257
@@ -10966,7 +10976,6 @@ columns:
 啙	svdd	257
 啛	dfb	257
 啛	dfbb	257
-啫	dqor	257
 啯	drn	257
 啯	drni	257
 啰	dyl	257
@@ -11321,6 +11330,7 @@ columns:
 屼	vfpe	257
 屾	vvs	257
 岃	vpid	257
+岊	mvs	257
 岕	vjp	257
 岕	vjpd	257
 岞	vwa	257
@@ -11553,7 +11563,6 @@ columns:
 扆	mti	257
 扊	mcc	257
 扊	mcch	257
-扌	uss	257
 扞	ueg	257
 扠	urid	257
 扤	ufp	257
@@ -12145,7 +12154,6 @@ columns:
 炁	dch	257
 炆	cvw	257
 炌	cjpd	257
-炘	ctj	257
 炟	cof	257
 炟	cofi	257
 炣	czk	257
@@ -12378,6 +12386,8 @@ columns:
 琯	nwki	257
 琱	nmgd	257
 琲	nrf	257
+琹	nne	257
+琹	nnem	257
 瑀	ntdv	257
 瑂	ncq	257
 瑂	ncqm	257
@@ -12450,6 +12460,7 @@ columns:
 畯	qkhh	257
 疁	qzj	257
 疁	qzje	257
+疌	fbsi	257
 疍	tofi	257
 疐	nwq	257
 疐	nwqt	257
@@ -12719,6 +12730,7 @@ columns:
 粃	pvvb	257
 粄	pxr	257
 粄	pxry	257
+粔	pnnk	257
 粿	pqem	257
 糄	pmic	257
 糒	plt	257
@@ -13265,6 +13277,7 @@ columns:
 鋬	uxrz	257
 鍳	qrz	257
 鍳	qrzj	257
+鏇	zlet	257
 鑒	qryz	257
 钆	zae	257
 钖	zaes	257
@@ -13573,6 +13586,7 @@ columns:
 龁	lea	257
 龁	leai	257
 龂	ltj	257
+龵	us	257
 鿃	qmj	257
 鿃	qmjj	257
 鿍	ghv	257
@@ -13665,7 +13679,6 @@ columns:
 𣸤	kyl	257
 𣸤	kylf	257
 𤆬	vch	257
-𤆵	cmb	257
 𤌙	coz	257
 𤌙	cozv	257
 𤘧	qqn	257
@@ -13912,7 +13925,6 @@ columns:
 𫟅	igyx	257
 𫟦	yhj	257
 𫟦	yhju	257
-𫟷	zil	257
 𫟹	zlh	257
 𫟹	zlhb	257
 𫟼	zmu	257
@@ -14836,6 +14848,7 @@ columns:
 爿	ap	256
 鬲	ng	256
 彳	wc	256
+扌	us	256
 〇	dk	256
 の	ae	256
 丨	gs	256
@@ -14855,7 +14868,6 @@ columns:
 廴	uy	256
 彐	bj	256
 彡	es	256
-扌	us	256
 攴	hp	256
 爫	ya	256
 犭	mq	256
@@ -14906,6 +14918,7 @@ columns:
 誰	sui	227
 當	sqt	226
 問	adk	225
+邛	ute	225
 該	skh	224
 卻	hzj	221
 內	mju	220
@@ -14933,6 +14946,11 @@ columns:
 區	nddd	203
 進	uuc	201
 長	pc	200
+雒	suig	200
+胲	vkhy	200
+蛭	cyic	200
+犽	mlyq	200
+鲱	wrfv	200
 講	sqf	199
 講	sqfg	199
 殺	ber	198
@@ -15113,7 +15131,15 @@ columns:
 嬴	fdvb	100
 羸	fdvg	100
 蠃	fdvc	100
+臝	fdvq	100
+彀	gwfb	100
 觳	gwfx	100
+殼	gwfo	100
+榖	gwfe	100
+穀	gwfx	100
+縠	gwfi	100
+汩	korg	100
+汨	korm	100
 乜	aaee	100
 孑	rfil	100
 汞	uksg	100
@@ -15121,8 +15147,6 @@ columns:
 匝	nrjk	100
 汆	jksu	100
 氽	jksr	100
-汩	korg	100
-汨	korm	100
 珖	nmgw	100
 町	qadt	100
 耵	qade	100
@@ -15136,10 +15160,24 @@ columns:
 硌	msgs	100
 邙	ftew	100
 珞	nsgw	100
-汜	kvss	100
 舫	ilfo	100
-徉	wgyc	100
 東	eorm	100
+羖	grsy	100
+祉	fsis	100
+祜	fcgs	100
+辻	nucs	100
+鲂	wlfv	100
+牦	qvmn	100
+眊	qvmm	100
+刖	vpdy	100
+苴	lfqc	100
+酤	ycgy	100
+饹	qsgs	100
+鲉	wdyv	100
+鲏	wrpv	100
+鲝	gwvy	100
+𬯀	tqqe	100
+𮯙	lzkc	100
 節	riz	99
 節	rizj	99
 輕	yfo	99
@@ -15189,6 +15227,7 @@ columns:
 壓	xovg	83
 員	dob	82
 賽	wqho	82
+隻	ury	82
 齊	qq	82
 戰	ddqp	81
 碼	mnm	81
@@ -15340,8 +15379,34 @@ columns:
 礦	mxnh	50
 認	spih	50
 魯	wor	50
+𬆮	gwfx	50
 旮	korj	50
 凫	xojn	50
+颏	kwyh	50
+饤	qads	50
+岣	vgjs	50
+渑	kdms	50
+蛄	ccgc	50
+碓	muis	50
+疖	azjb	50
+蛘	cgyc	50
+迓	lucy	50
+畋	qhpt	50
+罟	ycgs	50
+蚰	cdyc	50
+柰	efsm	50
+砟	mwas	50
+𤆵	cmbh	50
+蚆	cmbc	50
+㶲	ctyh	50
+䀦	qcgm	50
+呴	dgjk	50
+広	xksg	50
+拃	uwas	50
+砢	mzks	50
+窅	eqmx	50
+敉	phpm	50
+魆	anug	50
 劇	zjp	49
 劇	zjpd	49
 尋	bud	49
@@ -15476,7 +15541,6 @@ columns:
 鮮	wgy	33
 擋	usq	32
 擋	usqt	32
-殼	gwfr	32
 盃	cam	32
 蝦	ccmr	32
 誠	snae	32
@@ -15783,7 +15847,10 @@ columns:
 鈴	zjks	10
 閱	ahdp	10
 駕	sdnm	10
-颏	kwyh	10
+雱	tlfv	10
+扦	ulqs	10
+裉	tige	10
+辂	ysgc	10
 嘯	dba	9
 嘯	dbaa	9
 徑	wfou	9
@@ -16007,6 +16074,7 @@ columns:
 蹻	ptmd	1
 躗	pgpu	1
 釀	ytdf	1
+釭	zug	1
 鈒	zcj	1
 鈚	zvvb	1
 錍	zut	1
@@ -16731,7 +16799,6 @@ columns:
 匞	nug	0
 匟	nzo	0
 匟	nzoj	0
-匢	nne	0
 匢	nnes	0
 匤	nnid	0
 匥	nkl	0
@@ -21967,7 +22034,6 @@ columns:
 琷	nga	0
 琷	ngae	0
 琸	nyon	0
-琹	nnem	0
 琺	nkg	0
 琺	nkgk	0
 琻	nzj	0
@@ -22192,7 +22258,6 @@ columns:
 疇	qgak	0
 疈	fdqq	0
 疉	qqqb	0
-疌	fbsi	0
 疎	txs	0
 疓	avn	0
 疕	avb	0
@@ -22258,7 +22323,6 @@ columns:
 瘓	axmm	0
 瘔	alc	0
 瘔	alcg	0
-瘖	axy	0
 瘚	ahse	0
 瘜	aohx	0
 瘞	amj	0
@@ -23477,7 +23541,6 @@ columns:
 粏	pmid	0
 粐	pmh	0
 粓	pzg	0
-粔	pnnk	0
 粖	pfe	0
 粖	pfem	0
 粙	pdy	0
@@ -27108,7 +27171,6 @@ columns:
 釫	zma	0
 釫	zmae	0
 釬	zeg	0
-釭	zug	0
 釮	znt	0
 釮	zntp	0
 釯	zfw	0
@@ -29766,7 +29828,6 @@ columns:
 龲	zxyc	0
 龳	ghgg	0
 龴	ks	0
-龵	us	0
 龶	af	0
 龷	ln	0
 龸	ss	0

@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.01.26"
+version: "2023.02.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2243,7 +2243,6 @@ encoder:
 龙卷风	150	tho
 驾驶证	150	sns
 有效性	150	nah
-玻璃窗	150	nne
 一丁点	150	fay
 一大群	150	fmb
 父母亲	150	hki
