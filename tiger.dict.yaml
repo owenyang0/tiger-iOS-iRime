@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.02.01"
+version: "2023.02.13"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -82,6 +82,7 @@ columns:
 她	be	568271
 方	lf	561645
 然	vm	551922
+然	vmc	551922
 当	yb	551255
 心	hx	546749
 起	pv	542671
@@ -92,6 +93,7 @@ columns:
 现	ne	515145
 但	jo	512313
 法	kg	509712
+法	kgk	509712
 无	du	506335
 同	mf	504814
 同	mfd	504814
@@ -124,6 +126,7 @@ columns:
 三	ts	419978
 些	svm	419321
 实	ww	416568
+实	wwm	416568
 样	egy	413528
 十	ns	411320
 意	xh	408407
@@ -396,6 +399,7 @@ columns:
 吧	dmb	144838
 品	ddd	144373
 确	mx	144024
+确	mxt	144024
 观	rej	143666
 城	gna	143620
 虽	dc	142916
@@ -470,6 +474,7 @@ columns:
 存	ngh	123061
 击	um	122799
 精	pa	122091
+精	pav	122091
 济	kqq	121778
 始	bkd	121732
 台	kd	121708
@@ -583,6 +588,7 @@ columns:
 哪	dau	95761
 农	wti	95666
 专	ma	95632
+专	mai	95632
 图	rhw	94992
 考	qf	94781
 考	qfa	94781
@@ -1030,7 +1036,6 @@ columns:
 智	odo	44508
 齐	qq	44501
 雨	tv	44435
-凃	wjxh	44379
 徐	wjx	44378
 鲁	wor	44126
 仙	jvs	44122
@@ -1098,6 +1103,7 @@ columns:
 祖	ffq	38947
 缓	iyf	38934
 迎	bz	38934
+迎	bzu	38934
 虎	zhh	38896
 票	vf	38820
 销	zyv	38784
@@ -1539,6 +1545,7 @@ columns:
 播	utp	20431
 零	tjks	20379
 躲	zo	20265
+躲	zoe	20265
 映	om	20237
 映	omm	20237
 灾	wc	20221
@@ -3099,7 +3106,6 @@ columns:
 喔	dcy	2991
 婶	bwo	2991
 踱	pxl	2986
-啫	dqor	2984
 嗜	dqo	2983
 啤	dut	2981
 哺	dnf	2978
@@ -3481,7 +3487,7 @@ columns:
 埔	gnf	1960
 咄	dsm	1958
 畸	qmz	1954
-赣	xnho	1952
+赣	xnh	1952
 樵	euc	1950
 亢	zoj	1949
 侃	jdo	1947
@@ -3781,7 +3787,6 @@ columns:
 蜈	cdf	1448
 橙	ehz	1446
 涧	kaor	1446
-煸	cmic	1445
 瓒	nqp	1445
 蝙	cmi	1444
 诲	sek	1444
@@ -4482,12 +4487,12 @@ columns:
 盹	qfs	789
 袤	tit	789
 郢	dnt	789
+嗐	dwad	788
 砥	mbid	788
 荚	lhhb	788
 蚓	cbg	788
 偈	jon	787
 氐	bid	787
-嗐	dwad	786
 咛	dwa	785
 愠	hoa	785
 鄱	tpqt	785
@@ -4764,7 +4769,7 @@ columns:
 邋	opu	631
 咿	djbt	630
 旖	lem	630
-镍	zoe	630
+镍	zoem	630
 霁	tqq	629
 椤	eylx	628
 蚜	cly	628
@@ -4827,6 +4832,7 @@ columns:
 矾	moi	601
 馑	qld	601
 馥	xoe	601
+凃	wjxh	600
 劭	pds	600
 昕	otj	600
 昱	oil	600
@@ -5928,8 +5934,10 @@ columns:
 髂	fwsg	397
 鹕	cvx	397
 鹕	cvxn	397
+啫	dqor	396
 楮	eqo	396
 楮	eqor	396
+煸	cmic	396
 膈	vng	396
 郃	jdte	396
 铄	zby	396
@@ -7556,6 +7564,7 @@ columns:
 瘾	atxh	395
 咄	dsmk	395
 畸	qmzk	395
+赣	xnho	395
 樵	euch	395
 侃	jdoc	395
 嫡	bimc	395
@@ -8299,7 +8308,6 @@ columns:
 烨	cjvn	395
 邋	opuc	395
 旖	lemz	395
-镍	zoem	395
 鼐	vqaa	395
 咤	dwtr	395
 峋	vnor	395
@@ -8646,7 +8654,6 @@ columns:
 怛	hofi	383
 槲	ext	383
 槲	extj	383
-獬	mxt	383
 獬	mxtq	383
 脲	vck	383
 脲	vcks	383
@@ -9000,7 +9007,6 @@ columns:
 曩	otd	348
 曩	otdf	348
 泔	kzg	348
-溘	kgk	348
 溘	kgka	348
 粝	pxf	348
 粝	pxfp	348
@@ -9175,7 +9181,6 @@ columns:
 鲔	wnvy	335
 嵛	vjv	334
 嵛	vjvp	334
-廣	xnh	334
 樘	esg	334
 樘	esgt	334
 獍	mxp	334
@@ -9570,7 +9575,6 @@ columns:
 確	mwu	274
 確	mwui	274
 秭	xtf	274
-舁	plc	274
 茕	lwan	274
 蕞	loq	274
 蕞	loqr	274
@@ -9699,6 +9703,7 @@ columns:
 歷	xxx	268
 歷	xxxs	268
 溷	krjs	268
+習	zub	268
 蓥	lwz	268
 蓥	lwzj	268
 蘧	lzju	268
@@ -10440,7 +10445,6 @@ columns:
 鲒	wgdk	258
 鲣	wpr	258
 鲣	wprg	258
-鲩	wwm	258
 鲩	wwmp	258
 鲻	woq	258
 鲻	woqt	258
@@ -10451,6 +10455,7 @@ columns:
 黪	pkme	258
 鼯	pwdk	258
 齄	oqlf	258
+𡗗	aid	258
 𤆵	cmb	258
 𫟷	zil	258
 𲍿	zjvx	258
@@ -10464,6 +10469,7 @@ columns:
 㑌	jnnw	257
 㑩	jyl	257
 㑩	jylx	257
+㒸	hjs	257
 㓥	ybp	257
 㓥	ybpd	257
 㓦	fup	257
@@ -10716,10 +10722,13 @@ columns:
 丶	idd	257
 丼	qid	257
 丿	tpp	257
+乀	id	257
 乂	bi	257
+乄	aid	257
 乆	ajr	257
-乭	mai	257
+乛	ae	257
 乸	ekm	257
+亅	gs	257
 亖	mme	257
 亠	ztt	257
 亶	zrdf	257
@@ -10846,8 +10855,6 @@ columns:
 凓	wve	257
 凓	wvem	257
 凘	wzht	257
-凢	toj	257
-凣	goj	257
 凵	mk	257
 刂	pd	257
 刌	kpd	257
@@ -10904,6 +10911,7 @@ columns:
 卲	pdzj	257
 卼	fpx	257
 卼	fpxz	257
+厃	xxc	257
 厔	xyi	257
 厖	xoes	257
 厷	nks	257
@@ -11002,6 +11010,7 @@ columns:
 喺	djti	257
 喼	dxb	257
 喼	dxbh	257
+喿	ddde	257
 嗈	dod	257
 嗈	dodm	257
 嗙	diwl	257
@@ -11023,6 +11032,8 @@ columns:
 嘡	dsgt	257
 嘢	ddi	257
 嘢	ddiv	257
+嘦	dhv	257
+嘦	dhvb	257
 噀	dvvh	257
 噂	dhy	257
 噂	dhyk	257
@@ -11208,6 +11219,8 @@ columns:
 姁	bgj	257
 姈	bjk	257
 姈	bjks	257
+姕	svb	257
+姕	svbn	257
 姛	bmf	257
 姛	bmfd	257
 姞	bgd	257
@@ -11296,8 +11309,6 @@ columns:
 嫽	bmhy	257
 嬛	byft	257
 嬢	bthf	257
-嬥	bzu	257
-嬥	bzui	257
 嬬	btl	257
 嬬	btle	257
 嬿	bld	257
@@ -11443,6 +11454,7 @@ columns:
 弶	bgy	257
 弶	bgyx	257
 弸	bvvy	257
+弿	wqhb	257
 彅	bhv	257
 彅	bhvp	257
 彐	bjj	257
@@ -11682,6 +11694,7 @@ columns:
 昇	otlc	257
 昈	omh	257
 昉	olf	257
+昍	oor	257
 昒	ones	257
 昚	mhor	257
 昡	ozi	257
@@ -11938,7 +11951,7 @@ columns:
 氉	dddv	257
 氕	vtp	257
 気	vbi	257
-氷	iks	257
+氶	aks	257
 氹	aks	257
 氼	kjr	257
 氾	kzj	257
@@ -12257,6 +12270,7 @@ columns:
 犨	uuq	257
 犨	uuqn	257
 犭	mqq	257
+犮	nrid	257
 犼	mhae	257
 犽	mly	257
 狉	mcf	257
@@ -12458,6 +12472,8 @@ columns:
 畬	jxq	257
 畬	jxqt	257
 畯	qkhh	257
+畺	fqf	257
+畺	fqff	257
 疁	qzj	257
 疁	qzje	257
 疌	fbsi	257
@@ -12664,7 +12680,6 @@ columns:
 穟	xhju	257
 窅	eqm	257
 窊	eyg	257
-窌	ebm	257
 窎	exn	257
 窾	egf	257
 窾	egfe	257
@@ -13013,8 +13028,6 @@ columns:
 蛃	cfmj	257
 蜎	cdvy	257
 蜐	cgks	257
-蜰	vmc	257
-蜰	vmcc	257
 蝂	cax	257
 蝂	caxr	257
 蝄	cmhf	257
@@ -13273,6 +13286,7 @@ columns:
 醽	ytdd	257
 醾	yzp	257
 醾	yzpm	257
+釆	tpm	257
 釐	ahxd	257
 鋬	uxrz	257
 鍳	qrz	257
@@ -13324,6 +13338,7 @@ columns:
 阛	ayft	257
 阝	te	257
 阧	tjd	257
+阰	tvvb	257
 陁	teey	257
 陎	ttaw	257
 陑	tle	257
@@ -13335,7 +13350,6 @@ columns:
 隺	wui	257
 雊	gui	257
 雋	umk	257
-雔	uui	257
 雫	tfy	257
 雫	tfyb	257
 雰	thp	257
@@ -13387,8 +13401,6 @@ columns:
 韆	tvm	257
 韆	tvmu	257
 韨	gnri	257
-韮	lrf	257
-韮	lrfi	257
 颋	tguw	257
 颙	qvw	257
 颙	qvwy	257
@@ -13466,6 +13478,7 @@ columns:
 鬴	nnf	257
 鬶	heng	257
 鬷	nbmh	257
+鬽	aes	257
 魆	anu	257
 魋	aui	257
 鱽	wpd	257
@@ -13576,8 +13589,6 @@ columns:
 鼧	pwvb	257
 鼩	pgj	257
 鼫	pms	257
-鼱	pav	257
-鼱	pavy	257
 鼽	oqlk	257
 齁	oqlg	257
 齆	oqlm	257
@@ -13602,6 +13613,7 @@ columns:
 鿽	ewa	257
 𠀾	cjby	257
 𠂉	et	257
+𠃓	aes	257
 𠄏	rll	257
 𠅤	zqhx	257
 𠇔	jvm	257
@@ -13615,6 +13627,7 @@ columns:
 𠙶	rmk	257
 𠧚	yrj	257
 𠧚	yrjr	257
+𠬶	bwry	257
 𠰴	dms	257
 𠲎	djp	257
 𠲎	djpg	257
@@ -13632,6 +13645,7 @@ columns:
 𡏋	kngt	257
 𡐓	gxbk	257
 𡒄	gzrf	257
+𡗜	mhb	257
 𡘙	mmmd	257
 𡚦	bid	257
 𡚽	agb	257
@@ -13695,7 +13709,6 @@ columns:
 𤫉	nsc	257
 𤫉	nscr	257
 𤭢	zjjr	257
-𤯕	lbn	257
 𤯥	bdls	257
 𤯦	tpl	257
 𤯦	tpls	257
@@ -13763,7 +13776,6 @@ columns:
 𨃅	puf	257
 𨃅	pufa	257
 𨐈	ymg	257
-𨑨	ouc	257
 𨓈	bduc	257
 𨙸	cte	257
 𨚕	klt	257
@@ -14268,7 +14280,6 @@ columns:
 𱊳	qqqx	257
 𱌮	lgj	257
 𱎼	jtg	257
-𱏱	jam	257
 𱏿	wdk	257
 𱑞	xlw	257
 𱑞	xlwr	257
@@ -14314,6 +14325,11 @@ columns:
 𲋤	qpdk	257
 𲍭	fsx	257
 𲍭	fsxn	257
+微	wvfo	257
+赢	fdvo	257
+徽	wvfi	257
+嬴	fdvb	257
+徵	wvfn	257
 的	unid	256
 一	fi	256
 是	ots	256
@@ -14897,6 +14913,7 @@ columns:
 點	pydk	243
 從	wjj	242
 從	wjjs	242
+羸	fdvg	242
 將	avk	241
 將	avkc	241
 時	ogk	240
@@ -14908,6 +14925,7 @@ columns:
 讓	std	236
 讓	stdf	236
 號	dfaz	235
+𱏱	jam	235
 們	jam	234
 話	sas	231
 請	savy	230
@@ -14933,6 +14951,7 @@ columns:
 愛	ywh	213
 愛	ywhh	213
 聽	qnnh	212
+彀	gwfb	212
 喫	dapm	211
 幫	ggkr	210
 學	pbb	209
@@ -14969,6 +14988,7 @@ columns:
 書	bor	190
 辦	nsnx	189
 級	icj	188
+觳	gwfx	188
 併	jhl	187
 併	jhlc	187
 兩	ml	186
@@ -15039,6 +15059,7 @@ columns:
 壞	gty	145
 壞	gtyk	145
 龍	tl	144
+殼	gwfo	144
 離	zbmu	143
 媽	bnm	142
 達	ggu	141
@@ -15053,6 +15074,7 @@ columns:
 魚	wv	138
 罵	ynm	137
 鎮	znqh	137
+蠃	fdvc	137
 練	ixhb	134
 億	jxhx	133
 貓	mlqt	132
@@ -15067,6 +15089,11 @@ columns:
 喲	dini	128
 搶	ujm	128
 搶	ujmd	128
+榖	gwfe	128
+穀	gwfx	128
+縠	gwfi	128
+臝	fdvq	128
+𬆮	gwfx	128
 較	yabi	127
 臉	vjd	126
 臉	vjdj	126
@@ -15124,20 +15151,6 @@ columns:
 證	shzd	100
 鐵	znp	100
 鐵	znpn	100
-微	wvfo	100
-徽	wvfi	100
-徵	wvfn	100
-赢	fdvo	100
-嬴	fdvb	100
-羸	fdvg	100
-蠃	fdvc	100
-臝	fdvq	100
-彀	gwfb	100
-觳	gwfx	100
-殼	gwfo	100
-榖	gwfe	100
-穀	gwfx	100
-縠	gwfi	100
 汩	korg	100
 汨	korm	100
 乜	aaee	100
@@ -15244,6 +15257,7 @@ columns:
 賊	opns	79
 鄭	hymt	79
 設	srs	78
+廣	xnh	77
 歸	tksr	76
 滾	kthd	76
 趕	poeg	75
@@ -15379,7 +15393,6 @@ columns:
 礦	mxnh	50
 認	spih	50
 魯	wor	50
-𬆮	gwfx	50
 旮	korj	50
 凫	xojn	50
 颏	kwyh	50
@@ -15407,6 +15420,7 @@ columns:
 窅	eqmx	50
 敉	phpm	50
 魆	anug	50
+钚	zcbj	50
 劇	zjp	49
 劇	zjpd	49
 尋	bud	49
@@ -15426,6 +15440,7 @@ columns:
 訊	sans	48
 輝	mwyc	48
 騎	nmzk	48
+贏	fdvo	48
 側	jopd	47
 澤	kyg	47
 澤	kygg	47
@@ -15739,6 +15754,7 @@ columns:
 粵	trta	17
 緩	iyfr	17
 腸	vofe	17
+舁	plc	17
 銷	zyvy	17
 閉	antp	17
 鶴	wuxn	17
@@ -15823,7 +15839,6 @@ columns:
 糞	pql	11
 糞	pqlh	11
 紹	ipdk	11
-習	zub	11
 臥	qjr	11
 賦	ofps	11
 躍	pzui	11
@@ -16016,7 +16031,7 @@ columns:
 閩	acc	3
 頤	qwy	3
 顫	zrdw	3
-乛	ae	2
+黴	wvfp	3
 僑	jtmd	2
 厭	xovm	2
 啞	dfcy	2
@@ -16051,6 +16066,7 @@ columns:
 摻	ukke	1
 旡	du	1
 曏	oiit	1
+柫	etf	1
 棲	efbb	1
 沵	kxyx	1
 滯	klwr	1
@@ -16103,6 +16119,9 @@ columns:
 𫍛	shpd	1
 𫜬	llor	1
 𲂄	sby	1
+㐄	vkk	0
+㐄	vk	0
+㐫	zbmk	0
 丂	fae	0
 丆	ftp	0
 丒	pif	0
@@ -16120,9 +16139,7 @@ columns:
 丵	cgy	0
 丷	hbb	0
 丷	hb	0
-乀	id	0
 乁	ae	0
-乄	aid	0
 乊	thb	0
 乑	tks	0
 乕	xmr	0
@@ -16140,6 +16157,7 @@ columns:
 乫	sda	0
 乫	sdai	0
 乬	nnai	0
+乭	mai	0
 乮	bai	0
 乯	thna	0
 乲	weai	0
@@ -16160,7 +16178,6 @@ columns:
 亁	noea	0
 亃	plva	0
 亄	gwza	0
-亅	gs	0
 亇	xgs	0
 亊	fhbv	0
 亐	mae	0
@@ -16635,6 +16652,8 @@ columns:
 凜	wzrx	0
 凞	wtqc	0
 凟	wgyo	0
+凢	toj	0
+凣	goj	0
 凥	coj	0
 処	hoj	0
 凧	orj	0
@@ -16843,7 +16862,6 @@ columns:
 卾	ddmz	0
 厀	ejkz	0
 厁	jxjz	0
-厃	xxc	0
 厇	xtr	0
 厇	xtrq	0
 厈	xeg	0
@@ -17085,7 +17103,6 @@ columns:
 喴	dnfb	0
 営	kwdd	0
 喸	ndvb	0
-喿	ddde	0
 嗀	gwfr	0
 嗁	dxzh	0
 嗂	dya	0
@@ -17134,8 +17151,6 @@ columns:
 嘠	dwp	0
 嘠	dwpg	0
 嘥	dwss	0
-嘦	dhv	0
-嘦	dhvb	0
 嘨	dbpp	0
 嘩	dlf	0
 嘩	dlfu	0
@@ -17724,7 +17739,6 @@ columns:
 姍	bic	0
 姎	bmmd	0
 姏	bzg	0
-姕	svbn	0
 姖	bnn	0
 姖	bnnk	0
 姙	bjt	0
@@ -17993,6 +18007,7 @@ columns:
 嬡	bywh	0
 嬣	bwha	0
 嬤	bziy	0
+嬥	bzui	0
 嬦	bgak	0
 嬧	bbc	0
 嬧	bbca	0
@@ -18357,7 +18372,6 @@ columns:
 嵻	vxbk	0
 嵼	vixl	0
 嵽	vlwr	0
-嵾	vkk	0
 嵾	vkke	0
 嵿	vaw	0
 嵿	vawy	0
@@ -18661,7 +18675,6 @@ columns:
 弽	blae	0
 弾	bkq	0
 弾	bkqn	0
-弿	wqhb	0
 彁	bzz	0
 彁	bzzk	0
 彂	cbo	0
@@ -19708,7 +19721,6 @@ columns:
 昁	ofrj	0
 昅	ocj	0
 昋	fmor	0
-昍	oor	0
 昐	ohpd	0
 昑	ojae	0
 昖	ohk	0
@@ -20006,7 +20018,6 @@ columns:
 柧	eyg	0
 柨	enrj	0
 柪	eisl	0
-柫	etf	0
 柭	enri	0
 柲	ehtp	0
 柵	eic	0
@@ -20799,7 +20810,7 @@ columns:
 氱	vofe	0
 氳	vrj	0
 氳	vrja	0
-氶	aks	0
+氷	iks	0
 氺	ks	0
 氻	ksl	0
 汃	khb	0
@@ -21809,7 +21820,6 @@ columns:
 犪	qho	0
 犪	qhoh	0
 犫	suuq	0
-犮	nrid	0
 犱	mki	0
 犱	mkid	0
 犲	mntp	0
@@ -22244,8 +22254,6 @@ columns:
 畵	bqm	0
 畵	bqmk	0
 畷	qrrr	0
-畺	fqf	0
-畺	fqff	0
 畻	qhhg	0
 畼	qof	0
 畼	qofe	0
@@ -23136,6 +23144,7 @@ columns:
 窇	envs	0
 窉	efmj	0
 窋	esmk	0
+窌	ebm	0
 窏	ekf	0
 窏	ekfn	0
 窐	eggt	0
@@ -25290,6 +25299,7 @@ columns:
 蜬	cakm	0
 蜭	cxpj	0
 蜯	caiu	0
+蜰	vmcc	0
 蜲	cxbn	0
 蜳	cghi	0
 蜵	caaf	0
@@ -27146,7 +27156,6 @@ columns:
 釄	yzrf	0
 釅	ydd	0
 釅	yddh	0
-釆	tpm	0
 釈	tpc	0
 釈	tpci	0
 釓	zae	0
@@ -28006,7 +28015,6 @@ columns:
 阭	tkp	0
 阭	tkpe	0
 阯	tsi	0
-阰	tvvb	0
 阷	tfsi	0
 阸	tmai	0
 阹	tgks	0
@@ -28090,6 +28098,7 @@ columns:
 雐	zui	0
 雑	keui	0
 雓	jxui	0
+雔	uui	0
 雗	nonu	0
 雘	mzl	0
 雘	mzlr	0
@@ -28290,6 +28299,7 @@ columns:
 韤	gly	0
 韤	glyi	0
 韥	ggyo	0
+韮	lrfi	0
 韯	npr	0
 韯	nprf	0
 韰	grrf	0
@@ -28899,7 +28909,6 @@ columns:
 鬸	nbqt	0
 鬹	heng	0
 鬺	neoe	0
-鬽	aes	0
 鬾	aci	0
 鬿	atj	0
 魀	ajpd	0
@@ -29731,6 +29740,7 @@ columns:
 鼮	ptg	0
 鼮	ptgu	0
 鼰	pob	0
+鼱	pavy	0
 鼲	pwyc	0
 鼳	pqm	0
 鼳	pqmq	0
@@ -29900,11 +29910,13 @@ columns:
 鿼	psdk	0
 鿾	giit	0
 鿿	njks	0
+𡨄	wqhb	0
+𤯕	lbn	0
+𨑨	ouc	0
 㐀	lfi	0
 㐁	frjr	0
 㐂	rrrq	0
 㐃	dgs	0
-㐄	vk	0
 㐅	bi	0
 㐆	zs	0
 㐇	kai	0
@@ -29948,7 +29960,6 @@ columns:
 㐨	iiv	0
 㐩	qqj	0
 㐪	zvjr	0
-㐫	zbmk	0
 㐬	boc	0
 㐭	zrdk	0
 㐮	thq	0
@@ -30109,7 +30120,6 @@ columns:
 㒶	hub	0
 㒷	mjh	0
 㒷	mjhb	0
-㒸	hjs	0
 㒹	nqhh	0
 㒺	mhfw	0
 㒻	oej	0
@@ -37587,7 +37597,6 @@ columns:
 𠃐	aai	0
 𠃑	ae	0
 𠃒	nae	0
-𠃓	aes	0
 𠃔	ape	0
 𠃕	tia	0
 𠃕	tiae	0
@@ -38655,7 +38664,7 @@ columns:
 𠒓	mpvx	0
 𠒔	fsaa	0
 𠒕	kpxt	0
-𠒖	nlfp	0
+𠒖	nlmp	0
 𠒗	mogs	0
 𠒘	cppw	0
 𠒙	cpt	0
@@ -38963,7 +38972,7 @@ columns:
 𠖤	wmph	0
 𠖥	wtl	0
 𠖦	wbtf	0
-𠖧	wftg	0
+𠖧	wvgc	0
 𠖨	wmpj	0
 𠖩	wnqw	0
 𠖪	wbgc	0
@@ -40531,7 +40540,6 @@ columns:
 𠬳	iiry	0
 𠬴	rhts	0
 𠬵	pry	0
-𠬶	bwry	0
 𠬷	wtry	0
 𠬸	mvr	0
 𠬸	mvry	0
@@ -43517,13 +43525,11 @@ columns:
 𡗔	mgs	0
 𡗕	mhb	0
 𡗖	mmd	0
-𡗗	aid	0
 𡗘	fmgs	0
 𡗙	fma	0
 𡗙	fmae	0
 𡗚	fmjr	0
 𡗛	nmd	0
-𡗜	mhb	0
 𡗝	mbg	0
 𡗞	imd	0
 𡗟	mjgs	0
@@ -44699,7 +44705,6 @@ columns:
 𡨁	wgch	0
 𡨂	wwdk	0
 𡨃	wfki	0
-𡨄	wqhb	0
 𡨅	wca	0
 𡨅	wcad	0
 𡨆	wllf	0
@@ -44749,7 +44754,7 @@ columns:
 𡨱	wjgg	0
 𡨲	wati	0
 𡨳	wqjr	0
-𡨴	wftg	0
+𡨴	wlad	0
 𡨵	wmo	0
 𡨵	wmof	0
 𡨶	woch	0
@@ -82059,7 +82064,7 @@ columns:
 𪅟	xxbt	0
 𪅠	gagx	0
 𪅡	xzje	0
-𪅢	wftx	0
+𪅢	wlax	0
 𪅣	mjjx	0
 𪅤	qrgx	0
 𪅥	uhxn	0
@@ -85510,7 +85515,7 @@ columns:
 𪺓	ybja	0
 𪺔	ywxt	0
 𪺕	yiii	0
-𪺖	ywfg	0
+𪺖	ywla	0
 𪺗	ybwp	0
 𪺘	xbyo	0
 𪺙	yihn	0
@@ -112146,3 +112151,62 @@ columns:
 ㆽ	fbi	0
 ㆾ	afi	0
 ㆿ	hb	0
+嗀	gwfd	0
+幑	wvfr	0
+瑴	gwfn	0
+瞉	gwfq	0
+糓	gwfp	0
+豰	gwfj	0
+轂	gwfy	0
+驘	fdvn	0
+鰴	wvfw	0
+鷇	gwfx	0
+鸁	fdvx	0
+㜌	gwfb	0
+㝅	gwfh	0
+㣲	wvfd	0
+㲉	gwfb	0
+㷤	gwfc	0
+㺉	gwfm	0
+䇔	fdvi	0
+䍍	gwfa	0
+䐨	gwfv	0
+𡑤	fdvg	0
+𡢔	fdvb	0
+𡳴	fdvl	0
+𢕄	wvfi	0
+𣎆	fdvo	0
+𣜄	fdve	0
+𣪒	gwfa	0
+𣪨	gwfm	0
+𣪳	gwfe	0
+𣪹	gwfs	0
+𣫌	gwfy	0
+𣫎	gwfx	0
+𣫓	gwfe	0
+𣫔	gwfj	0
+𣹬	gwfk	0
+𥀎	gwfr	0
+𥔳	gwfm	0
+𥢵	fdvx	0
+𦆁	fdvi	0
+𦎯	gwfg	0
+𦣄	fdvt	0
+𦣉	fdvp	0
+𦣖	fdvo	0
+𧏚	gwfc	0
+𧝹	fdvt	0
+𧹲	gwfg	0
+𨏩	fdvy	0
+𨭞	fdvz	0
+𩌊	gwft	0
+𩼊	fdvw	0
+𪏙	gwfn	0
+𪕸	gwfp	0
+𫢃	fdvd	0
+𫢄	fdvf	0
+𬢙	fdvx	0
+𱈑	wvfw	0
+𱊮	fdvx	0
+嗀	gwfd	0
+穀	gwfx	0

@@ -4,9 +4,9 @@ patch:
   translator/dictionary: tigress.extended #引入增补自定词典，这个不要改动
   style/horizontal: false # 默认false竖排显示,改为true横排可显示
   menu/page_size: 9 # 自定义候选个数，主方案默认是9个，这里可修改
-  style/mark_text: "" # 编号前自定标志，可在引号内加其他emoji 如：🐯 或 🐮 或 😅
+  #translator/enable_completion: true # 编码提示，默认关闭，删掉行首的#号，即可开启
+  #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
   menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 自定义候选序号显示符，可自定修改，如要显示阿拉伯数字，直接注释掉这行（在前面加#号）
- #translator/enable_completion: true # 编码提示true开启，false关闭。默认关闭，删掉行首的#号，即可开启
   # 以下是备选样式（自行删除#号即可生效，只能生效一种）
   #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
   #menu/alternative_select_labels: [ ❶,❷,❸,❹,❺,❻,❼,❽,❾,❿ ]
@@ -21,13 +21,14 @@ patch:
   #style/preedit_type: preview # 嵌入首选项内容，而非编码。有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
   #style/layout/margin_y : -300 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
-  #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 开启四码上屏功能
-  # 滤镜内容字体
-  #style/comment_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  #style/comment_font_point: 15 # 滤镜内容字号
-  # 候选字体
-  #style/font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  # #候选字体 (取消下面两行注释可变为霞鹜新晰黑体)
+  #style/font_face: "Consolas, Noto Color Emoji, TumanPUA, 霞鹜新晰黑 屏幕阅读版, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
   #style/font_point: 15 #主字体字号
-  # 候选前编号标志字体
-  #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  #style/label_font_point: 15 #候选前编号标志字号
+  # #滤镜内容字体 (取消下面两行注释可变为霞鹜新晰黑体)
+  #style/comment_font_face: "Consolas, Noto Color Emoji, TumanPUA, 霞鹜新晰黑 屏幕阅读版, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/comment_font_point: 15 # 滤镜内容字号
+  # #候选前编号标志字体 (取消下面两行注释可变为霞鹜新晰黑体)
+  #style/label_font_face: "霞鹜新晰黑 屏幕阅读版, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/label_font_point: 15 #候选前编号标志字
+  # #换字体后去掉编号前的mark，替换为空格
+  #style/mark_text: " "

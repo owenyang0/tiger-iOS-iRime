@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.02.01"
+version: "2023.02.13"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -14037,7 +14037,6 @@ encoder:
 过问	838	kuad
 火腿	838	chvi
 处死	838	hygv
-绝地	838	ixge
 知音	838	odxy
 吓死	838	dfgv
 月前	838	vyhv
@@ -14046,6 +14045,7 @@ encoder:
 做对	838	jcrk
 先到	838	qpyp
 月儿	838	vype
+产地	838	ixge
 下的	837	fyun
 农产品	836	widd
 交战	836	abyd
@@ -18729,6 +18729,7 @@ encoder:
 散尽	645	lvci
 令你	645	jkjx
 爱爱	645	ywyw
+绝地	643	ixge
 盛会	643	najb
 奖学金	643	akzj
 办事处	643	sfhy
@@ -18742,7 +18743,6 @@ encoder:
 听歌	643	dtzz
 届时	643	cdok
 处理器	643	hndd
-产地	643	ixge
 风范	643	oblk
 科室	643	xjwy
 油门	643	kdam
@@ -24550,6 +24550,7 @@ encoder:
 独自一人	506	mofj
 杂事	506	kefd
 申明	506	ogov
+幸免于难	506	gwfr
 忏悔	505	hlhe
 查理	505	eond
 主场	505	inga
@@ -24658,6 +24659,7 @@ encoder:
 凉州	505	wgoo
 近海	505	tuke
 犯忌	505	mzvh
+就完事了	505	gwfr
 百货	502	fujv
 药店	502	lixy
 捐助	502	udfs
@@ -28113,6 +28115,7 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+版号	450	axdf
 躺赢	450	zsfd
 躺输	450	zsyj
 疣猪	450	aomq
@@ -31571,7 +31574,6 @@ encoder:
 害群之马	407	wbrn
 到你	407	ypjx
 喜欢的	407	hrun
-幸免于难	406	gwfr
 能不	406	kvcb
 也不会	406	ecjb
 看完	405	uqwm
@@ -31752,7 +31754,6 @@ encoder:
 社会主义现代化建设	405	fjis
 首演	405	hokw
 你怎么	405	jwtk
-就完事了	405	gwfr
 更多的	405	flun
 亲爱的	404	iyun
 小小的	404	yyun

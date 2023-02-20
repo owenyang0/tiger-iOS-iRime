@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.02.01"
+version: "2023.02.13"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2268,7 +2268,6 @@ encoder:
 殖民地	147	gdg
 向日葵	147	tol
 受教育	147	yqb
-公信力	147	hjs
 摄影师	147	uop
 水龙头	147	ktw
 大道理	147	mhn
@@ -2648,7 +2647,6 @@ encoder:
 净利润	123	wxk
 政治上	123	fky
 不合理	123	cjn
-角质层	123	xxc
 巨大的	123	nmu
 听得到	123	dwy
 李清照	123	eko
@@ -3383,6 +3381,7 @@ encoder:
 广色域	102	xxg
 菟丝花	102	lil
 分辨率	102	hnz
+脚后跟	102	vxp
 爱国者	102	yrq
 教育局	102	qbc
 兔崽子	102	wvh
@@ -4012,7 +4011,6 @@ encoder:
 食心虫	90	qhc
 哈夫曼	90	dho
 多幕剧	90	llc
-司线员	90	aid
 刮雨器	90	atd
 利改税	90	xvx
 紫穗槐	90	sxe

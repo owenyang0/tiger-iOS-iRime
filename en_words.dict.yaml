@@ -20,8 +20,8 @@ encoder:
 ABS	abs	0
 Android	and	0
 AC	ac	0
-app	app	0
 App	app	0
+app	app	0
 Apple	app	0
 AppleCare+	appc	0
 AppleCare	appc	0
@@ -125,3 +125,5 @@ sso	sso	0
 SSO	sso	0
 job	job	0
 IM	im	0
+mac	mac	0
+macOS	mac	0
