@@ -3,8 +3,8 @@
 patch:
   translator/dictionary: tigress.extended #引入增补自定词典，这个不要改动
   # translator/enable_completion: true # 编码提示，默认关闭，删掉行首的#号，即可开启
-  # speller/alphabet: "[.;'zyxwvutsrqponmlkjihgfedcba]" # 句号引导，删掉即可
-  # speller/auto_select_pattern: ^;\w+|^.\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
+  #speller/alphabet: "[.;'zyxwvutsrqponmlkjihgfedcba]" # 句号引导，删掉即可
+  #speller/auto_select_pattern: ^;\w+|\.\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
   #speller/alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 取消分号引导的快符功能（分号不作码元），删掉行首#号即可生效
   #style/mark_text: " " #编号前标志，取消前面的#号可以去掉，也可在引号里可以自己加东西替换，如 "😅"
   #style/layout/border_width: 2 #边框宽度，默认是0
