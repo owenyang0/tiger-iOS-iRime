@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.02.13"
+version: "2023.02.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2142,6 +2142,7 @@ encoder:
 翻白眼	162	tuq
 恶作剧	162	fjc
 行李箱	162	per
+公子哥	162	hhz
 德尔塔	159	wxg
 了不得	159	rcw
 新纪元	159	iim
@@ -2216,6 +2217,7 @@ encoder:
 矿泉水	153	muk
 阶段性	153	tuh
 老东西	153	qrv
+婚姻法	153	bbk
 掉眼泪	153	uqk
 武汉市	153	fkz
 试试看	153	ssu
@@ -2268,6 +2270,7 @@ encoder:
 殖民地	147	gdg
 向日葵	147	tol
 受教育	147	yqb
+公信力	147	hjs
 摄影师	147	uop
 水龙头	147	ktw
 大道理	147	mhn
@@ -2497,6 +2500,7 @@ encoder:
 里程碑	132	dxm
 程序员	132	xxd
 惹不起	132	lcp
+黑眼圈	132	pqr
 穆斯林	132	xze
 性教育	132	hqb
 小提琴	132	yun
@@ -2565,10 +2569,10 @@ encoder:
 无名指	129	dlu
 委员长	129	xdp
 达尔文	129	mxv
-五千年	129	wle
 远距离	129	mpz
 心目中	129	hqd
 应该有	129	xsn
+很多年	129	wle
 西红柿	129	vie
 提出来	129	usa
 姐妹们	129	bbj
@@ -3133,6 +3137,7 @@ encoder:
 海淀区	108	kkn
 永久性	108	ixh
 录音机	108	bxe
+花果山	108	lqv
 不敢当	108	cay
 备忘录	108	hfb
 刘禹锡	108	vtz
@@ -3381,7 +3386,6 @@ encoder:
 广色域	102	xxg
 菟丝花	102	lil
 分辨率	102	hnz
-脚后跟	102	vxp
 爱国者	102	yrq
 教育局	102	qbc
 兔崽子	102	wvh
@@ -3443,6 +3447,7 @@ encoder:
 中国话	102	drs
 年夜饭	102	ezq
 私生活	102	xlk
+初中生	102	tdl
 月收入	102	vij
 废弃物	102	xbq
 设计者	102	ssq
@@ -3855,6 +3860,7 @@ encoder:
 障眼法	93	tqk
 替死鬼	93	hga
 直流电	93	nko
+运动场	93	bbg
 大法官	93	mkw
 菟丝子	93	lih
 小儿科	93	ypx
@@ -4218,6 +4224,7 @@ encoder:
 土特产	87	gqi
 变戏法	87	zrk
 绣花针	87	ilz
+白炽灯	87	ucc
 混合物	87	kjq
 北冰洋	87	awk
 信号灯	87	jdc
@@ -4279,6 +4286,7 @@ encoder:
 摩擦力	87	zus
 马后炮	87	nxc
 老古董	87	qcl
+半吊子	87	hdh
 狼牙棒	87	mle
 单人床	87	hjx
 发射器	87	szd
@@ -4499,7 +4507,6 @@ encoder:
 脑死亡	84	vgf
 小舅子	84	yph
 贬义词	84	ois
-发神经	84	sfi
 脸皮薄	84	vrl
 张柏芝	84	bel
 戴维斯	84	niz

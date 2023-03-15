@@ -7,10 +7,10 @@ author: 木易 #作者资讯
 
 #键盘高度等
 height:
-  A: &BMG 18 #编码区高度
-  B: &HXG 28 #候选区高度
-  C: &VJG 46 #主键盘行高
-  D: &FJG 46 #符号键盘行高
+  A: &BMG 17 #编码区高度
+  B: &HXG 27 #候选区高度
+  C: &VJG 35 #主键盘行高
+  D: &FJG 35 #符号键盘行高
 other:
   E: &VJH 11 #主键盘行间距
   F: &VJL 4 #主键盘列间距
@@ -25,12 +25,12 @@ style:
   keyboards: [default, english, .number, .symbols, number, symbols] #键盘配置,所有跳转键盘都需要在这里配置，不然会出错
   text_size: 14 #编码字体大小
   text_height: *BMG #编码区高度
-  candidate_text_size: 21 #候选字体大小
+  candidate_text_size: 19 #候选字体大小
   candidate_view_height: *HXG #候选区高度
   candidate_padding: 14 #候选间距
   candidate_comment_type: 1 #逐码显示样式，1为内嵌，2为并列
-  comment_text_size: 14 #逐码字体大小
-  comment_height: 16 #逐码高度
+  comment_text_size: 14 #逐码提示字体大小（滤镜）
+  comment_height: 16 #逐码提示高度（滤镜）
   show_preview: true #是否显示气泡 默认显示
   round_corner: *FJY #符号键盘圆角
   vertical_gap: *FJH #符号键盘行距
@@ -50,24 +50,24 @@ preset_keyboards:
       - {click: Shift, width: 16}
       - { click: space, width: 32 }
       - { click: BackSpace, width: 16}
-      - { click: p, label: P, swipe_up: 0, width: 18 }
+      - { click: p, label: P, swipe_up: 0, width: 18 , swipe_down: '\' }
       - { click: w, label: W, swipe_up: 2, width: 18 }
       - { click: e, label: E, swipe_up: 3, width: 16 }
       - { click: r, label: R, swipe_up: 4, width: 16 }
-      - { click: u, label: U, swipe_up: 7, width: 16 }
-      - { click: i, label: I, swipe_up: 8, width: 16 }
-      - { click: o, label: O, swipe_up: 9, width: 18 }
+      - { click: u, label: U, swipe_up: 7, width: 16, swipe_down: "^" }
+      - { click: i, label: I, swipe_up: 8, width: 16, swipe_down: '&' }
+      - { click: o, label: O, swipe_up: 9, width: 18, swipe_down: "*" }
       - { click: a, label: A, swipe_up: '!', width: 18 }
       - { click: s, label: S, swipe_up: slhFull, width: 16 }
       - { click: t, label: T, swipe_up: 5, width: 16 }
-      - { click: y, label: Y, swipe_up: 6, width: 16 }
-      - { click: j, label: J, swipe_up: "'", width: 16 }
+      - { click: y, label: Y, swipe_up: 6, width: 16, swipe_down: '%' }
+      - { click: j, label: J, swipe_up: "'", width: 16, swipe_down: '"' }
       - { click: k, label: K, swipe_up: '"', width: 18 }
       - { click: x, label: X, swipe_up: '?', width: 18 }
       - { click: d, label: D, swipe_up: '/', width: 16 }
       - { click: f, label: F, swipe_up: '#', width: 16 }
       - { click: g, label: G, swipe_up: '(', width: 16 }
-      - { click: h, label: H, swipe_up: ')', width: 16 }
+      - { click: h, label: H, swipe_up: ')', width: 16, swipe_down: _ }
       - { click: l, label: L, swipe_up: ';', width: 18 }
       - { click: z, label: Z, swipe_up: '`', width: 18 }
       - { click: c, label: C, swipe_up: commaHalf, width: 16 }
@@ -164,7 +164,7 @@ preset_keyboards:
   #   width: 20
 
   number:
-    ascii_mode: 1
+    ascii_mode: 0
     author: 木易
     height: *VJG
     horizontal_gap: *VJL
@@ -181,16 +181,18 @@ preset_keyboards:
       - {click: 8}
       - {click: 9}
       - {click: 0}
+      - {click: "+"}
       - {click: "-"}
+      - {click: "*"}
       - {click: "/"}
-      - {click: ":"}
-      - {click: semicolon}
-      - {click: bracket}
-      - {click: bracket1}
-      - {click: "¥"}
-      - {click: "@"}
-      - {click: quotationMarkFull}
-      - {click: quotationMarkFull1}
+      - {click: '('}
+      - {click: ')'}
+      - {click: '%'}
+      - {click: '^'}
+      - {click: '.'}
+      - {click: "="}
+      # - {click: quotationMarkFull}
+      # - {click: quotationMarkFull1}
       - {click: .symbols1, width: 14}
       - {width: 3}
       - {click: periodFull, width: 11}
@@ -198,7 +200,7 @@ preset_keyboards:
       - {click: dunHalf, width: 11}
       - {click: questionMark, width: 11}
       - {click: point, width: 11}
-      - {click: ., width: 11}
+      - {click: '@', width: 11}
       - {width: 3}
       - {click: BackSpace, width: 14}
       - {click: DefaultKeyboard, width: 25}

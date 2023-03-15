@@ -7,8 +7,8 @@ author: 木易 #作者资讯
 
 #键盘高度等
 height:
-  A: &BMG 18 #编码区高度
-  B: &HXG 28 #候选区高度
+  A: &BMG 17 #编码区高度
+  B: &HXG 27 #候选区高度
   C: &VJG 43 #主键盘行高
   D: &FJG 43 #符号键盘行高
 other:
@@ -25,19 +25,17 @@ style:
   keyboards: [default, english, .number, .symbols, number, symbols] #键盘配置,所有跳转键盘都需要在这里配置，不然会出错
   text_size: 14 #编码字体大小
   text_height: *BMG #编码区高度
-  candidate_text_size: 21 #候选字体大小
+  candidate_text_size: 18 #候选字体大小
   candidate_view_height: *HXG #候选区高度
   candidate_padding: 14 #候选间距
   candidate_comment_type: 1 #逐码显示样式，1为内嵌，2为并列
-  comment_text_size: 14 #逐码字体大小
-  comment_height: 16 #逐码高度
+  comment_text_size: 14 #逐码提示字体大小（滤镜）
+  comment_height: 16 #逐码提示高度（滤镜）
   show_preview: true #是否显示气泡 默认显示
   round_corner: *FJY #符号键盘圆角
   vertical_gap: *FJH #符号键盘行距
   horizontal_gap: *FJL #符号键盘列距
-  # sound: "cherry.caf"
-  # sound: "yuanyang.aiff"
-  sound: "m.aiff"
+  # sound: "m.aiff"
 
 #键盘布局
 preset_keyboards:
@@ -49,24 +47,24 @@ preset_keyboards:
     vertical_gap: *VJH
     round_corner: *VJY
     keys:
-      - { click: q, label: Q, swipe_up: 1 }
+      - { click: q, label: Q, swipe_up: 1}
       - { click: w, label: W, swipe_up: 2 }
       - { click: e, label: E, swipe_up: 3 }
       - { click: r, label: R, swipe_up: 4 }
       - { click: t, label: T, swipe_up: 5 }
-      - { click: y, label: Y, swipe_up: 6 }
-      - { click: u, label: U, swipe_up: 7 }
-      - { click: i, label: I, swipe_up: 8 }
-      - { click: o, label: O, swipe_up: 9 }
-      - { click: p, label: P, swipe_up: 0 }
+      - { click: y, label: Y, swipe_up: 6, swipe_down: '%' }
+      - { click: u, label: U, swipe_up: 7, swipe_down: "^" }
+      - { click: i, label: I, swipe_up: 8, swipe_down: '&' }
+      - { click: o, label: O, swipe_up: 9, swipe_down: "*" }
+      - { click: p, label: P, swipe_up: 0, swipe_down: '\' }
       - { width: 5 }
       - { click: a, label: A, swipe_up: '!' }
       - { click: s, label: S, swipe_up: slhFull }
-      - { click: d, label: D, swipe_up: '/' }
+      - { click: d, label: D, swipe_up: '/'}
       - { click: f, label: F, swipe_up: '#' }
       - { click: g, label: G, swipe_up: '(' }
-      - { click: h, label: H, swipe_up: ')' }
-      - { click: j, label: J, swipe_up: "'" }
+      - { click: h, label: H, swipe_up: ')', swipe_down: _ }
+      - { click: j, label: J, swipe_up: "'", swipe_down: '"' }
       - { click: k, label: K, swipe_up: '"' }
       - { click: l, label: L, swipe_up: ';' }
       - { width: 5 }
@@ -116,7 +114,7 @@ preset_keyboards:
       - {click: g, swipe_up: bracket2, swipe_down: "("}
       - {click: h, swipe_up: ")", swipe_down: ")"}
       - {click: j, swipe_up: "@",  swipe_down: "@"}
-      - {click: k, swipe_up: quotationMarkHalf2,  swipe_down: '"'}
+      - {click: k, swipe_up: quotationMarkHalf2, swipe_down: '"'}
       - {click: l, swipe_up: "”",  swipe_down: "'"}
       - {width: 5}
       - {click: Shift, width: 14}
@@ -133,7 +131,7 @@ preset_keyboards:
       - {click: symbols, width: 14}
       - {click: DefaultKeyboard2, width: 12}
       - {click: .number, width: 10}
-      - {click: space, width: 34}
+      - {click: space, width: 34 }
       - {click: ., swipe_up: ",", width: 10}
       - {click: Return, width: 20}
     name: "英文键盘"
@@ -170,7 +168,7 @@ preset_keyboards:
   #   width: 20
 
   number:
-    ascii_mode: 1
+    ascii_mode: 0
     author: 木易
     height: *VJG
     horizontal_gap: *VJL
@@ -187,16 +185,18 @@ preset_keyboards:
       - {click: 8}
       - {click: 9}
       - {click: 0}
+      - {click: "+"}
       - {click: "-"}
+      - {click: "*"}
       - {click: "/"}
-      - {click: ":"}
-      - {click: semicolon}
-      - {click: bracket}
-      - {click: bracket1}
-      - {click: "¥"}
-      - {click: "@"}
-      - {click: quotationMarkFull}
-      - {click: quotationMarkFull1}
+      - {click: '('}
+      - {click: ')'}
+      - {click: '%'}
+      - {click: '^'}
+      - {click: '.'}
+      - {click: "="}
+      # - {click: quotationMarkFull}
+      # - {click: quotationMarkFull1}
       - {click: .symbols1, width: 14}
       - {width: 3}
       - {click: periodFull, width: 11}
@@ -204,7 +204,7 @@ preset_keyboards:
       - {click: dunHalf, width: 11}
       - {click: questionMark, width: 11}
       - {click: point, width: 11}
-      - {click: ., width: 11}
+      - {click: '@', width: 11}
       - {width: 3}
       - {click: BackSpace, width: 14}
       - {click: DefaultKeyboard, width: 25}
@@ -251,7 +251,7 @@ preset_keyboards:
       - { click: '"' }
       - { click: '.' }
       - { width: 1 }
-      - { click: BackSpace, width: 14 }
+      - { click: BackSpace, width: 14}
       - { click: english1, width: 15 }
       - { click: DefaultKeyboard2, width: 13 }
       - { click: space, label: '空格', width: 40 }
@@ -269,7 +269,12 @@ preset_keys:
   #   其它暂时不支持,具体看事例;
   # 现在支持commit命令,直接上屏指定字符
   #
-  Shift: { label: Shift, send: Shift_L }
+  # Left: {label: '←', send: Left}
+  # Down: {label: '↓', send: Down}
+  # Up: {label: '↑', send: Up}
+  # Right: {label: '→', send: Right}
+  # Shift: { label: Shift, send: Shift_L }
+  # Clear: {label: "⇤", text: "{Control+End}{Control+Shift+Home}{Delete}"} #全選並刪除
   Return: { label: Enter, send: Return }
   BackSpace: { send: BackSpace }
   space: { label: '空格', send: space }

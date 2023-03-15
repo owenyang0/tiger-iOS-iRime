@@ -3,4 +3,3 @@ patch:
         - schema: tiger
         - schema: tigress
         - schema: PY_c
-        - schema: easy_english

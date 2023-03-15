@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.02.13"
+version: "2023.02.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -18704,7 +18704,6 @@ encoder:
 伊拉克	645	jucp
 施加	645	lesd
 俏皮	645	jyrp
-识字	645	sdwh
 元年	645	mpev
 轻轻松松	645	yyee
 香炉	645	xocm
@@ -18722,6 +18721,7 @@ encoder:
 谁有	645	sunv
 之忧	645	riho
 说个	645	shjg
+加密	645	sdwh
 根本上	645	eeyf
 自欺	645	oizh
 村上	645	ekyf
@@ -21921,6 +21921,7 @@ encoder:
 一个问题	558	fjao
 大副	558	mdfd
 七七	557	rqrq
+识字	557	sdwh
 飞行员	557	cpdo
 处方	557	hylf
 胶囊	557	vand
@@ -21957,7 +21958,6 @@ encoder:
 拼音	557	uhxy
 蟑螂	557	cxci
 邀约	557	ulin
-加密	557	sdwh
 大报	557	mduz
 义气	557	ibvq
 光速	557	mgxu
@@ -23258,7 +23258,6 @@ encoder:
 俗人	531	jhjr
 作答	531	jwrj
 毛细	531	vmiq
-五千年	531	wlev
 漫过	531	koku
 法国人	531	krjr
 现存	531	neng
@@ -23289,6 +23288,7 @@ encoder:
 无法抗拒	531	dkuu
 心目中	531	hqdg
 应该有	531	xsnv
+很多年	531	wlev
 前端	528	hviv
 师大	528	pfmd
 问答	528	adrj
@@ -24934,7 +24934,6 @@ encoder:
 耳鸣	498	qedx
 是是非非	498	oorr
 举步	498	khss
-高山流水	498	gvkk
 愚笨	498	qvre
 赔罪	498	oiyr
 竹马	498	runm
@@ -25014,6 +25013,7 @@ encoder:
 韦小宝	498	gywn
 请坐	498	sajj
 睡眼	498	qlqi
+死气沉沉	498	gvkk
 第三代	498	rtjp
 蹄子	498	pihi
 政府部门	498	fxia
@@ -25198,7 +25198,6 @@ encoder:
 利尿	495	xpck
 牛郎	495	qnii
 端木	495	ivem
-浮萍	495	kylk
 遮天蔽日	495	xflo
 参保	495	kmjd
 染发	495	kksr
@@ -25243,6 +25242,7 @@ encoder:
 又来了	495	rarl
 也不错	495	eczl
 总以为	495	hvis
+淫荡	495	kylk
 周刊	493	mgep
 高龄	493	gglj
 县委	493	fkxb
@@ -25371,6 +25371,7 @@ encoder:
 投敌	493	urah
 戴上	492	npyf
 茄子	491	lshi
+五千年	491	wlev
 奖品	491	aldd
 陕西省	491	tvyt
 构想	491	eneq
@@ -25475,7 +25476,6 @@ encoder:
 采信	491	yejs
 密切联系	491	wrqt
 车外	491	ycly
-很多年	491	wlev
 民事案件	491	dfwj
 宫阙	491	wdah
 重要的	491	lvun
@@ -26617,6 +26617,7 @@ encoder:
 都应该	472	qxsk
 户口本	472	mdef
 佣兵	471	jtth
+高山流水	471	gvkk
 制药	471	qrli
 收录	471	ihbk
 整套	471	xhmp
@@ -26693,7 +26694,6 @@ encoder:
 论处	471	sjhy
 花言巧语	471	lsus
 硬碰硬	471	mmmf
-死气沉沉	471	gvkk
 无坚不摧	471	dpcu
 求见	471	fkej
 节前	471	lzhv
@@ -51557,7 +51557,7 @@ encoder:
 会规	303	jbhe
 拗劲	303	uiru
 毒谋	303	aksz
-校雠	303	easu
+校雠	303	eaus
 面坊	303	bmgl
 胜朝	303	vlno
 绳缆	303	idip
@@ -57702,6 +57702,7 @@ encoder:
 今天的	299	jfun
 大早	298	mdon
 陆海	298	tuke
+浮萍	298	kylk
 百天	298	fufm
 芦花	298	lmlj
 性骚扰	298	hnuo
@@ -57816,7 +57817,6 @@ encoder:
 机师	298	eopf
 稀世	298	xbla
 破费	298	mrto
-淫荡	298	kylk
 顿挫	298	fsuj
 马步	298	nmss
 名利场	298	lxga
@@ -83108,7 +83108,6 @@ encoder:
 挂角	208	ugxt
 瓷缸	208	weau
 主牌	208	inau
-繁枝	208	ekec
 清隽	208	kauv
 失体	208	thje
 移动硬盘	208	xbmi
@@ -83382,6 +83381,7 @@ encoder:
 保持着	208	jugq
 要他	208	vbje
 这也是	208	veot
+究极	208	ekec
 接下来的	208	ufau
 都不知道	208	qcoh
 不认	208	cbsj
@@ -83808,7 +83808,7 @@ encoder:
 六根清净	206	aekw
 人中之龙	206	jdrt
 人为财死	206	jiog
-辔头	206	yiwm
+辔头	206	iywm
 含血喷人	206	jtdj
 白衣秀士	206	utxg
 莲房	206	lyml
@@ -87153,6 +87153,7 @@ encoder:
 停更	200	jgfo
 破坏神	200	mgfo
 战五渣	200	ywke
+石匣	200	msns
 管你	199	rwjx
 十八大	199	nhmd
 又开始	199	rfbk
@@ -91261,7 +91262,6 @@ encoder:
 独门独院	186	mamt
 生死观	186	lgre
 记录簿	186	sbrk
-阿尔茨海默病	186	txla
 飞砂走石	186	cmpm
 驻足不前	186	npch
 驾鹤西去	186	swvg
@@ -91316,6 +91316,7 @@ encoder:
 是什么意思	186	ojtq
 仅仅只是	186	jjdo
 威压	186	nfxg
+隐世	186	txla
 你这个	186	jvjg
 还不知道	186	ccoh
 稳定的	186	xwun
@@ -101856,6 +101857,7 @@ encoder:
 有那么一个	64	natj
 不是这个	64	covj
 因为一个	64	rifj
+繁枝	63	ekec
 蒙恬	63	lwha
 赵丽颖	63	pfvx
 影响因素	63	odra
@@ -102464,7 +102466,6 @@ encoder:
 贾诩	63	vosz
 识记	63	sdsv
 有篇	63	nvrm
-究极	63	ekec
 四等	63	ysrg
 孤鸿	63	hyku
 下邳	63	fycf
@@ -105538,7 +105539,7 @@ encoder:
 大奶	60	mdbv
 公屏	60	hkch
 亚圣	60	fcrg
-人彘	60	jrbo
+人彘	60	jrbv
 尖爪	60	ymya
 打团	60	uarn
 车锁	60	yczy
@@ -132699,7 +132700,6 @@ encoder:
 华路	53	jvps
 种豆	53	xdzd
 梁文	53	kpvw
-隐世	53	txla
 若寒	53	lnwq
 戴娆	53	npbp
 乐好	53	bybh
@@ -138451,6 +138451,7 @@ encoder:
 一天早上	53	ffoy
 一米七	53	fprq
 表情包	53	ahnv
+阿尔茨海默症	53	txla
 发了一个	53	srfj
 真的是一个	53	nuoj
 他就知道	53	jgoh
@@ -143741,7 +143742,7 @@ encoder:
 安胜浩	48	wvkq
 安室奈美惠	48	wwmn
 安以轩	48	wvye
-安在懋	48	wnit
+安在懋	48	wnei
 安在旭	48	wnko
 安志杰	48	wgec
 奥户巴寿	48	tmma
@@ -144553,7 +144554,7 @@ encoder:
 黄小桢	48	nyey
 黄馨	48	nhgc
 黄新德	48	niwn
-黄心懋	48	nhit
+黄心懋	48	nhei
 黄馨仪	48	ngji
 黄星魁	48	noaj
 黄学新	48	nkie
@@ -146899,7 +146900,7 @@ encoder:
 不安好心	47	cwbh
 清静无为	47	kadi
 祖奶奶	47	fbbv
-鞍辔	47	twyi
+鞍辔	47	twiy
 悉达多	47	tmll
 老美	47	qlgm
 火影忍者	47	copq
@@ -154616,6 +154617,7 @@ encoder:
 不太知道	44	cmoh
 每天一个	44	effj
 往自己脸上贴金	44	wovz
+阿尔茨海默病	43	txla
 恩施土家族苗族自治州	43	rlgo
 赵元任	43	pmjt
 平衡态	43	epmi
@@ -157164,7 +157166,6 @@ encoder:
 错漏百出	43	zkfs
 阖家幸福	43	awgf
 防盗锁	43	twzy
-阿尔茨海默症	43	txla
 青山不改	43	avcv
 青萍之末	43	alrf
 频率响应	43	szdx

@@ -1832,12 +1832,12 @@ end
 
 local function translator(input, seg)
   if (input == "/date" or input == "/frq" or input == "/orzh") then
-    date = os.date("%Y-%m-%d")
+    date = os.date("%Y.%m.%d")
     num_year = os.date("%j/") .. IsLeap(os.date("%Y"))
     candidate = Candidate("date", seg.start, seg._end, date, num_year)
     yield(candidate)
-    date = os.date("%Y.%m.%d")
-    num_year = os.date("%j/") .. IsLeap(os.date("%Y"))
+
+    date = os.date("%Y-%m-%d")
     candidate = Candidate("date", seg.start, seg._end, date, num_year)
     yield(candidate)
 
