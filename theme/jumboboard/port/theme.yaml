@@ -7,8 +7,8 @@ author: 木易 #作者资讯
 
 #键盘高度等
 height:
-  A: &BMG 17 #编码区高度
-  B: &HXG 27 #候选区高度
+  A: &BMG 19 #编码区高度
+  B: &HXG 29 #候选区高度
   C: &VJG 35 #主键盘行高
   D: &FJG 35 #符号键盘行高
 other:
@@ -25,7 +25,7 @@ style:
   keyboards: [default, english, .number, .symbols, number, symbols] #键盘配置,所有跳转键盘都需要在这里配置，不然会出错
   text_size: 14 #编码字体大小
   text_height: *BMG #编码区高度
-  candidate_text_size: 19 #候选字体大小
+  candidate_text_size: 20 #候选字体大小
   candidate_view_height: *HXG #候选区高度
   candidate_padding: 14 #候选间距
   candidate_comment_type: 1 #逐码显示样式，1为内嵌，2为并列

@@ -29,9 +29,13 @@ patch:
   #menu/alternative_select_labels: [ Ⓐ,Ⓑ,Ⓒ,Ⓓ,Ⓔ,Ⓕ,Ⓖ,Ⓗ,Ⓘ,Ⓙ ]
   #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
 
-  #style/preedit_type: preview # 嵌入首选项内容，而非编码。有3个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项
+  #style/preedit_type: preview # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容 
   #style/layout/margin_y : -1 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
+
+  # 去掉圆角 新小狼毫（Win）
+  #style/layout/corner_radius: 0 #候选圆角
+  #style/layout/round_corner: 0 #高亮圆角
 
   # #候选字体
   #style/font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
@@ -41,10 +45,18 @@ patch:
   #style/comment_font_point: 15 # 滤镜内容字号
   # #候选前编号标志字体
   #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
-  #style/label_font_point: 14 #候选前编号标志字号
+  #style/label_font_point: 15 #候选前编号标志字号
 
   # 以下是解决 新狼毫候选框响应慢 的方法，删除下面四行前面的#号即可生效
   #style/color_font: false
   #style/font_face: LXGW WenKai GB Screen R
   #style/comment_font_face: LXGW WenKai GB Screen R
   #style/label_font_face: LXGW WenKai GB Screen R
+
+  # 去除拼音滤镜的括号，如对括号有需求，可在下面5行前面加上#号注释掉
+  pinyin/comment_format:
+   - 'xform/&nbsp;/ /'
+   - 'xform/^/ /'
+   - 'xform/（//'
+   - 'xform/）//'
+  # 也可自己把 （ 替换成别的，比如 'xform/（/〔/'

@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.02.28"
+version: "2023.03.19"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -28099,11 +28099,13 @@ encoder:
 之命	450	rijd
 如春	450	bdai
 娇笑	450	btrt
+香艳	450	xoax
 厌食	450	xmqs
 填表	450	gnat
 墨索里尼	450	pndc
 亚文化	450	fvjv
 嗯嗯	450	drdr
+蔫了	450	lfrl
 萌新	450	loie
 弄弄	450	nlnl
 呼啸山庄	450	ddvx
@@ -28123,6 +28125,7 @@ encoder:
 罗宾汉	450	ywkr
 使魔	450	jfza
 飞天遁地	450	cfxg
+年上	450	evyf
 难绷	450	ruiv
 靠北	450	qdav
 厌女	450	xmbn
@@ -28167,6 +28170,10 @@ encoder:
 霞鹜	450	tcit
 文楷	450	vwev
 雾雨魔理沙	450	ttzk
+铃芽	450	zjll
+贝克街	450	ocpg
+使使	450	jfjf
+润了	450	karl
 女鬼	448	bnag
 上岗	448	yfvm
 居室	448	ccwy
@@ -32090,6 +32097,7 @@ encoder:
 顺理	401	ownd
 国际市场	401	rtzg
 从那时起	401	jaop
+味精	401	dapa
 播放器	401	uldd
 小规模	401	yhel
 武侠小说	401	fjys
@@ -32107,7 +32115,6 @@ encoder:
 对着干	401	rgeg
 弯弯曲曲	401	zzyy
 心绞痛	401	hiak
-咬断	401	dapa
 玩艺	401	nmla
 主仆	401	injy
 弓弦	401	bgbz
@@ -32248,7 +32255,6 @@ encoder:
 虽在	400	dcng
 并不需要	400	hctv
 因为我	400	ritu
-年上	400	evyf
 告诉你	398	qsjx
 别人的	398	djun
 的孩子	398	uhhi
@@ -32397,7 +32403,6 @@ encoder:
 此文	397	svvw
 不育	397	cbbv
 买走	397	awpz
-请多	397	sall
 针扎	397	znua
 细沙	397	iqky
 再拜	397	fmuf
@@ -32470,6 +32475,7 @@ encoder:
 跃出	397	ptsm
 皇太子	397	umhi
 学术研讨会	397	kemj
+话多	397	sall
 些人	397	svjr
 事事	397	fdfd
 新娘子	396	ibhi
@@ -43277,7 +43283,6 @@ encoder:
 瞭望	318	qmfv
 便携	318	jfuu
 作价	318	jwjj
-味精	318	dapa
 普陀	318	hctw
 茂名	318	lnld
 排忧解难	318	uhxr
@@ -43417,6 +43422,7 @@ encoder:
 甩干	318	taeg
 爆肚	318	covg
 痛彻心扉	318	awhm
+咬断	318	dapa
 软玉	318	yeni
 索斯	318	nwzh
 原动力	318	xbsl
@@ -58629,7 +58635,6 @@ encoder:
 攻陷	292	uhtx
 举棋不定	292	kecw
 鹌鹑	292	mogh
-香艳	292	xoax
 火源	292	chkx
 血肿	292	tavd
 针孔	292	znha
@@ -58909,6 +58914,7 @@ encoder:
 杯水车薪	292	ekyl
 招聘会	292	uqjb
 忌恨	292	vhhi
+负疚	292	xoax
 排头兵	292	uwth
 交学费	292	akto
 广泛性	292	xkhl
@@ -71403,7 +71409,6 @@ encoder:
 长诗	240	pcsg
 执法必严	240	ukhf
 纯音	240	ifxy
-负疚	240	xoax
 婚假	240	bbjc
 密密匝匝	240	wwnn
 不堪入耳	240	cgjq
@@ -71733,7 +71738,6 @@ encoder:
 追债	240	tkja
 友谊赛	240	nswq
 荐骨	240	lnfg
-落下帷幕	240	lfrl
 西南地区	240	vngn
 航天器	240	ifdd
 升学率	240	tkzi
@@ -71840,6 +71844,8 @@ encoder:
 肯定会	240	swjb
 陌生的	240	tlun
 因为你	240	rijx
+秃版	240	xoax
+方了	240	lfrl
 不会是	239	cjot
 大概是	239	meot
 国共	239	rnlh
@@ -92510,7 +92516,6 @@ encoder:
 演员表	182	kdat
 炼石补天	182	cmtf
 爱丽舍	182	yfja
-爱别离苦	182	ydzl
 珞巴族	182	nmle
 石油气	182	mkvq
 离题万里	182	zofd
@@ -93116,6 +93121,7 @@ encoder:
 放心吧	182	lhdm
 为了你	182	irjx
 上大	182	yfmd
+点错	182	ydzl
 精神的	182	pfun
 走过来	182	pkah
 刚开始	182	mfbk
@@ -95180,7 +95186,6 @@ encoder:
 撞门	100	uiam
 提权	100	uoer
 割割	100	wawa
-秃版	100	xoax
 飞码	100	cfmn
 声笔飞码	100	grcm
 茶轴	100	ljyd
@@ -97152,10 +97157,10 @@ encoder:
 就不知道	77	gcoh
 他这个	77	jvjg
 我们几个	77	tjoj
+请多	76	sall
 多得多	76	lwll
 比较低	76	vyjb
 下得	76	fywo
-话多	76	sall
 条船	76	heio
 扑上	76	uyyf
 不是那么	76	coat
@@ -100473,6 +100478,8 @@ encoder:
 不让自己	66	csov
 什么都不知道	66	jtqh
 却是一个	66	gofj
+爱别离苦	65	ydzl
+落下帷幕	65	lfrl
 有备而来	65	nhla
 闻风	65	aqob
 半个世纪	65	hjli
@@ -100774,7 +100781,6 @@ encoder:
 亲哥	65	iezz
 长信	65	pcjs
 只睡	65	dhql
-蔫了	65	lfrl
 擦地	65	uwge
 同色	65	mfxm
 太惨	65	mihk
@@ -100931,7 +100937,6 @@ encoder:
 送送	65	hmhm
 听吗	65	dtdn
 乱摸	65	aaul
-点错	65	ydzl
 塔下	65	glfy
 上句	65	yfgj
 谁信	65	sujs
@@ -141403,7 +141408,6 @@ encoder:
 蓝洁瑛	49	lknl
 雅丹	49	lumz
 不怕没柴烧	49	chkc
-诸葛孔明	49	slho
 很毒	49	wiak
 三十年河东	49	tner
 乌衣巷	49	xtlh
@@ -142054,6 +142058,7 @@ encoder:
 黄帝内经	49	nimi
 一定范围内	49	fwlm
 一点都不想	49	fyqe
+请多关照	49	slho
 来包	49	ahnv
 竟是一个	49	xofj
 举一个	49	kfjg
@@ -144510,7 +144515,6 @@ encoder:
 黄飞然	48	ncvm
 黄格选	48	neqp
 黄光亮	48	nmgo
-黄国俊	48	nrjk
 黄国伦	48	nrjj
 黄鹤翔	48	nwgz
 黄鸿升	48	nktl
@@ -152057,6 +152061,7 @@ encoder:
 这样几个	45	veoj
 警灯	44	lgca
 丽水市	44	fkzr
+诸葛孔明	44	slho
 文广	44	vwxg
 北京银行	44	agzp
 天津大学	44	fkmk
@@ -153349,7 +153354,6 @@ encoder:
 要多少有多少	44	vlyy
 试用期满	44	stzk
 该配合你演出的我演视而不见	44	syje
-请多关照	44	slho
 越演越烈	44	pkpg
 跑火车	44	pcyc
 还可以这样	44	czve

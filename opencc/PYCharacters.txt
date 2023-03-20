@@ -6797,7 +6797,7 @@
 叻	（lè）
 叼	（diāo）
 叽	（jī）
-叾	（dug）
+叾	（dū）
 叿	（hōng&nbsp;hóng）
 吀	（miē）
 吁	（xū&nbsp;yù）
@@ -8078,7 +8078,7 @@
 壼	（kǔn）
 壽	（shòu）
 壾	（mǎng）
-壿	（cún）
+壿	（cún&nbsp;dūn）
 夀	（shòu）
 夁	（yī）
 夂	（zhǐ&nbsp;zhōng）
