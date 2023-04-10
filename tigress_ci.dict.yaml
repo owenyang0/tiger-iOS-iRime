@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.03.19"
+version: "2023.04.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -6548,7 +6548,6 @@ encoder:
 端着	1627	ivgq
 四川	1626	ysoc
 慌乱	1626	hlaa
-炎帝	1626	cciw
 透露	1626	xvtp
 案例	1626	wbjg
 专项	1626	mauw
@@ -11105,7 +11104,6 @@ encoder:
 防卫	1031	tlzf
 雕像	1031	mgjw
 妖精	1031	btpa
-党人	1031	spjr
 好消息	1031	bkoh
 很痛	1031	wiak
 两块	1031	mlgn
@@ -11128,10 +11126,10 @@ encoder:
 月下	1030	vyfy
 本市	1030	efzr
 读完	1030	snwm
-道里	1030	hodl
 太累	1030	miqi
 无话	1030	dusa
 小公主	1030	yhin
+郑易里	1030	hodl
 编织	1027	imid
 神态	1027	fomi
 拍打	1027	uuua
@@ -12688,7 +12686,6 @@ encoder:
 国法	915	rnkg
 却要	915	gkvb
 第三章	915	rtxn
-老头儿	915	qwpe
 法器	915	kgdd
 过长	915	kupc
 真能	915	nqkv
@@ -14775,8 +14772,6 @@ encoder:
 死前	801	gvhv
 山脚下	801	vvfy
 天狼星	801	fmol
-王心凌	800	nhwg
-声名远扬	800	glmu
 草坪	798	loge
 导航	798	vkiz
 提请	798	uosa
@@ -16016,7 +16011,6 @@ encoder:
 孤身	742	hyzs
 送死	742	hmgv
 约好	742	inbh
-六大	742	almd
 均有	742	gnnv
 必不可少	742	hczy
 万众	742	fpjj
@@ -16187,7 +16181,6 @@ encoder:
 深不可测	735	kczk
 志在	735	ghng
 所指	735	mtuv
-谈过	735	scku
 新华社	735	ijfg
 大连	735	mdyu
 园林	735	rmee
@@ -19767,7 +19760,6 @@ encoder:
 本座	613	efxj
 请把	613	saum
 民主集中制	613	diuq
-利人	613	xpjr
 如火	611	bdch
 好男人	611	bqjr
 主机	611	ineo
@@ -20159,7 +20151,6 @@ encoder:
 所列	602	mtgp
 圣物	602	rgqn
 真的吗	602	nudn
-成正比	602	nfvv
 陪在	602	ting
 但未	602	joaw
 信中	600	jsdg
@@ -22136,7 +22127,6 @@ encoder:
 风生水起	553	olkp
 蒙上	553	lwyf
 民兵	553	dmth
-发起人	553	spjr
 怀旧	553	hcgo
 废止	553	xssi
 付清	553	jkka
@@ -22171,7 +22161,6 @@ encoder:
 石窟	553	msec
 嫂嫂	553	bpbp
 朝政	553	nofs
-星宿	553	olwj
 众神	553	jjfo
 玩着	553	nmgq
 劈腿	553	cdvi
@@ -22529,7 +22518,6 @@ encoder:
 跳得	546	ppwo
 林徽因	546	ewrm
 朱镕基	546	tzzh
-的生活	546	ulka
 是一种	546	ofxd
 比分	543	vvhp
 评选	543	seqp
@@ -23684,8 +23672,8 @@ encoder:
 很傻	523	wijt
 难掩	523	ruum
 不知为何	523	coij
+洋洋洒洒	523	kkkk
 结缔组织	523	iiii
-江河湖海	523	kkkk
 在这里	522	nvdl
 落花	521	lklj
 微型	521	wvfl
@@ -26239,6 +26227,7 @@ encoder:
 加高	478	sdgg
 倒出	478	jysm
 搭话	478	ulsa
+淅淅沥沥	478	kkkk
 殿前	478	clhv
 重头	478	ldwm
 联系人	478	qtjr
@@ -26250,7 +26239,6 @@ encoder:
 自寻	478	oibk
 伤者	478	jeqo
 生产方式	478	lilp
-洋洋洒洒	478	kkkk
 射了	478	zkrl
 泪滴	478	kqki
 小段	478	yxuf
@@ -27977,6 +27965,7 @@ encoder:
 民事权利	452	dfex
 当回事	452	yrfd
 定调	452	wtsm
+道里	450	hodl
 下个月	450	fjvy
 选民	450	qpdm
 滑雪	450	kftb
@@ -28083,7 +28072,10 @@ encoder:
 八项	450	hbuw
 成风	450	naob
 谷爱凌	450	hywg
+潮红	450	kniu
 仙姑	450	jvbc
+砝码	450	mgmn
+老泪纵横	450	qkie
 数十万	450	pnfp
 满世界	450	klqj
 蓬勃发展	450	lnsc
@@ -28101,19 +28093,28 @@ encoder:
 娇笑	450	btrt
 香艳	450	xoax
 厌食	450	xmqs
+濒危	450	ksxx
 填表	450	gnat
+铜锈	450	zmzx
+流年不利	450	kecx
 墨索里尼	450	pndc
+卢克	450	yccp
 亚文化	450	fvjv
 嗯嗯	450	drdr
+快节奏	450	hlai
 蔫了	450	lfrl
 萌新	450	loie
 弄弄	450	nlnl
+水浅	450	kskf
+二版	450	meax
 呼啸山庄	450	ddvx
+内翻	450	mjtp
 桶子	450	ekhi
 奥匈帝国	450	tnir
 一个个	450	fjjg
 另外一个	450	dlfj
 一两个	450	fmjg
+王心凌	450	nhwg
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
@@ -28128,6 +28129,7 @@ encoder:
 年上	450	evyf
 难绷	450	ruiv
 靠北	450	qdav
+声名远扬	450	glmu
 厌女	450	xmbn
 杂鱼	450	kewv
 碧绿色	450	nixm
@@ -28169,11 +28171,60 @@ encoder:
 新晰	450	ieoe
 霞鹜	450	tcit
 文楷	450	vwev
+小松杏	450	yeed
 雾雨魔理沙	450	ttzk
+石匣	450	msns
 铃芽	450	zjll
 贝克街	450	ocpg
 使使	450	jfjf
 润了	450	karl
+夹逼	450	hhfd
+冲田杏梨	450	wqex
+手冢治虫	450	uwkc
+热插拔	450	uuun
+你干嘛	450	jedz
+朝桐光	450	nemg
+名器	450	lddd
+佛振	450	jtuf
+狂练	450	mnir
+舟批	450	iouv
+阿伟罗	450	tjyl
+跳水罗	450	pkyl
+冈部伦太郎	450	miji
+坤码	450	gomn
+坤年	450	goev
+两年半	450	mehu
+石头门	450	mwam
+紫米	450	svpm
+操我	450	udtu
+绿联	450	ibqh
+手冲壶	450	uwgw
+黑峡谷	450	pvhg
+宝批龙	450	wutl
+哈麻批	450	dzuv
+憨麻批	450	azuv
+窗上	450	etyf
+傻嘿	450	jtdp
+易手遮天	450	ouxf
+兰伯特	450	hjqg
+周淑怡	450	mkhk
+孙一宁	450	hfwa
+喵叽	450	dldo
+番剧	450	tpcc
+卫健	450	zfjb
+卫计	450	zfsn
+山高水远	450	vgkm
+弯举	450	zckh
+熬垮	450	apgm
+生椰	450	lseq
+生椰拿铁	450	lejz
+盲猜	450	fqma
+音游	450	xykl
+网曝	450	mboo
+光追	450	mgtk
+托育	450	utbv
+乡村教师	450	ieqp
+虾屎	450	cfcp
 女鬼	448	bnag
 上岗	448	yfvm
 居室	448	ccwy
@@ -28209,7 +28260,6 @@ encoder:
 劣质	448	ytxn
 世界卫生组织	448	lqzi
 分摊	448	hpur
-宝山	448	wnvs
 突飞猛进	448	ecmq
 百万富翁	448	ffwh
 店家	448	xywj
@@ -30521,7 +30571,6 @@ encoder:
 苔藓	418	lklw
 扭捏	418	uauo
 缝补	418	ihty
-潮红	418	kniu
 翻江倒海	418	tkjk
 损人	418	udjr
 记仇	418	svjk
@@ -30620,6 +30669,7 @@ encoder:
 把控	418	umue
 原始人	418	xbjr
 我把	418	tuum
+滇红	418	kniu
 他在	417	jeng
 把他	416	umje
 猫儿	416	mlpe
@@ -32165,7 +32215,6 @@ encoder:
 轻车熟路	400	yygp
 自家人	400	owjr
 画舫	400	fqil
-藤椅	400	lvem
 大步流星	400	msko
 长明灯	400	poca
 庸碌	400	xbmb
@@ -33237,7 +33286,6 @@ encoder:
 尿布	388	cknr
 原状	388	xuam
 一鸣惊人	388	fdhj
-为患	388	isdd
 私塾	388	xkgh
 西夏	388	vxfo
 头等舱	388	wrij
@@ -33377,6 +33425,7 @@ encoder:
 进群	388	qubt
 素衣	388	aiti
 松绑	388	ehia
+编译器	388	isdd
 信心十足	388	jhnp
 破破烂烂	388	mmcc
 大学士	388	mkgs
@@ -33614,6 +33663,7 @@ encoder:
 但会	386	jojb
 都是如此	386	qobs
 附加费	386	tsto
+波涛汹涌	385	kkkk
 英镑	385	lmzi
 目击者	385	quqo
 北约	385	avin
@@ -33703,7 +33753,6 @@ encoder:
 死磕	385	gvmg
 本来面目	385	eabq
 过滤器	385	kkdd
-汹涌澎湃	385	kkkk
 一准	385	fiwu
 蛮不讲理	385	zcsn
 白活	385	ubka
@@ -36156,6 +36205,7 @@ encoder:
 图个	367	rhjg
 国运	367	rnbu
 剪掉	367	hvuy
+汹涌澎湃	367	kkkk
 神鬼	367	foag
 得天独厚	367	wfmx
 大起大落	367	mpml
@@ -36345,7 +36395,6 @@ encoder:
 食道	367	qsho
 犀鸟	367	ckxn
 驴友	367	nmnr
-漂洋过海	367	kkkk
 爽口	367	mbdk
 变化多端	367	zjli
 粉条	367	phhe
@@ -36797,6 +36846,7 @@ encoder:
 速运	363	xubu
 星驰	363	olne
 尚欠	363	sseq
+重打	363	ldua
 内鬼	363	mjag
 冷空气	363	wevq
 拉升	363	uitl
@@ -36834,7 +36884,6 @@ encoder:
 正规化	363	fhjv
 闪光点	363	amyd
 火山口	363	cvdk
-名扬	363	ldua
 娜拉	363	baui
 狂妄自大	363	mfom
 发怔	363	srhf
@@ -41242,6 +41291,7 @@ encoder:
 人多手杂	332	jluk
 西葫芦	332	vllm
 会的	332	jbun
+党人	331	spjr
 围着	330	rggq
 嵇康	330	xoxb
 连续剧	330	yicc
@@ -41608,7 +41658,6 @@ encoder:
 湘潭	328	kekv
 粗放	328	pflh
 彩绘	328	yeij
-砝码	328	mgmn
 安徒生	328	wwls
 与日俱增	328	fojg
 不翼而飞	328	czlc
@@ -41685,7 +41734,6 @@ encoder:
 原由	328	xudy
 笔触	328	rvxt
 历久	328	xsxi
-老泪纵横	328	qkie
 冷面	328	wjbm
 键位	328	zbji
 鹤立鸡群	328	wirb
@@ -41832,10 +41880,13 @@ encoder:
 他又	328	jery
 情况下	328	hwfy
 有很多	328	nwll
+老母亲	328	qkie
+狗码	328	mgmn
 实是	327	wwot
 自然是	327	ovot
 其他的	327	zjun
 万元	326	fpmp
+炎帝	326	cciw
 欢畅	326	reog
 瘦猴	326	apmj
 水能	326	kskv
@@ -43917,6 +43968,7 @@ encoder:
 见见	317	ejej
 了一会	316	rfjb
 了一眼	316	rfqi
+老头儿	315	qwpe
 誓不	315	utcb
 葳蕤	315	lnlj
 锦标赛	315	zewq
@@ -44139,6 +44191,7 @@ encoder:
 省际	315	yttf
 高钙	315	ggzf
 广顺	315	xgow
+漂洋过海	315	kkkk
 货场	315	jvga
 漏光	315	kcmg
 证券市场	315	shzg
@@ -44157,7 +44210,6 @@ encoder:
 孙媳妇	315	hbbb
 火急火燎	315	cxcc
 抗病毒	315	uaak
-清洁能源	315	kkkk
 变黄	315	zcnh
 泊车	315	kuyc
 六折	315	alut
@@ -48518,7 +48570,6 @@ encoder:
 套机	306	mpeo
 天翔	306	fmgz
 蓝钻	306	lpzy
-乐购	306	byon
 两居	306	mlcc
 广本	306	xgef
 华航	306	jviz
@@ -51161,7 +51212,6 @@ encoder:
 生意兴隆	303	lxkt
 铁盒	303	ztjd
 逃散	303	pwlv
-重打	303	ldua
 复命	303	eojd
 沙门	303	kyam
 热化	303	ukjv
@@ -51635,6 +51685,7 @@ encoder:
 远期	303	mpzh
 骨科	303	fgxj
 恭喜发财	303	lhso
+名扬	303	ldua
 定国安邦	303	wrwa
 全无心肝	303	jdhv
 卡片机	303	yaeo
@@ -57952,7 +58003,6 @@ encoder:
 全国人民代表大会	296	jrjj
 挥挥手	296	uuus
 反革命	296	xtjd
-淅淅沥沥	296	kkkk
 七位	296	rqji
 荼蘼	296	ljlz
 场次	296	gawe
@@ -58319,12 +58369,12 @@ encoder:
 死生契阔	296	glaa
 情急之下	296	hxrf
 总的来说	296	huas
+江河湖海	296	kkkk
 横截面	296	enbm
 我们这	296	tjvu
 大家都	296	mwqo
 闻言	296	aqsy
 溪边	295	kysu
-波涛汹涌	295	kkkk
 孜孜	295	hhhh
 妖冶	295	btwk
 抛售	295	ukud
@@ -58552,6 +58602,7 @@ encoder:
 烧制	295	cpqr
 擎天柱	295	lfei
 正点	295	fsyd
+清洁能源	295	kkkk
 税后	295	xhxf
 参观者	295	krqo
 天文数字	295	fvpw
@@ -60292,6 +60343,7 @@ encoder:
 帛书	283	uraa
 掀掉	283	utuy
 黑条	283	phhe
+利人	283	xpjr
 奥尼尔	283	tcxy
 免收	283	wpih
 逃犯	283	pwmz
@@ -61382,7 +61434,6 @@ encoder:
 新力	277	iesl
 文质	277	vwxn
 球衣	277	nfti
-濒危	277	ksxx
 油箱	277	kdre
 歌唱家	277	zdwj
 服务台	277	vhkd
@@ -61697,6 +61748,7 @@ encoder:
 知道自己	277	ohov
 之前的	277	rhun
 的情况下	277	uhwf
+泼赖	277	ksxx
 把她	276	umbe
 滚球	276	ktnf
 凄凄惨惨	276	wwhh
@@ -66237,7 +66289,6 @@ encoder:
 路军	257	pswy
 华达	257	jvmu
 威特	257	nfqg
-卢克	257	yccp
 从打	257	jjua
 金泰	257	zjai
 震得	257	tfwo
@@ -67432,6 +67483,7 @@ encoder:
 一起去	257	fpgk
 润物无声	257	kqdg
 怎样的	257	weun
+小虾屎	257	yccp
 完全不	256	wjcb
 找你	256	upjx
 人要	256	jrvb
@@ -68027,6 +68079,8 @@ encoder:
 他只	254	jedh
 过去的	254	kgun
 波光	253	krmg
+发起人	253	spjr
+星宿	253	olwj
 价廉	253	jjxh
 耐药	253	lkli
 惠州市	253	nozr
@@ -69369,6 +69423,7 @@ encoder:
 所在的	249	mnun
 几个人	249	ojjr
 我的心	249	tuhx
+宝山	248	wnvs
 给我们	248	itja
 你再	248	jxfm
 他很	248	jewi
@@ -69770,6 +69825,7 @@ encoder:
 慢慢的	247	hhun
 猫奴	246	mlbr
 直发	246	nqsr
+为患	246	isdd
 不特	246	cbqg
 社科	246	fgxj
 科技进步	246	xuqs
@@ -70225,7 +70281,6 @@ encoder:
 夜话	246	zjsa
 竹片	246	ruap
 缙云	246	ifby
-编译器	246	isdd
 庆元	246	xmmp
 抽成	246	udna
 月相	246	vyeq
@@ -70811,6 +70866,7 @@ encoder:
 严重的	243	flun
 的男人	243	uqjr
 最重	242	oqld
+六大	242	almd
 来用	242	ahty
 观景	242	reog
 形迹	242	flzc
@@ -72976,6 +73032,7 @@ encoder:
 之一的	236	rfun
 我再	236	tufm
 已然	235	vivm
+谈过	235	scku
 致命伤	235	yjje
 李鹏	235	ehvv
 泰坦尼克号	235	agcd
@@ -77377,7 +77434,6 @@ encoder:
 降薪	221	thli
 组词	221	ifsa
 双栖	221	rrev
-铜锈	221	zmzx
 败絮其中	221	obzd
 双股	221	rrvr
 电路板	221	opex
@@ -77785,6 +77841,7 @@ encoder:
 翻译家	221	tswj
 极大的	221	emun
 在家里	221	nwdl
+磨镜	221	zmzx
 橄榄枝	220	eeec
 奇峰	220	mzvh
 百十	220	funs
@@ -83407,6 +83464,7 @@ encoder:
 后主	206	xfin
 土司	206	gtaf
 英剧	206	lmcc
+乐购	206	byon
 安胎	206	wbvk
 豪奢	206	gjmq
 通讯员	206	ksdo
@@ -85311,7 +85369,6 @@ encoder:
 车轮战	202	yyyd
 惯偷	202	hkjj
 赛特	202	wqqg
-流年不利	202	kecx
 惠泽	202	nqkr
 虚位以待	202	zjvw
 恭祝	202	lhfd
@@ -86110,6 +86167,7 @@ encoder:
 合理的	202	jnun
 发现自己	202	snov
 告诉自己	202	qsov
+海蛎	202	kecx
 打边鼓	201	ushc
 清池	201	kake
 打杀	201	uabe
@@ -86974,6 +87032,7 @@ encoder:
 看到的	201	uyun
 的身体	201	uzje
 藏不住	200	lcji
+藤椅	200	lvem
 阻燃	200	tfcv
 柜橱	200	enex
 威迫	200	nfuu
@@ -87159,7 +87218,6 @@ encoder:
 停更	200	jgfo
 破坏神	200	mgfo
 战五渣	200	ywke
-石匣	200	msns
 管你	199	rwjx
 十八大	199	nhmd
 又开始	199	rfbk
@@ -87283,7 +87341,6 @@ encoder:
 沉思默想	198	kqpe
 岂但	198	vvjo
 风流云散	198	okbl
-奥卡姆	198	tybk
 首开	198	hofl
 测序	198	koxi
 降耗	198	thav
@@ -87986,6 +88043,7 @@ encoder:
 鱼香肉丝	198	wxmi
 这样的人	198	veuj
 现在还	198	nncu
+补录	198	tybk
 不了的	198	crun
 如果有	198	bqnv
 众位	197	jjji
@@ -97168,7 +97226,6 @@ encoder:
 送给你	76	hijx
 这样吧	76	vedm
 不够好	76	cgbh
-快节奏	76	hlai
 拿上	76	jdyf
 戴了	76	nprl
 不随	76	cbtn
@@ -97321,6 +97378,7 @@ encoder:
 我的世界	76	tulq
 有多少个	76	nlyj
 会有一个	76	jnfj
+慢节奏	76	hlai
 薄熙来	75	lqah
 令狐冲	75	jmwd
 再写	75	fmwf
@@ -112586,7 +112644,6 @@ encoder:
 余户	59	jxmh
 谷胱甘肽	59	hvzv
 偏黄	59	jmnh
-水浅	59	kskf
 请走	59	sapz
 收楼	59	ihep
 还拉	59	cuui
@@ -114078,7 +114135,6 @@ encoder:
 停站	59	jgiy
 爱使	59	ywjf
 灵泉	59	bcuk
-二版	59	meax
 踢他	59	poje
 海陵	59	ketg
 陈至立	59	tyil
@@ -118670,6 +118726,8 @@ encoder:
 惊颤	59	hgzr
 联行	59	qhpx
 今天这个	59	jfvj
+大桥未久	59	meax
+渡边淳一	59	kskf
 亚洲人	58	fkjr
 第三部分	58	rtih
 跟得上	58	pwyf
@@ -138543,7 +138601,6 @@ encoder:
 有需求	52	ntfk
 类问题	52	paot
 结果发现	52	iqsn
-老母亲	52	qkie
 豁出去了	52	wsgr
 起跑线上	52	ppiy
 转变经济发展方式	52	yzip
@@ -139142,6 +139199,7 @@ encoder:
 也就是个	52	egoj
 存在一个	52	nnfj
 又是个	52	rojg
+牧濑红莉栖	52	qkie
 海子	51	kehi
 梅林	51	eeee
 香港特区	51	xkqn
@@ -140267,7 +140325,6 @@ encoder:
 大明湖	50	mokc
 主客观	50	iwre
 氢化	50	vrjv
-内翻	50	mjtp
 索回	50	nwrd
 稳态	50	xxmi
 十里八乡	50	ndhi
@@ -141102,7 +141159,7 @@ encoder:
 喵斯	50	dlzh
 噗叽	50	dcdo
 太火	50	mich
-泼赖	50	ksxx
+肉番	50	mjtp
 挂羊头卖狗肉	49	ugwm
 国土资源部	49	rgwi
 柳传志	49	ejgh
@@ -142075,6 +142132,7 @@ encoder:
 不就是一个	49	cgoj
 什么都知道	49	jtqh
 小巴	48	yxmb
+奥卡姆	48	tybk
 别在意	48	dnxh
 工业设计	48	ucss
 郑渊洁	48	hkkg
@@ -142489,7 +142547,6 @@ encoder:
 主要产品	48	ivid
 统计数字	48	ispw
 挺爽	48	utmb
-补录	48	tybk
 驰名商标	48	nlie
 不给力	48	cisl
 为依托	48	ijut

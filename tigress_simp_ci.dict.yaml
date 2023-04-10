@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.03.19"
+version: "2023.04.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -395,7 +395,7 @@ encoder:
 神色	474	fx
 政府	464	fx
 一致	484	fy
-一点	474	fy
+开车	474	fy
 与其	484	fz
 一身	474	fz
 恶魔	464	fz
@@ -452,7 +452,7 @@ encoder:
 享受	474	gy
 城市	484	gz
 地铁	474	gz
-公司	484	ha
+关闭	484	ha
 并未	474	ha
 快乐	484	hb
 前面	474	hb
@@ -870,7 +870,7 @@ encoder:
 晚上	474	oy
 自身	484	oz
 时期	474	oz
-起来	484	pa
+走来	484	pa
 归来	474	pa
 行动	484	pb
 紧张	474	pb
@@ -1946,6 +1946,7 @@ encoder:
 邓小平	192	rye
 好消息	192	bko
 懒洋洋	192	hkk
+郑易里	192	hod
 研究生	192	mel
 检察官	189	eww
 致力于	189	ysf
@@ -1974,7 +1975,6 @@ encoder:
 强制性	186	bqh
 许可证	186	szs
 免不了	186	wcr
-高水平	186	gke
 行不行	186	pcp
 自治县	186	okf
 照相机	186	oee
@@ -2120,7 +2120,6 @@ encoder:
 普通话	165	hks
 自信心	165	ojh
 保险金	165	jtz
-王心凌	165	nhw
 十二月	165	nmv
 晒太阳	165	omt
 塑料袋	162	hpj
@@ -2520,7 +2519,6 @@ encoder:
 综合征	129	ijw
 林徽因	129	ewr
 朱镕基	129	tzz
-的生活	129	ulk
 是一种	129	ofx
 中小学	129	dyk
 一二三	129	fmt
@@ -2828,6 +2826,8 @@ encoder:
 菲尔德	117	lxw
 杀人罪	117	bjy
 亚文化	117	fvj
+快节奏	117	hla
+王心凌	117	nhw
 座头鲸	117	xww
 罗宾汉	117	ywk
 碧绿色	117	nix
@@ -2839,6 +2839,13 @@ encoder:
 呆婆鸭	117	dks
 另一段	117	dfu
 贝克街	117	ocp
+你干嘛	117	jed
+朝桐光	117	nem
+跳水罗	117	pky
+手冲壶	117	uwg
+宝批龙	117	wut
+哈麻批	117	dzu
+憨麻批	117	azu
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3090,6 +3097,7 @@ encoder:
 高新区	108	gin
 家长会	108	wpj
 播放器	108	uld
+等问题	108	rao
 脑血管	108	vtr
 学习者	108	kzq
 对着干	108	rge
@@ -3166,6 +3174,7 @@ encoder:
 政法委	105	fkx
 烟灰缸	105	cna
 美滋滋	105	gkk
+编译器	105	isd
 大学士	105	mkg
 上百万	105	yff
 动脑筋	105	bvr
@@ -3436,7 +3445,6 @@ encoder:
 分界线	102	hqi
 追随者	102	ttq
 曹雪芹	102	ftl
-白富美	102	uwg
 集团军	102	urw
 阿托品	102	tud
 人身权	102	jze
@@ -3702,6 +3710,7 @@ encoder:
 老丈人	96	qfj
 问候语	96	ajs
 灰白色	96	nux
+老母亲	96	qki
 自然是	96	ovo
 收费站	96	iti
 双刃剑	96	rpj
@@ -4147,7 +4156,6 @@ encoder:
 主考官	90	iqw
 林俊杰	90	eje
 金银花	90	zzl
-保护膜	90	juv
 电动机	90	obe
 招聘会	90	uqj
 地理学	90	gnk
@@ -4385,6 +4393,7 @@ encoder:
 小意思	87	yxq
 散文诗	87	lvs
 消炎药	87	kcl
+接生婆	87	ulk
 阶下囚	87	tfr
 解说员	87	xsd
 邓丽君	87	rfb
@@ -4669,6 +4678,7 @@ encoder:
 龙虎榜	81	tze
 硬功夫	81	muh
 怎样的	81	weu
+小虾屎	81	ycc
 完全不	81	wjc
 也算是	81	ero
 上面的	81	ybu
